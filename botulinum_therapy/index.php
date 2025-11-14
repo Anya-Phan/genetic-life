@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="/assets/css/main.css?2422102371" />
+
+</head>
+
+<body>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/template/header.html'; ?>
+    <!-- Side bar Moble -->
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/template/sidebar.html'; ?>
+
+    <!-- Main -->
+
+    <section class="breadcrumbs">
+        <div class="container">
+            <div class="breadcrumbs__row pagerow">
+                <a href="/" class="breadcrumbs__page">Главная</a>
+                <img src="../assets/images/breadcrumbs__icon.svg" alt="" class="breadcrumbs__arrow">
+                <a href="/blog" class="breadcrumbs__page">Услуги</a>
+                <img src="../assets/images/breadcrumbs__icon.svg" alt="" class="breadcrumbs__arrow">
+                <a href="/blog" class="breadcrumbs__page">Косметология</a>
+                <img src="../assets/images/breadcrumbs__icon.svg" alt="" class="breadcrumbs__arrow">
+                <a href="/blog" class="breadcrumbs__page">Инъекционные процедуры</a>
+                <img src="../assets/images/breadcrumbs__icon.svg" alt="" class="breadcrumbs__arrow">
+                <a href="/blog" class="breadcrumbs__page">Ботулинотерапия</a>
+            </div>
+        </div>
+    </section>
+    <main class="pagebotulinum">
+        <!-- Hero -->
+        <section class="pagebotulinum-hero">
+            <div class="container">
+                <div class="pagebotulinum-hero__title">
+                    <h1>Ботулинотерапия</h1>
+                </div>
+                <div class="pagebotulinum-hero__subtitle">
+                    <p>Ботулинотерапия — безоперационное решение для разглаживания мимических морщин. Точечные инъекции
+                        ботулотоксина мягко расслабляют мышцы, уменьшая заломы. Эффект заметен через несколько дней и
+                        сохраняется до 6 месяцев.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Стоимость  -->
+        <section class="pagebotulinum-price">
+            <div class="container">
+                <div class="pagebotulinum-price__title">
+                    <h1>Стоимость</h1>
+                </div>
+                <div class="pagebotulinum-price__subtitle">
+                    <p>Цена зависит от выбранного препарата, количества единиц и сложности коррекции.</p>
+                </div>
+                <div class="pagebotulinum-price__frame">
+                    <div class="pagebotulinum-price-list">
+                        <div class="pagebotulinum-price-list__title">
+                            <p>Зона коррекции</p>
+                        </div>
+                        <ul>
+                            <li>
+                                <div class="pagebotulinum-price-list__name-service">
+                                    <p>Лоб</p>
+                                </div>
+                                <div class="pagebotulinum-price-list__money-service">
+                                    <p>от 4 000 ₽</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="pagebotulinum-price-list__name-service">
+                                    <p>Лоб</p>
+                                </div>
+                                <div class="pagebotulinum-price-list__money-service">
+                                    <p>от 4 000 ₽</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="pagebotulinum-price-list__name-service">
+                                    <p>Межбровье</p>
+                                </div>
+                                <div class="pagebotulinum-price-list__money-service">
+                                    <p>от 4 500 ₽</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="pagebotulinum-price-list__name-service">
+                                    <p>Гусиные лапки (виски/глаза)</p>
+                                </div>
+                                <div class="pagebotulinum-price-list__money-service">
+                                    <p>от 6 000 ₽</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="pagebotulinum-price-list__name-service">
+                                    <p>Уголки рта</p>
+                                </div>
+                                <div class="pagebotulinum-price-list__money-service">
+                                    <p>от 3 500 ₽</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="pagebotulinum-price-list__name-service">
+                                    <p>Подмышки (при гипергидрозе)</p>
+                                </div>
+                                <div class="pagebotulinum-price-list__money-service">
+                                    <p>от 8 000 ₽</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="pagebotulinum-appoint">
+                        <form action="" class="appoint__form">
+                            <input type="text" placeholder="*Ваше имя" class="appoint__field" name="name" minlength="1"
+                                required />
+                            <input type="text" placeholder="*Телефон" class="appoint__field" name="phone"
+                                pattern="[+7]+[0-9]{11}" required />
+                            <div class="custom-select">
+                                <select name="" id="" required autocomplete="off">
+                                    <option value="0">Зона коррекции</option>
+                                    <option value="1">Записаться на консультацию</option>
+                                    <option value="2">Лоб</option>
+                                    <option value="3">Межбровье</option>
+                                    <option value="4">Гусиные лапки (виски/глаза)</option>
+                                    <option value="5">Уголки рта</option>
+                                    <option value="6">
+                                        Шея / декольте
+                                    </option>
+                                    <option value="7">Подмышки (при гипергидрозе)</option>
+                                </select>
+                            </div>
+
+                            <button type="submit" class="appoint__btn btn btn-white" data-modal-onclick="congrat-modal">
+                                Записаться
+                                <div class="wrap__chervon">
+                                    <img src="/assets/images/chervon--no-bg.svg" alt="" />
+                                </div>
+                            </button>
+                            <label class="appoint__policy">
+                                <input type="checkbox" class="appoint__policy-checkbox-real" required />
+                                <div class="appoint__policy-checkbox-fake"></div>
+                                <div class="appoint__policy-text">
+                                    Я согласен на обработку
+                                    <a href="#!" class="appoint__policy-data">
+                                        персональных данных
+                                    </a>
+                                </div>
+                            </label>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- До и После -->
+        <section class="main-result">
+            <div class="container">
+                <h2 class="main-result__title">До и После</h2>
+                <div class="main-result__wrap-slide">
+                    <section class="main-result-slide">
+                        <ul class="swiper-wrapper">
+                            <li class="swiper-slide">
+                                <img src="../assets/images/result__img-3.webp" alt="" class="main-result-slide__img" />
+                            </li>
+                            <li class="swiper-slide">
+                                <img src="../assets/images/result__img-2.webp" alt="" class="main-result-slide__img" />
+                            </li>
+                            <li class="swiper-slide">
+                                <img src="../assets/images/result__img-1.webp" alt="" class="main-result-slide__img" />
+                            </li>
+                        </ul>
+                        <div class="main-result-slide__controls swiper-pagination">
+                        </div>
+                        <div class="icon__wrap">
+                            <div class="icon__left">
+                                <img src="../assets/images/chervon--blue_no-bg.svg" />
+                            </div>
+                            <div class="icon__right">
+                                <img src="../assets/images/chervon--blue_no-bg.svg" />
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="main-faq">
+            <div class="container">
+                <h2 class="main-faq__title">Частые вопросы</h2>
+
+                <ul class="main-specialist__list">
+                    <li class="main-specialist__item">
+                        <div class="main-specialist__item-header pagerow">
+                            <p class="main-specialist__item-title">
+                                Как работает ботуллинотерапия?
+                            </p>
+                            <div class="main-icon-plus">
+                                <img src="../assets/images/icon__plus.svg" alt="" />
+                            </div>
+                            <div class="main-icon-minus">
+                                <img src="../assets/images/icon__minus.svg" alt="" />
+                            </div>
+                        </div>
+                        <div>
+                            <p class="main-specialist__item-desc">
+                                В определённые участки лица вводится препарат на основе ботулотоксина (ботокс, диспорт,
+                                лантокс и др.). Он временно блокирует передачу нервных импульсов к мышцам, отвечающим за
+                                образование мимических морщин. В результате кожа разглаживается, лицо выглядит более
+                                свежим
+                                и отдохнувшим.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="main-specialist__item">
+                        <div class="main-specialist__item-header pagerow">
+                            <p class="main-specialist__item-title">
+                                Для чего применяется?
+                            </p>
+                            <div class="main-icon-plus">
+                                <img src="../assets/images/icon__plus.svg" alt="" />
+                            </div>
+                            <div class="main-icon-minus">
+                                <img src="../assets/images/icon__minus.svg" alt="" />
+                            </div>
+                        </div>
+                        <div>
+                            <div class="main-specialist__item-desc">
+                                Основные цели ботуллинотерапии:
+                                <div class="faq-type-01">
+                                    <ul>
+                                        <li>Устранение и профилактика мимических морщин</li>
+                                        <li>Лифтинг (приподнятие) бровей и уголков рта</li>
+                                        <li>Коррекция асимметрии лица</li>
+                                        <li>Уменьшение потливости (гипергидроза)</li>
+                                        <li>Снижение активности жевательных мышц (для изменения формы лица)</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main-specialist__item">
+                        <div class="main-specialist__item-header pagerow">
+                            <p class="main-specialist__item-title">
+                                Кому показана процедура?
+                            </p>
+                            <div class="main-icon-plus">
+                                <img src="../assets/images/icon__plus.svg" alt="" />
+                            </div>
+                            <div class="main-icon-minus">
+                                <img src="../assets/images/icon__minus.svg" alt="" />
+                            </div>
+                        </div>
+                        <div>
+                            <div class="main-specialist__item-desc">
+                                Ботуллинотерапия рекомендована:
+                                <div class="faq-type-01">
+                                    <ul>
+                                        <li>Женщинам и мужчинам старше 25 лет при появлении первых мимических морщин
+                                        </li>
+                                        <li>Пациентам, которые хотят сохранить молодость и предотвратить старение кожи
+                                        </li>
+                                        <li>Тем, кто страдает от чрезмерной потливости (в подмышечных областях, ладонях,
+                                            стопах)</li>
+                                        <li>При широкой улыбке или квадратной форме лица (для коррекции жевательных
+                                            мышц)
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main-specialist__item">
+                        <div class="main-specialist__item-header pagerow">
+                            <p class="main-specialist__item-title">
+                                Как проходит процедура?
+                            </p>
+                            <div class="main-icon-plus">
+                                <img src="../assets/images/icon__plus.svg" alt="" />
+                            </div>
+                            <div class="main-icon-minus">
+                                <img src="../assets/images/icon__minus.svg" alt="" />
+                            </div>
+                        </div>
+                        <div>
+                            <div class="main-specialist__item-desc">
+                                <div class="faq-type-03">
+                                    <ul>
+                                        <li>Консультация и диагностика – врач оценивает состояние кожи, тип морщин,
+                                            определяет зоны
+                                            введения.</li>
+                                        <li>Разметка зон – специалист отмечает точки для инъекций.</li>
+                                        <li>Обезболивание (по желанию) – возможно использование поверхностного
+                                            анестетика.
+                                        </li>
+                                        <li>Инъекции – препарат вводится тончайшей иглой в нужные участки кожи.</li>
+                                        <li>Финальный этап – врач даёт рекомендации по уходу после процедуры.</li>
+                                    </ul>
+                                </div>
+                                Процедура занимает 15–30 минут , не требует реабилитации.
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main-specialist__item">
+                        <div class="main-specialist__item-header pagerow">
+                            <p class="main-specialist__item-title">
+                                Какие зоны можно корректировать?
+                            </p>
+                            <div class="main-icon-plus">
+                                <img src="../assets/images/icon__plus.svg" alt="" />
+                            </div>
+                            <div class="main-icon-minus">
+                                <img src="../assets/images/icon__minus.svg" alt="" />
+                            </div>
+                        </div>
+                        <div>
+                            <div class="main-specialist__item-desc">
+                                Наиболее популярные зоны для ботуллинотерапии:
+                                <div class="faq-type-02">
+                                    <ul>
+                                        <li>Лоб – для устранения горизонтальных морщин</li>
+                                        <li>Межбровье – «гусиные лапки» между бровями</li>
+                                        <li>Виски / глаза – разглаживание «гусиных лапок»</li>
+                                        <li>Нос – коррекция «морщин хмурости», лифтинг кончика носа</li>
+                                        <li>Уголки рта – улучшение настроения лица, уменьшение «кислых» складок</li>
+                                        <li>Шея и зона декольте – снижение выраженности вертикальных морщин</li>
+                                        <li>Подмышки / ладони / ступни – при гипергидрозе</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main-specialist__item">
+                        <div class="main-specialist__item-header pagerow">
+                            <p class="main-specialist__item-title">
+                                Когда будет виден результат и сколько он длится?
+                            </p>
+                            <div class="main-icon-plus">
+                                <img src="../assets/images/icon__plus.svg" alt="" />
+                            </div>
+                            <div class="main-icon-minus">
+                                <img src="../assets/images/icon__minus.svg" alt="" />
+                            </div>
+                        </div>
+                        <div>
+                            <div class="main-specialist__item-desc">
+                                <div class="faq-type-01">
+                                    <ul>
+                                        <li>Первый эффект заметен через 3–5 дней</li>
+                                        <li>Максимальный результат достигается через 7–14 дней</li>
+                                        <li>Длительность действия препарата — 4–6 месяцев , далее требуется повторная
+                                            коррекция</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main-specialist__item">
+                        <div class="main-specialist__item-header pagerow">
+                            <p class="main-specialist__item-title">
+                                Есть ли противопоказания?
+                            </p>
+                            <div class="main-icon-plus">
+                                <img src="../assets/images/icon__plus.svg" alt="" />
+                            </div>
+                            <div class="main-icon-minus">
+                                <img src="../assets/images/icon__minus.svg" alt="" />
+                            </div>
+                        </div>
+                        <div>
+                            <div class="main-specialist__item-desc">
+                                Да, существуют как временные, так и постоянные противопоказания:
+                                <div class="faq-type-02">
+                                    <ul>
+                                        <li>Беременность и лактация</li>
+                                        <li>Инфекционные заболевания в острой фазе</li>
+                                        <li>Заболевания нервно-мышечной системы</li>
+                                        <li>Аллергия на компоненты препарата</li>
+                                        <li>Воспаления или повреждения кожи в зоне инъекции</li>
+                                    </ul>
+                                </div>
+                                Перед процедурой обязательно сообщите врачу о принимаемых лекарствах и хронических
+                                заболеваниях.
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main-specialist__item">
+                        <div class="main-specialist__item-header pagerow">
+                            <p class="main-specialist__item-title">
+                                Как часто можно делать?
+                            </p>
+                            <div class="main-icon-plus">
+                                <img src="../assets/images/icon__plus.svg" alt="" />
+                            </div>
+                            <div class="main-icon-minus">
+                                <img src="../assets/images/icon__minus.svg" alt="" />
+                            </div>
+                        </div>
+                        <div>
+                            <div class="main-specialist__item-desc">
+                                Повторную процедуру рекомендуется проводить через 4–6 месяцев . Частое проведение может
+                                привести к снижению эффективности препарата.
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main-specialist__item">
+                        <div class="main-specialist__item-header pagerow">
+                            <p class="main-specialist__item-title">
+                                Как ухаживать за кожей после?
+                            </p>
+                            <div class="main-icon-plus">
+                                <img src="../assets/images/icon__plus.svg" alt="" />
+                            </div>
+                            <div class="main-icon-minus">
+                                <img src="../assets/images/icon__minus.svg" alt="" />
+                            </div>
+                        </div>
+                        <div>
+                            <div class="main-specialist__item-desc">
+                                <div class="faq-type-01">
+                                    <ul>
+                                        <li>В течение 4 часов не трогать лицо руками</li>
+                                        <li>Не ложиться и не наклоняться ниже уровня пояса</li>
+                                        <li>Избегать высоких температур (сауна, солярий, интенсивные тренировки) 24 часа
+                                        </li>
+                                        <li>Не массировать лицо в течение нескольких дней</li>
+                                        <li>Использовать увлажняющие и питательные средства</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Косметология hero -->
+        <section class="pagebotulinum-CTA">
+            <section class="pagecosmetology-hero">
+                <section class="pagecosmetology-hero__main pagebotulinum-CTA__main">
+                    <div class="container">
+                        <div class="pagecosmetology-hero__main-info">
+                            <a class="pagecosmetology-hero__btn btn btn-white" data-modal-onclick="cosmetology-modal-3">
+                                Записаться на Консультацию
+                                <div class="wrap__chervon">
+                                    <img src="../assets/images/chervon--no-bg.svg" alt="" />
+                                </div>
+                            </a>
+
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </section>
+
+        <!-- Get Review IMGs from Отзывы -->
+        <section class="pagereviews-reviews">
+            <div class="container">
+                <h2 class="main-result__title">Отзывы</h2>
+                <div class="pagereviews-reviews-pick">
+                    <div class="pagereviews-reviews-filter no-height">
+
+                        <div class="pagereviews-reviews-filter__modal">
+                            <div class="filter-modal modal" id="filter-modal">
+                                <div class="modal-content">
+                                    <div class="modal-close filter-modal__close">
+                                        <img class="modal-close-btn" src="/assets/images/close-icon--light.svg" alt="">
+                                    </div>
+                                    <div class="filter-swiper-thumb" id="filter-swiper-thumb--mobi">
+                                        <ul class="swiper-wrapper">
+                                            <li class="swiper-slide">
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pagereviews-reviews-filter__desktop">
+                            <div class="filter-desk">
+                                <div class="filter-swiper-thumb" id="filter-swiper-thumb--desk">
+                                    <ul class="swiper-wrapper">
+                                        <li class="swiper-slide">
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="pagereviews-reviews-swiper swiper-no-swiping">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <ul class="pagereviews-reviews__list row row-cols-1 row-cols-md-2 g-2 g-lg-3">
+                                <li class="col">
+                                    <div class="pagereviews-reviews__item" data-index-slide="0">
+                                        <img class="pagereviews-reviews__sc-shot"
+                                            src="/assets/images/review-screen-shot-01.webp" alt="">
+                                    </div>
+                                </li>
+                                <li class="col">
+                                    <div class="pagereviews-reviews__item" data-index-slide="1">
+                                        <img class="pagereviews-reviews__sc-shot"
+                                            src="/assets/images/review-screen-shot-02.webp" alt="">
+                                    </div>
+                                </li>
+                                <li class="col">
+                                    <div class="pagereviews-reviews__item" data-index-slide="2">
+                                        <img class="pagereviews-reviews__sc-shot"
+                                            src="/assets/images/review-screen-shot-02.webp" alt="">
+                                    </div>
+                                </li>
+                                <li class="col">
+                                    <div class="pagereviews-reviews__item" data-index-slide="3">
+                                        <img class="pagereviews-reviews__sc-shot"
+                                            src="/assets/images/review-screen-shot-03.webp" alt="">
+                                    </div>
+                                </li>
+                                <li class="col">
+                                    <div class="pagereviews-reviews__item" data-index-slide="4">
+                                        <img class="pagereviews-reviews__sc-shot"
+                                            src="/assets/images/review-screen-shot-01.webp" alt="">
+                                    </div>
+                                </li>
+                                <li class="col">
+                                    <div class="pagereviews-reviews__item" data-index-slide="5">
+                                        <img class="pagereviews-reviews__sc-shot"
+                                            src="/assets/images/review-screen-shot-02.webp" alt="">
+                                    </div>
+                                </li>
+                                <li class="col">
+                                    <div class="pagereviews-reviews__item" data-index-slide="6">
+                                        <img class="pagereviews-reviews__sc-shot"
+                                            src="/assets/images/review-screen-shot-02.webp" alt="">
+                                    </div>
+                                </li>
+                                <li class="col">
+                                    <div class="pagereviews-reviews__item" data-index-slide="7">
+                                        <img class="pagereviews-reviews__sc-shot"
+                                            src="/assets/images/review-screen-shot-03.webp" alt="">
+                                    </div>
+                                </li>
+                                <li class="col">
+                                    <div class="pagereviews-reviews__item" data-index-slide="8">
+                                        <img class="pagereviews-reviews__sc-shot"
+                                            src="/assets/images/review-screen-shot-03.webp" alt="">
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="expand-btn--js">
+                                <a class="pagereviews-more-btn btn btn-blue">
+                                    <div class="wrap__chervon">
+                                        <img src="/assets/images/chervon--blue_no-bg-bold.svg" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="reviews-fake-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Get Images from Косметология -->
+        <section class="pagecosmetology-service">
+            <div class="container">
+                <section class="pagecosmetology-service__header pagerow">
+                    <h2 class="pagecosmetology-service__title">Услуги</h2>
+                    <a href="/services" class="pagecosmetology-service__btn btn btn-blue">Все услуги</a>
+                </section>
+
+            </div>
+            <section class="pagecosmetology-service__body">
+                <ul class="pagecosmetology-service__list">
+                    <li class="pagecosmetology-service__item">
+                        <p class="pagecosmetology-service__item-title">Косметология</p>
+                        <img src="../assets/images/service-decor-1.webp" class="pagecosmetology-service__item-bg" />
+                        <a href="" class="pagecosmetology-service__item-btn btn btn-white">Перейти</a>
+                    </li>
+                    <li class="pagecosmetology-service__item">
+                        <p class="pagecosmetology-service__item-title">Генетика</p>
+                        <img src="../assets/images/service-decor-2.webp" class="pagecosmetology-service__item-bg" />
+                        <a href="" class="pagecosmetology-service__item-btn btn btn-white">Перейти</a>
+                    </li>
+                    <li class="pagecosmetology-service__item">
+                        <p class="pagecosmetology-service__item-title">Трихология</p>
+                        <img src="../assets/images/service-decor-3.webp" class="pagecosmetology-service__item-bg" />
+                        <a href="" class="pagecosmetology-service__item-btn btn btn-white">Перейти</a>
+                    </li>
+                    <li class="pagecosmetology-service__item">
+                        <p class="pagecosmetology-service__item-title">Иммунодиетология</p>
+                        <img src="../assets/images/service-decor-4.webp" class="pagecosmetology-service__item-bg" />
+                        <a href="" class="pagecosmetology-service__item-btn btn btn-white">Перейти</a>
+                    </li>
+                    <li class="pagecosmetology-service__item">
+                        <p class="pagecosmetology-service__item-title">Anti-Age</p>
+                        <img src="../assets/images/service-decor-5.webp" class="pagecosmetology-service__item-bg" />
+                        <a href="" class="pagecosmetology-service__item-btn btn btn-white">Перейти</a>
+                    </li>
+                    <li class="pagecosmetology-service__item">
+                        <p class="pagecosmetology-service__item-title">Чекап организма</p>
+                        <img src="../assets/images/service-decor-6.webp" class="pagecosmetology-service__item-bg" />
+                        <a href="" class="pagecosmetology-service__item-btn btn btn-white">Перейти</a>
+                    </li>
+                    <li class="pagecosmetology-service__item">
+                        <p class="pagecosmetology-service__item-title">Микробиом кишечника</p>
+                        <img src="../assets/images/service-decor-8.webp" class="pagecosmetology-service__item-bg" />
+                        <a href="" class="pagecosmetology-service__item-btn btn btn-white">Перейти</a>
+                    </li>
+                    <li class="pagecosmetology-service__item">
+                        <p class="pagecosmetology-service__item-title">Снижение веса</p>
+                        <img src="../assets/images/service-decor-7.webp" class="pagecosmetology-service__item-bg" />
+                        <a href="" class="pagecosmetology-service__item-btn btn btn-white">Перейти</a>
+                    </li>
+                </ul>
+            </section>
+        </section>
+
+        <!-- Modal -->
+        <section class="modal-list">
+            <section class="modal form-modal" id="cosmetology-modal-3">
+                <div class="modal-content">
+                    <div class="modal-close modal-close-js">
+                        <img class="modal-close-btn" src="../assets/images/close-icon--light.svg" alt="">
+                    </div>
+                    <section class="main-form">
+                        <form action="" class="appoint__form">
+                            <div class="appoint__form-title">
+                                <p>Консультация с врачом</p>
+                            </div>
+                            <div class="appoint__form-subtitle">
+                                <p>Оставьте заявку, и мы Вам перезвоним</p>
+                            </div>
+                            <input type="text" placeholder="*Ваше имя" class="appoint__field" name="name" minlength="1"
+                                required />
+                            <input type="text" placeholder="*Телефон" class="appoint__field" name="phone"
+                                pattern="[+7]+[0-9]{11}" required />
+                            <button type="submit" class="appoint__btn btn btn-white">
+                                Записаться
+                                <div class="wrap__chervon">
+                                    <img src="../assets/images/chervon--no-bg.svg" alt="" />
+                                </div>
+                            </button>
+                            <label class="appoint__policy">
+                                <input type="checkbox" class="appoint__policy-checkbox-real" required />
+                                <div class="appoint__policy-checkbox-fake"></div>
+                                <div class="appoint__policy-text">
+                                    Я согласен на обработку
+                                    <a href="#!" class="appoint__policy-data">
+                                        персональных данных
+                                    </a>
+                                </div>
+                            </label>
+
+                        </form>
+                    </section>
+
+                </div>
+            </section>
+        </section>
+
+        <section class="modal pagereviews-modal" id="review-list-modal">
+            <div class="modal-content pagereviews-modal__modal-content">
+                <div class="modal-close">
+                    <img class="modal-close-btn" src="/assets/images/close-icon--light.svg" alt="">
+                </div>
+
+                <div class="pagereviews-modal__swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="pagereviews-modal__card">
+                                <img class="pagereviews-modal__sc-shot" src="/assets/images/review-screen-shot-01.webp"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="pagereviews-modal__card">
+                                <img class="pagereviews-modal__sc-shot" src="/assets/images/review-screen-shot-02.webp"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="pagereviews-modal__card">
+                                <img class="pagereviews-modal__sc-shot" src="/assets/images/review-screen-shot-02.webp"
+                                    alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="pagereviews-modal__card">
+                                <img class="pagereviews-modal__sc-shot" src="/assets/images/review-screen-shot-03.webp"
+                                    alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="icon__wrap">
+                <div class="icon__left" id="pagereviews-modal__left">
+                    <img src="/assets/images/chervon--blue_no-bg.svg" />
+                </div>
+                <div class="icon__right" id="pagereviews-modal__right">
+                    <img src="/assets/images/chervon--blue_no-bg.svg" />
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/template/footer.html'; ?>
+    <script type="module" src="../assets/js/index.js"></script>
+</body>
+
+</html>

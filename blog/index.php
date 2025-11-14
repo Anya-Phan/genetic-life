@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="/assets/css/main.css?2422102371" />
+
+</head>
+
+<body>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/template/header.html'; ?>
+    <!-- Side bar Moble -->
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/template/sidebar.html'; ?>
+
+    <!-- Main -->
+
+    <section class="breadcrumbs">
+        <div class="container">
+            <div class="breadcrumbs__row pagerow">
+                <a href="/" class="breadcrumbs__page">Главная</a>
+                <img src="/assets/images/breadcrumbs__icon.svg" alt="" class="breadcrumbs__arrow">
+                <a href="/blog" class="breadcrumbs__page">Блог</a>
+            </div>
+        </div>
+    </section>
+    <section class="pageblog-hero">
+        <div class="container">
+            <h1 class="pageblog-hero__title">Блог</h1>
+            <div class="pageblog-hero__wrapper">
+                <div class="pageblog-hero__doctor">
+                    <img src="/assets/images/doctor__ava-blog.webp" alt="">
+                </div>
+                <p class="pageblog-hero__quote">«Читайте наши статьи о красоте и здоровье, узнавайте о новых акциях
+                    и предложениях»</p>
+                <div class="pageblog-hero__search">
+                    <input type="text" placeholder="Найти в блоге">
+                    <img src="/assets/images/header__search-icon.svg" alt="" class="pageblog-hero__search-icon ">
+                    <div class="pageblog-hero__close-icon">
+                        <img src="/assets/images/close-icon--light.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="pageblog-blog">
+        <div class="container">
+            <div class="pageblog-blog--mobi">
+                <ul class="pageblog-blog--mobi__tab-list">
+                    <li class="pageblog-blog--mobi__tab-item active">Статьи</li>
+                    <li class="pageblog-blog--mobi__tab-item">Новости</li>
+                    <li class="pageblog-blog--mobi__tab-item">Акции</li>
+                </ul>
+                <ul class="pageblog-blog--mobi__content-list">
+                    <li class="pageblog-blog--mobi__content active">
+                        <div class="row row-cols-1 row-cols-md-2 g-0 gy-3 g-md-1">
+                            <div class="pageblog-blog--mobi-article">
+                                <div class="pageblog-blog--mobi-article__mask">
+                                    <div class="pageblog-blog--mobi-article__inner">
+                                        <img class="pageblog-blog--mobi-article__img"
+                                            src="/assets/images/img-article-01.webp" alt="">
+                                        <h2 class="pageblog-blog--mobi-article__title line-clamp-2">Как микробиом
+                                            кишечика влияет на состояние кожи?</h2>
+                                        <p class="pageblog-blog--mobi-article__subtitle line-clamp-3">Разберём,
+                                            как здоровье кишечника связано с проблемой акне и воспалений, и как его
+                                            поддержание улучшает внешний вид</p>
+                                        <p class="pageblog-blog--mobi-article__date">Статья от 24.10.24</p>
+                                    </div>
+                                </div>
+                                <a href="/blog/articles/article-01.php" class="pageblog-blog-article__direct">
+                                    <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                </a>
+                            </div>
+                            <div class="pageblog-blog--mobi-article">
+                                <div class="pageblog-blog--mobi-article__mask">
+                                    <div class="pageblog-blog--mobi-article__inner">
+                                        <img class="pageblog-blog--mobi-article__img"
+                                            src="/assets/images/img-article-02.webp" alt="">
+                                        <h2 class="pageblog-blog--mobi-article__title line-clamp-2">
+                                            Топ-5 современных процедур для омоложения кожи без операции</h2>
+                                        <p class="pageblog-blog--mobi-article__subtitle line-clamp-3">Обзор
+                                            популярных методов, их особенности и кому они подходят: от инъекций
+                                            до аппаратной косметологи</p>
+                                        <p class="pageblog-blog--mobi-article__date">Статья от 24.10.24</p>
+                                    </div>
+                                </div>
+                                <a href="#!" class="pageblog-blog-article__direct">
+                                    <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                </a>
+                            </div>
+                            <div class="pageblog-blog--mobi-article">
+                                <div class="pageblog-blog--mobi-article__mask">
+                                    <div class="pageblog-blog--mobi-article__inner">
+                                        <img class="pageblog-blog--mobi-article__img"
+                                            src="/assets/images/img-article-03.webp" alt="">
+                                        <h2 class="pageblog-blog--mobi-article__title line-clamp-2">Зимний уход за
+                                            кожей: советы косметолога</h2>
+                                        <p class="pageblog-blog--mobi-article__subtitle line-clamp-3">Рекомендации
+                                            по защите кожи от холода, сухости и обезвоживания, а так же подбор
+                                            подходящих продуктов</p>
+                                        <p class="pageblog-blog--mobi-article__date">Статья от 19.10.24</p>
+                                    </div>
+                                </div>
+                                <a href="#!" class="pageblog-blog-article__direct">
+                                    <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                </a>
+                            </div>
+                            <div class="pageblog-blog--mobi-article">
+                                <div class="pageblog-blog--mobi-article__mask">
+                                    <div class="pageblog-blog--mobi-article__inner">
+                                        <img class="pageblog-blog--mobi-article__img"
+                                            src="/assets/images/img-article-04.webp" alt="">
+                                        <h2 class="pageblog-blog--mobi-article__title line-clamp-2">Почему важен
+                                            индивидуальный подход в косметологии?</h2>
+                                        <p class="pageblog-blog--mobi-article__subtitle line-clamp-3">Учёт
+                                            особенностей вашей кожи, возраста и образа жизни, это гарантия
+                                            безопасного и эффективного ухода</p>
+                                        <p class="pageblog-blog--mobi-article__date">Статья от 08.09.24</p>
+                                    </div>
+                                </div>
+                                <a href="#!" class="pageblog-blog-article__direct">
+                                    <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                </a>
+                            </div>
+                            <div class="pageblog-blog--mobi-article">
+                                <div class="pageblog-blog--mobi-article__mask">
+                                    <div class="pageblog-blog--mobi-article__inner">
+                                        <img class="pageblog-blog--mobi-article__img"
+                                            src="/assets/images/img-article-01.webp" alt="">
+                                        <h2 class="pageblog-blog--mobi-article__title line-clamp-2">Как микробиом
+                                            кишечика влияет на состояние кожи?</h2>
+                                        <p class="pageblog-blog--mobi-article__subtitle line-clamp-3">Разберём,
+                                            как здоровье кишечника связано с проблемой акне и воспалений, и как его
+                                            поддержание улучшает внешний вид</p>
+                                        <p class="pageblog-blog--mobi-article__date">Статья от 24.10.24</p>
+                                    </div>
+                                </div>
+                                <a href="/blog/articles/article-01.php" class="pageblog-blog-article__direct">
+                                    <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                </a>
+                            </div>
+                            <div class="pageblog-blog--mobi-article">
+                                <div class="pageblog-blog--mobi-article__mask">
+                                    <div class="pageblog-blog--mobi-article__inner">
+                                        <img class="pageblog-blog--mobi-article__img"
+                                            src="/assets/images/img-article-02.webp" alt="">
+                                        <h2 class="pageblog-blog--mobi-article__title line-clamp-2">Как микробиом
+                                            кишечика влияет на состояние кожи?</h2>
+                                        <p class="pageblog-blog--mobi-article__subtitle line-clamp-3">Разберём,
+                                            как здоровье кишечника связано с проблемой акне и воспалений, и как его
+                                            поддержание улучшает внешний вид</p>
+                                        <p class="pageblog-blog--mobi-article__date">Статья от 24.10.24</p>
+                                    </div>
+                                </div>
+                                <a href="#!" class="pageblog-blog-article__direct">
+                                    <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                </a>
+                            </div>
+                            <div class="pageblog-blog--mobi-article">
+                                <div class="pageblog-blog--mobi-article__mask">
+                                    <div class="pageblog-blog--mobi-article__inner">
+                                        <img class="pageblog-blog--mobi-article__img"
+                                            src="/assets/images/img-article-03.webp" alt="">
+                                        <h2 class="pageblog-blog--mobi-article__title line-clamp-2">Как микробиом
+                                            кишечика влияет на состояние кожи?</h2>
+                                        <p class="pageblog-blog--mobi-article__subtitle line-clamp-3">Разберём,
+                                            как здоровье кишечника связано с проблемой акне и воспалений, и как его
+                                            поддержание улучшает внешний вид</p>
+                                        <p class="pageblog-blog--mobi-article__date">Статья от 24.10.24</p>
+                                    </div>
+                                </div>
+                                <a href="#!" class="pageblog-blog-article__direct">
+                                    <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                </a>
+                            </div>
+                            <div class="pageblog-blog--mobi-article">
+                                <div class="pageblog-blog--mobi-article__mask">
+                                    <div class="pageblog-blog--mobi-article__inner">
+                                        <img class="pageblog-blog--mobi-article__img"
+                                            src="/assets/images/img-article-04.webp" alt="">
+                                        <h2 class="pageblog-blog--mobi-article__title line-clamp-2">Как микробиом
+                                            кишечика влияет на состояние кожи?</h2>
+                                        <p class="pageblog-blog--mobi-article__subtitle line-clamp-3">Разберём,
+                                            как здоровье кишечника связано с проблемой акне и воспалений, и как его
+                                            поддержание улучшает внешний вид</p>
+                                        <p class="pageblog-blog--mobi-article__date">Статья от 24.10.24</p>
+                                    </div>
+                                </div>
+                                <a href="#!" class="pageblog-blog-article__direct">
+                                    <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="article-btn--js expand-btn--js">
+                            <a class="pageblog-more-btn btn btn-blue">
+                                <div class="wrap__chervon">
+                                    <img src="/assets/images/chervon--blue_no-bg-bold.svg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="pageblog-blog--mobi__content">
+                        <div class="row row-cols-1 row-cols-md-2 g-0 gy-3 g-md-1">
+                            <div class="pageblog-blog--mobi-article">
+                                <div class="pageblog-blog--mobi-article__mask">
+                                    <div class="pageblog-blog--mobi-article__inner">
+                                        <img class="pageblog-blog--mobi-article__img"
+                                            src="/assets/images/img-article-05.webp" alt="">
+                                        <h2 class="pageblog-blog--mobi-article__title line-clamp-2">Клиника
+                                            расширяет спектр услуг</h2>
+                                        <p class="pageblog-blog--mobi-article__subtitle line-clamp-3">Новая
+                                            процедура - Индивидуальная программа по восстановлению микробиома
+                                            кишечника</p>
+                                        <p class="pageblog-blog--mobi-article__date">Новость от 10.10.24</p>
+                                    </div>
+                                </div>
+                                <a href="/blog/articles/article-02.php" class="pageblog-blog-article__direct">
+                                    <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                </a>
+                            </div>
+                            <div class="pageblog-blog--mobi-article">
+                                <div class="pageblog-blog--mobi-article__mask">
+                                    <div class="pageblog-blog--mobi-article__inner">
+                                        <img class="pageblog-blog--mobi-article__img"
+                                            src="/assets/images/img-article-06.webp" alt="">
+                                        <h2 class="pageblog-blog--mobi-article__title line-clamp-2">Обновление
+                                            оборудования в клинике</h2>
+                                        <p class="pageblog-blog--mobi-article__subtitle line-clamp-3">У нас
+                                            появились новые аппараты для безболезненных и эффективных процедур
+                                            омоложения и восстановления кожи. Приходите,
+                                            чтобы попробовать их в деле!</p>
+                                        <p class="pageblog-blog--mobi-article__date">Новость от 20.09.24</p>
+                                    </div>
+                                </div>
+                                <a href="#!" class="pageblog-blog-article__direct">
+                                    <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                </a>
+                            </div>
+
+                        </div>
+                        <div class="news-btn--js expand-btn--js">
+                            <a class="pageblog-more-btn btn btn-blue">
+                                <div class="wrap__chervon">
+                                    <img src="/assets/images/chervon--blue_no-bg-bold.svg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="pageblog-blog--mobi__content">
+                        <div class="row row-cols-1 row-cols-md-2 g-0 gy-3 g-md-1">
+                            <div class="pageblog-blog--mobi-article">
+                                <div class="pageblog-blog--mobi-article__mask mask-nosubtitle">
+                                    <div class="pageblog-blog--mobi-article__inner">
+                                        <img class="pageblog-blog--mobi-article__img"
+                                            src="/assets/images/img-article-07.webp" alt="">
+                                        <h2 class="pageblog-blog--mobi-article__title line-clamp-2">10% на
+                                            лабораторную диагностику</h2>
+                                        <p class="pageblog-blog--mobi-article__date">Акция действует до 21.12.24</p>
+                                    </div>
+                                </div>
+                                <a href="/blog/articles/article-03.php" class="pageblog-blog-article__direct">
+                                    <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                </a>
+                            </div>
+                            <div class="pageblog-blog--mobi-article">
+                                <div class="pageblog-blog--mobi-article__mask mask-nosubtitle">
+                                    <div class="pageblog-blog--mobi-article__inner">
+                                        <img class="pageblog-blog--mobi-article__img"
+                                            src="/assets/images/img-article-08.webp" alt="">
+                                        <h2 class="pageblog-blog--mobi-article__title line-clamp-2">Комплексный
+                                            уход: получи 2 процедуры по цене 1</h2>
+
+                                        <p class="pageblog-blog--mobi-article__date">Акция действует до 21.12.24</p>
+                                    </div>
+                                </div>
+                                <a href="#!" class="pageblog-blog-article__direct">
+                                    <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                </a>
+                            </div>
+                            <div class="pageblog-blog--mobi-article">
+                                <div class="pageblog-blog--mobi-article__mask mask-nosubtitle">
+                                    <div class="pageblog-blog--mobi-article__inner">
+                                        <img class="pageblog-blog--mobi-article__img"
+                                            src="/assets/images/img-article-09.webp" alt="">
+                                        <h2 class="pageblog-blog--mobi-article__title line-clamp-2">Скидка 20% на
+                                            процедуры для здоровья кожи и тела в День Рождения</h2>
+
+                                        <p class="pageblog-blog--mobi-article__date">Акция действует до 21.12.24</p>
+                                    </div>
+                                </div>
+                                <a href="#!" class="pageblog-blog-article__direct">
+                                    <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                </a>
+                            </div>
+                            <div class="pageblog-blog--mobi-article">
+                                <div class="pageblog-blog--mobi-article__mask mask-nosubtitle">
+                                    <div class="pageblog-blog--mobi-article__inner">
+                                        <img class="pageblog-blog--mobi-article__img"
+                                            src="/assets/images/img-article-09.webp" alt="">
+                                        <h2 class="pageblog-blog--mobi-article__title line-clamp-2">Скидка 20% на
+                                            процедуры для здоровья кожи и тела в День Рождения</h2>
+
+                                        <p class="pageblog-blog--mobi-article__date">Акция действует до 21.12.24</p>
+                                    </div>
+                                </div>
+                                <a href="#!" class="pageblog-blog-article__direct">
+                                    <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                </a>
+                            </div>
+                            <div class="pageblog-blog--mobi-article">
+                                <div class="pageblog-blog--mobi-article__mask mask-nosubtitle">
+                                    <div class="pageblog-blog--mobi-article__inner">
+                                        <img class="pageblog-blog--mobi-article__img"
+                                            src="/assets/images/img-article-09.webp" alt="">
+                                        <h2 class="pageblog-blog--mobi-article__title line-clamp-2">Скидка 20% на
+                                            процедуры для здоровья кожи и тела в День Рождения</h2>
+
+                                        <p class="pageblog-blog--mobi-article__date">Акция действует до 21.12.24</p>
+                                    </div>
+                                </div>
+                                <a href="#!" class="pageblog-blog-article__direct">
+                                    <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="saleoff-btn--js expand-btn--js">
+                            <a class="pageblog-more-btn btn btn-blue">
+                                <div class="wrap__chervon">
+                                    <img src="/assets/images/chervon--blue_no-bg-bold.svg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="pageblog-blog--desk">
+                <ul class="pageblog-blog--desk__tab-list">
+                    <li class="pageblog-blog--desk__tab-item active tab-desk-1">
+                        Статьи
+                        <div class="decor decor--right"></div>
+                    </li>
+                    <li class="pageblog-blog--desk__tab-item tab-desk-2">
+                        Новости
+                        <div class="decor decor--left"></div>
+                        <div class="decor decor--right"></div>
+                    </li>
+                    <li class="pageblog-blog--desk__tab-item tab-desk-3">
+                        Акции
+                        <div class="decor decor--left"></div>
+                    </li>
+                </ul>
+                <ul class="pageblog-blog--desk__content-list">
+                    <li class="pageblog-blog--desk__content active">
+                        <div class="row row-cols-2 g-lg-4">
+                            <div class="pageblog-blog--desk-article">
+                                <div class="pageblog-blog--desk-article__inner">
+                                    <p class="pageblog-blog--desk-article__date">Статья от 24.10.24</p>
+                                    <div class="pageblog-blog--desk-article__wrap-img">
+                                        <div class="pageblog-blog--desk-article__mask-img">
+                                            <img class="pageblog-blog--desk-article__img"
+                                                src="/assets/images/img-article-01.webp" alt="">
+                                        </div>
+                                        <a href="/blog/articles/article-01.php" class="pageblog-blog-article__direct">
+                                            <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                        </a>
+                                    </div>
+                                    <h2 class="pageblog-blog--desk-article__title line-clamp-2">Как микробиом
+                                        кишечика влияет на состояние кожи?</h2>
+                                    <p class="pageblog-blog--desk-article__subtitle line-clamp-3">Разберём,
+                                        как здоровье кишечника связано с проблемой акне и воспалений, и как его
+                                        поддержание улучшает внешний вид</p>
+                                </div>
+                            </div>
+                            <div class="pageblog-blog--desk-article">
+                                <div class="pageblog-blog--desk-article__inner">
+                                    <p class="pageblog-blog--desk-article__date">Статья от 24.10.24</p>
+                                    <div class="pageblog-blog--desk-article__wrap-img">
+                                        <div class="pageblog-blog--desk-article__mask-img">
+                                            <img class="pageblog-blog--desk-article__img"
+                                                src="/assets/images/img-article-02.webp" alt="">
+                                        </div>
+                                        <a href="#!" class="pageblog-blog-article__direct">
+                                            <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                        </a>
+                                    </div>
+                                    <h2 class="pageblog-blog--desk-article__title line-clamp-2">Топ-5 современных
+                                        процедур для омоложения кожи без операции</h2>
+                                    <p class="pageblog-blog--desk-article__subtitle line-clamp-3">Обзор популярных
+                                        методов, их особенности и кому они подходят: от инъекций до аппаратной
+                                        косметологи</p>
+                                </div>
+                            </div>
+                            <div class="pageblog-blog--desk-article">
+                                <div class="pageblog-blog--desk-article__inner">
+                                    <p class="pageblog-blog--desk-article__date">Статья от 19.10.24</p>
+                                    <div class="pageblog-blog--desk-article__wrap-img">
+                                        <div class="pageblog-blog--desk-article__mask-img">
+                                            <img class="pageblog-blog--desk-article__img"
+                                                src="/assets/images/img-article-03.webp" alt="">
+                                        </div>
+                                        <a href="#!" class="pageblog-blog-article__direct">
+                                            <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                        </a>
+                                    </div>
+                                    <h2 class="pageblog-blog--desk-article__title line-clamp-2">Зимний уход за
+                                        кожей: советы косметолога</h2>
+                                    <p class="pageblog-blog--desk-article__subtitle line-clamp-3">Рекомендации
+                                        по защите кожи от холода, сухости и обезвоживания, а так же подбор
+                                        подходящих продуктов</p>
+                                </div>
+                            </div>
+                            <div class="pageblog-blog--desk-article">
+                                <div class="pageblog-blog--desk-article__inner">
+                                    <p class="pageblog-blog--desk-article__date">Статья от 08.09.24</p>
+                                    <div class="pageblog-blog--desk-article__wrap-img">
+                                        <div class="pageblog-blog--desk-article__mask-img">
+                                            <img class="pageblog-blog--desk-article__img"
+                                                src="/assets/images/img-article-04.webp" alt="">
+                                        </div>
+                                        <a href="#!" class="pageblog-blog-article__direct">
+                                            <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                        </a>
+                                    </div>
+                                    <h2 class="pageblog-blog--desk-article__title line-clamp-2">Почему важен
+                                        индивидуальный подход в косметологии?</h2>
+                                    <p class="pageblog-blog--desk-article__subtitle line-clamp-3">Учёт особенностей
+                                        вашей кожи, возраста и образа жизни, это гарантия безопасного и эффективного
+                                        ухода</p>
+                                </div>
+                            </div>
+                            <div class="pageblog-blog--desk-article">
+                                <div class="pageblog-blog--desk-article__inner">
+                                    <p class="pageblog-blog--desk-article__date">Статья от 24.10.24</p>
+                                    <div class="pageblog-blog--desk-article__wrap-img">
+                                        <div class="pageblog-blog--desk-article__mask-img">
+                                            <img class="pageblog-blog--desk-article__img"
+                                                src="/assets/images/img-article-01.webp" alt="">
+                                        </div>
+                                        <a href="/blog/articles/article-01.php" class="pageblog-blog-article__direct">
+                                            <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                        </a>
+                                    </div>
+                                    <h2 class="pageblog-blog--desk-article__title line-clamp-2">Как микробиом
+                                        кишечика влияет на состояние кожи?</h2>
+                                    <p class="pageblog-blog--desk-article__subtitle line-clamp-3">Разберём,
+                                        как здоровье кишечника связано с проблемой акне и воспалений, и как его
+                                        поддержание улучшает внешний вид</p>
+                                </div>
+                            </div>
+                            <div class="pageblog-blog--desk-article">
+                                <div class="pageblog-blog--desk-article__inner">
+                                    <p class="pageblog-blog--desk-article__date">Статья от 24.10.24</p>
+                                    <div class="pageblog-blog--desk-article__wrap-img">
+                                        <div class="pageblog-blog--desk-article__mask-img">
+                                            <img class="pageblog-blog--desk-article__img"
+                                                src="/assets/images/img-article-02.webp" alt="">
+                                        </div>
+                                        <a href="#!" class="pageblog-blog-article__direct">
+                                            <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                        </a>
+                                    </div>
+                                    <h2 class="pageblog-blog--desk-article__title line-clamp-2">Как микробиом
+                                        кишечика влияет на состояние кожи?</h2>
+                                    <p class="pageblog-blog--desk-article__subtitle line-clamp-3">Разберём,
+                                        как здоровье кишечника связано с проблемой акне и воспалений, и как его
+                                        поддержание улучшает внешний вид</p>
+                                </div>
+                            </div>
+                            <div class="pageblog-blog--desk-article">
+                                <div class="pageblog-blog--desk-article__inner">
+                                    <p class="pageblog-blog--desk-article__date">Статья от 24.10.24</p>
+                                    <div class="pageblog-blog--desk-article__wrap-img">
+                                        <div class="pageblog-blog--desk-article__mask-img">
+                                            <img class="pageblog-blog--desk-article__img"
+                                                src="/assets/images/img-article-03.webp" alt="">
+                                        </div>
+                                        <a href="#!" class="pageblog-blog-article__direct">
+                                            <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                        </a>
+                                    </div>
+                                    <h2 class="pageblog-blog--desk-article__title line-clamp-2">Как микробиом
+                                        кишечика влияет на состояние кожи?</h2>
+                                    <p class="pageblog-blog--desk-article__subtitle line-clamp-3">Разберём,
+                                        как здоровье кишечника связано с проблемой акне и воспалений, и как его
+                                        поддержание улучшает внешний вид</p>
+                                </div>
+                            </div>
+                            <div class="pageblog-blog--desk-article">
+                                <div class="pageblog-blog--desk-article__inner">
+                                    <p class="pageblog-blog--desk-article__date">Статья от 24.10.24</p>
+                                    <div class="pageblog-blog--desk-article__wrap-img">
+                                        <div class="pageblog-blog--desk-article__mask-img">
+                                            <img class="pageblog-blog--desk-article__img"
+                                                src="/assets/images/img-article-04.webp" alt="">
+                                        </div>
+                                        <a href="#!" class="pageblog-blog-article__direct">
+                                            <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                        </a>
+                                    </div>
+                                    <h2 class="pageblog-blog--desk-article__title line-clamp-2">Как микробиом
+                                        кишечика влияет на состояние кожи?</h2>
+                                    <p class="pageblog-blog--desk-article__subtitle line-clamp-3">Разберём,
+                                        как здоровье кишечника связано с проблемой акне и воспалений, и как его
+                                        поддержание улучшает внешний вид</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article-btn--js expand-btn--js">
+                            <a class="pageblog-more-btn btn btn-blue">
+                                <div class="wrap__chervon">
+                                    <img src="/assets/images/chervon--blue_no-bg-bold.svg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="pageblog-blog--desk__content">
+                        <div class="row row-cols-2 g-lg-4">
+                            <div class="pageblog-blog--desk-article">
+                                <div class="pageblog-blog--desk-article__inner">
+                                    <p class="pageblog-blog--desk-article__date">Новость от 10.10.24</p>
+                                    <div class="pageblog-blog--desk-article__wrap-img">
+                                        <div class="pageblog-blog--desk-article__mask-img">
+                                            <img class="pageblog-blog--desk-article__img"
+                                                src="/assets/images/img-article-05.webp" alt="">
+                                        </div>
+                                        <a href="/blog/articles/article-02.php" class="pageblog-blog-article__direct">
+                                            <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                        </a>
+                                    </div>
+                                    <h2 class="pageblog-blog--desk-article__title line-clamp-2">Клиника расширяет
+                                        спектр услуг</h2>
+                                    <p class="pageblog-blog--desk-article__subtitle line-clamp-3">Новая процедура -
+                                        Индивидуальная программа по восстановлению микробиома кишечника</p>
+                                </div>
+                            </div>
+                            <div class="pageblog-blog--desk-article">
+                                <div class="pageblog-blog--desk-article__inner">
+                                    <p class="pageblog-blog--desk-article__date">Новость от 20.09.24</p>
+                                    <div class="pageblog-blog--desk-article__wrap-img">
+                                        <div class="pageblog-blog--desk-article__mask-img">
+                                            <img class="pageblog-blog--desk-article__img"
+                                                src="/assets/images/img-article-06.webp" alt="">
+                                        </div>
+                                        <a href="#!" class="pageblog-blog-article__direct">
+                                            <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                        </a>
+                                    </div>
+                                    <h2 class="pageblog-blog--desk-article__title line-clamp-2">Обновление
+                                        оборудования в клинике</h2>
+                                    <p class="pageblog-blog--desk-article__subtitle line-clamp-3">У нас появились
+                                        новые аппараты для безболезненных и эффективных процедур омоложения и
+                                        восстановления кожи. Приходите,
+                                        чтобы попробовать их в деле!</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="news-btn--js expand-btn--js">
+                            <a class="pageblog-more-btn btn btn-blue">
+                                <div class="wrap__chervon">
+                                    <img src="/assets/images/chervon--blue_no-bg-bold.svg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="pageblog-blog--desk__content">
+                        <div class="row row-cols-2 g-lg-4">
+                            <div class="pageblog-blog--desk-article">
+                                <div class="pageblog-blog--desk-article__inner">
+                                    <p class="pageblog-blog--desk-article__date">Акция действует до 21.12.24</p>
+                                    <div class="pageblog-blog--desk-article__wrap-img">
+                                        <div class="pageblog-blog--desk-article__mask-img">
+                                            <img class="pageblog-blog--desk-article__img"
+                                                src="/assets/images/img-article-07.webp" alt="">
+                                        </div>
+                                        <a href="/blog/articles/article-03.php" class="pageblog-blog-article__direct">
+                                            <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                        </a>
+                                    </div>
+                                    <h2 class="pageblog-blog--desk-article__title line-clamp-2">10% на лабораторную
+                                        диагностику</h2>
+                                </div>
+                            </div>
+                            <div class="pageblog-blog--desk-article">
+                                <div class="pageblog-blog--desk-article__inner">
+                                    <p class="pageblog-blog--desk-article__date">Акция действует до 21.12.24</p>
+                                    <div class="pageblog-blog--desk-article__wrap-img">
+                                        <div class="pageblog-blog--desk-article__mask-img">
+                                            <img class="pageblog-blog--desk-article__img"
+                                                src="/assets/images/img-article-08.webp" alt="">
+                                        </div>
+                                        <a href="#!" class="pageblog-blog-article__direct">
+                                            <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                        </a>
+                                    </div>
+                                    <h2 class="pageblog-blog--desk-article__title line-clamp-2">Комплексный уход:
+                                        получи 2 процедуры по цене 1</h2>
+                                </div>
+                            </div>
+                            <div class="pageblog-blog--desk-article">
+                                <div class="pageblog-blog--desk-article__inner">
+                                    <p class="pageblog-blog--desk-article__date">Акция действует до 21.12.24</p>
+                                    <div class="pageblog-blog--desk-article__wrap-img">
+                                        <div class="pageblog-blog--desk-article__mask-img">
+                                            <img class="pageblog-blog--desk-article__img"
+                                                src="/assets/images/img-article-09.webp" alt="">
+                                        </div>
+                                        <a href="#!" class="pageblog-blog-article__direct">
+                                            <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                        </a>
+                                    </div>
+                                    <h2 class="pageblog-blog--desk-article__title line-clamp-2">Скидка 20% на
+                                        процедуры для здоровья кожи и тела в День Рождения</h2>
+                                </div>
+                            </div>
+                            <div class="pageblog-blog--desk-article">
+                                <div class="pageblog-blog--desk-article__inner">
+                                    <p class="pageblog-blog--desk-article__date">Акция действует до 21.12.24</p>
+                                    <div class="pageblog-blog--desk-article__wrap-img">
+                                        <div class="pageblog-blog--desk-article__mask-img">
+                                            <img class="pageblog-blog--desk-article__img"
+                                                src="/assets/images/img-article-09.webp" alt="">
+                                        </div>
+                                        <a href="#!" class="pageblog-blog-article__direct">
+                                            <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                        </a>
+                                    </div>
+                                    <h2 class="pageblog-blog--desk-article__title line-clamp-2">Скидка 20% на
+                                        процедуры для здоровья кожи и тела в День Рождения</h2>
+                                </div>
+                            </div>
+                            <div class="pageblog-blog--desk-article">
+                                <div class="pageblog-blog--desk-article__inner">
+                                    <p class="pageblog-blog--desk-article__date">Акция действует до 21.12.24</p>
+                                    <div class="pageblog-blog--desk-article__wrap-img">
+                                        <div class="pageblog-blog--desk-article__mask-img">
+                                            <img class="pageblog-blog--desk-article__img"
+                                                src="/assets/images/img-article-09.webp" alt="">
+                                        </div>
+                                        <a href="#!" class="pageblog-blog-article__direct">
+                                            <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                        </a>
+                                    </div>
+                                    <h2 class="pageblog-blog--desk-article__title line-clamp-2">Скидка 20% на
+                                        процедуры для здоровья кожи и тела в День Рождения</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="saleoff-btn--js expand-btn--js">
+                            <a class="pageblog-more-btn btn btn-blue">
+                                <div class="wrap__chervon">
+                                    <img src="/assets/images/chervon--blue_no-bg-bold.svg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- Запись -->
+    <section class="appoint">
+        <div class="container" style="position: relative">
+            <h2 class="appoint__title">
+                Хотите узнать, как мы можем помочь?
+            </h2>
+            <p class="appoint__subtitle">
+                Оставьте заявку, и мы всё расскажем
+            </p>
+            <form action="" class="appoint__form">
+                <input type="text" placeholder="*Ваше имя" class="appoint__field" name="name" minlength="1" required />
+                <input type="text" placeholder="*Телефон" class="appoint__field" name="phone" pattern="[+7]+[0-9]{11}"
+                    required />
+                <div class="custom-select">
+                    <select name="" id="" required autocomplete="off">
+                        <option value="0">Выберите услугу</option>
+                        <option value="1">Косметология</option>
+                        <option value="2">Генетика</option>
+                        <option value="3">Трихология</option>
+                        <option value="4">Иммунодиетология</option>
+                        <option value="5">Anti-Age</option>
+                        <option value="6">
+                            Чекап организма
+                        </option>
+                        <option value="7">Микробиом кишечника</option>
+                        <option value="8">Снижение веса</option>
+                    </select>
+                </div>
+
+                <button type="submit" class="appoint__btn btn btn-white">
+                    Записаться
+                    <div class="wrap__chervon">
+                        <img src="/assets/images/chervon--no-bg.svg" alt="" />
+                    </div>
+                </button>
+                <label class="appoint__policy">
+                    <input type="checkbox" class="appoint__policy-checkbox-real" required />
+                    <div class="appoint__policy-checkbox-fake"></div>
+                    <div class="appoint__policy-text">
+                        Я согласен на обработку
+                        <a href="#!" class="appoint__policy-data">
+                            персональных данных
+                        </a>
+                    </div>
+                </label>
+            </form>
+            <img src="/assets/images/form__decor--mobile.webp?11" alt="" class="appoint__decor--mobile"
+                style="opacity: 0.9;" />
+        </div>
+        <img src="/assets/images/form__decor--desktop.webp" alt="" class="appoint__decor--desktop" />
+    </section>
+
+
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/template/footer.html'; ?>
+    <script type="module" src="/assets/js/index.js"></script>
+</body>
+
+</html>

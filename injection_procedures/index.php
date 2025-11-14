@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сертификаты врача</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link href="/assets/css/main.css?2504041200" rel="stylesheet">
+</head>
+
+<body>
+
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/template/header.html'; ?>
+    <!-- Side bar Moble -->
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/template/sidebar.html'; ?>
+
+    <!-- Main -->
+    <main>
+        <!-- Breadcrumbs -->
+        <section class="breadcrumbs">
+            <div class="container">
+                <div class="breadcrumbs__row pagerow">
+                    <a href="/main" class="breadcrumbs__page">Главная</a>
+                    <img src="/assets/images/breadcrumbs__icon.svg" alt="" class="breadcrumbs__arrow">
+                    <a href="/about_doctor" class="breadcrumbs__page">Косметология</a>
+                    <img src="/assets/images/breadcrumbs__icon.svg" alt="" class="breadcrumbs__arrow">
+                    <a href="/about_doctor/certificates" class="breadcrumbs__page">Инъекционные процедуры</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Инъекционные процедуры -->
+        <section class="injection-hero">
+            <div class="container">
+                <div class="injection__title">
+                    <h1>Инъекционные процедуры</h1>
+                </div>
+                <div class="injection-hero__group">
+                    <div class="injection-hero__text">
+                        <p>Инъекционные методики позволяют решать широкий спектр эстетических проблем — от морщин
+                            до изменения контуров лица — с минимальным восстановительным периодом</p>
+                    </div>
+                    <div class="injection-hero__mask">
+                        <img src="../assets/images/injection-img.webp" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="injection-content">
+            <div class="container">
+                <div class="injection-content__group">
+                    <div class="injection-content__link">
+                        <a href="">
+                            <div class="icon"></div>
+                            <p>Ботулинотерапия</p>
+                        </a>
+                    </div>
+                    <div class="injection-content__paragraph">
+                        <p>Эффективная процедура для коррекции мимических морщин и профилактики возрастных изменений.
+                            Ботулотоксин временно расслабляет мышцы, разглаживая кожу и предотвращая появление новых
+                            складок. Идеально подходит для зоны вокруг глаз, лба и межбровья. Результат — естественное
+                            омоложение без операций</p>
+                    </div>
+                </div>
+                <div class="injection-content__group">
+                    <div class="injection-content__link">
+                        <a href="">
+                            <div class="icon"></div>
+                            <p>Биоревитализация / Мезотерапияя</p>
+                        </a>
+                    </div>
+                    <div class="injection-content__paragraph">
+                        <p>Инъекционные методики для глубокого увлажнения и питания кожи. Биоревитализация насыщает кожу
+                            гиалуроновой кислотой, восстанавливая её плотность и эластичность. Мезотерапия стимулирует
+                            регенерацию клеток с помощью активных коктейлей витаминов, минералов и аминокислот.
+                            Результат — сияющая, здоровая кожа без признаков усталости</p>
+                    </div>
+                </div>
+                <div class="injection-content__group">
+                    <div class="injection-content__link">
+                        <a href="">
+                            <div class="icon"></div>
+                            <p>Контурная пластика</p>
+                        </a>
+                    </div>
+                    <div class="injection-content__paragraph">
+                        <p>Методика моделирования черт лица с помощью филлеров на основе гиалуроновой кислоты. Позволяет
+                            скорректировать объём губ, скул, контуров лица, устранить носогубные складки и асимметрию.
+                            Безопасная альтернатива пластической хирургии с моментальным видимым результатом. Эффект
+                            естественный и длительный</p>
+                    </div>
+                </div>
+                <div class="injection-content__group">
+                    <div class="injection-content__link">
+                        <a href="">
+                            <div class="icon"></div>
+                            <p>Плазмотерапия</p>
+                        </a>
+                    </div>
+                    <div class="injection-content__paragraph">
+                        <p>Инновационная процедура омоложения с использованием собственной плазмы пациента, обогащённой
+                            тромбоцитами. Способствует активной регенерации тканей, стимулирует выработку коллагена
+                            и эластина. Применяется для улучшения текстуры кожи, устранения рубцов, растяжек и выпадения
+                            волос. Результат — здоровая, упругая кожа</p>
+                    </div>
+                </div>
+                <div class="injection-content__group">
+                    <div class="injection-content__link">
+                        <a href="">
+                            <div class="icon"></div>
+                            <p>PRP-терапия RegenLab</p>
+                        </a>
+                    </div>
+                    <div class="injection-content__paragraph">
+                        <p>Авторская технология, основанная на применении обогащённой тромбоцитами плазмы (PRP).
+                            Процедура запускает естественные процессы восстановления кожи, ускоряет заживление
+                            и замедляет старение. Используется для омоложения лица, шеи, декольте, а также для лечения
+                            алопеции (выпадения волос). Результат — долговременное оздоровление и молодость кожи</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- До и После -->
+        <section class="main-result">
+            <div class="container">
+                <h2 class="main-result__title">До и После</h2>
+
+                <section class="main-result__wrap">
+                    <div class="list-swiper-tab-lv2 swiper-no-swiping injection-css">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide swiper-slide-active">
+                                <div class="tab-swiper-lev2">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            Ботулинотерапия
+                                        </div>
+                                        <div class="swiper-slide">
+                                            Биоревитализация / Мезотерапия
+                                        </div>
+                                        <div class="swiper-slide">
+                                            Контурная пластика
+                                        </div>
+                                        <div class="swiper-slide">
+                                            Плазмотерапия
+                                        </div>
+                                        <div class="swiper-slide">
+                                            PRP-терапия RegenLab
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="list-swiper-img-lev3">
+                    <div class="img-swiper-lev3 swiper-no-swiping active">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="main-result__wrap-slide">
+                                    <section class="main-result-slide">
+                                        <ul class="swiper-wrapper">
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-1.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-1.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-1.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                        </ul>
+                                        <div class="main-result-slide__controls swiper-pagination">
+                                        </div>
+                                        <div class="icon__wrap">
+                                            <div class="icon__left">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" />
+                                            </div>
+                                            <div class="icon__right">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" />
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="main-result__wrap-slide">
+                                    <section class="main-result-slide">
+                                        <ul class="swiper-wrapper">
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-2.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-2.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-1.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                        </ul>
+                                        <div class="main-result-slide__controls swiper-pagination">
+                                        </div>
+                                        <div class="icon__wrap">
+                                            <div class="icon__left">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" />
+                                            </div>
+                                            <div class="icon__right">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" />
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="main-result__wrap-slide">
+                                    <section class="main-result-slide">
+                                        <ul class="swiper-wrapper">
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-1.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-2.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-1.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                        </ul>
+                                        <div class="main-result-slide__controls swiper-pagination">
+                                        </div>
+                                        <div class="icon__wrap">
+                                            <div class="icon__left">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" />
+                                            </div>
+                                            <div class="icon__right">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" />
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="main-result__wrap-slide">
+                                    <section class="main-result-slide">
+                                        <ul class="swiper-wrapper">
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-1.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-2.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-1.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                        </ul>
+                                        <div class="main-result-slide__controls swiper-pagination">
+                                        </div>
+                                        <div class="icon__wrap">
+                                            <div class="icon__left">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" />
+                                            </div>
+                                            <div class="icon__right">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" />
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="main-result__wrap-slide">
+                                    <section class="main-result-slide">
+                                        <ul class="swiper-wrapper">
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-1.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-2.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-1.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                        </ul>
+                                        <div class="main-result-slide__controls swiper-pagination">
+                                        </div>
+                                        <div class="icon__wrap">
+                                            <div class="icon__left">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" />
+                                            </div>
+                                            <div class="icon__right">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" />
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+
+                <a class="main-result__btn btn btn-blue" data-modal-onclick="form-modal">
+                    Записаться
+                    <div class="wrap__chervon">
+                        <img src="/assets/images/chervon--no-bg.svg" alt="" />
+                    </div>
+                </a>
+
+                <section class="modal form-modal" id="form-modal">
+                    <div class="modal-content">
+                        <div class="modal-close modal-close-js">
+                            <img class="modal-close-btn" src="/assets/images/close-icon--light.svg" alt="">
+                        </div>
+                        <section class="main-form">
+                            <form action="" class="appoint__form">
+                                <input type="text" placeholder="*Ваше имя" class="appoint__field" name="name"
+                                    minlength="1" required />
+                                <input type="text" placeholder="*Телефон" class="appoint__field" name="phone"
+                                    pattern="[+7]+[0-9]{11}" required />
+                                <div class="custom-select">
+                                    <select name="" id="" required autocomplete="off">
+                                        <option value="0">Выберите услугу</option>
+                                        <option value="1">Косметология</option>
+                                        <option value="2">Генетика</option>
+                                        <option value="3">Трихология</option>
+                                        <option value="4">Иммунодиетология</option>
+                                        <option value="5">Anti-Age</option>
+                                        <option value="6">
+                                            Чекап организма
+                                        </option>
+                                        <option value="7">Микробиом кишечника</option>
+                                        <option value="8">Снижение веса</option>
+                                    </select>
+                                </div>
+                                <button type="submit" class="appoint__btn btn btn-white">
+                                    Записаться
+                                    <div class="wrap__chervon">
+                                        <img src="/assets/images/chervon--no-bg.svg" alt="" />
+                                    </div>
+                                </button>
+                                <label class="appoint__policy">
+                                    <input type="checkbox" class="appoint__policy-checkbox-real" required />
+                                    <div class="appoint__policy-checkbox-fake"></div>
+                                    <div class="appoint__policy-text">
+                                        Я согласен на обработку
+                                        <a href="#!" class="appoint__policy-data">
+                                            персональных данных
+                                        </a>
+                                    </div>
+                                </label>
+
+                            </form>
+                        </section>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <!-- Запись -->
+        <section class="appoint">
+            <div class="container" style="position: relative">
+                <h2 class="appoint__title">
+                    Не знаете какая услуга Вам&nbsp;подойдёт?
+                </h2>
+                <p class="appoint__subtitle">
+                    Оставьте заявку, мы вам перезвоним
+                </p>
+                <form action="" class="appoint__form">
+                    <input type="text" placeholder="*Ваше имя" class="appoint__field" name="name" minlength="1"
+                        required />
+                    <input type="text" placeholder="*Телефон" class="appoint__field" name="phone"
+                        pattern="[+7]+[0-9]{11}" required />
+                    <div class="custom-select">
+                        <select name="" id="" required autocomplete="off">
+                            <option value="0">Выберите услугу</option>
+                            <option value="1">Косметология</option>
+                            <option value="2">Генетика</option>
+                            <option value="3">Трихология</option>
+                            <option value="4">Иммунодиетология</option>
+                            <option value="5">Anti-Age</option>
+                            <option value="6">
+                                Чекап организма
+                            </option>
+                            <option value="7">Микробиом кишечника</option>
+                            <option value="8">Снижение веса</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="appoint__btn btn btn-white" data-modal-onclick="congrat-modal">
+                        Записаться
+                        <div class="wrap__chervon">
+                            <img src="/assets/images/chervon--no-bg.svg" alt="" />
+                        </div>
+                    </button>
+                    <label class="appoint__policy">
+                        <input type="checkbox" class="appoint__policy-checkbox-real" required />
+                        <div class="appoint__policy-checkbox-fake"></div>
+                        <div class="appoint__policy-text">
+                            Я согласен на обработку
+                            <a href="#!" class="appoint__policy-data">
+                                персональных данных
+                            </a>
+                        </div>
+                    </label>
+                </form>
+                <img src="/assets/images/form__decor--mobile.webp?11" alt="" class="appoint__decor--mobile"
+                    style="opacity: 0.9;" />
+            </div>
+            <img src="/assets/images/form__decor--desktop.webp" alt="" class="appoint__decor--desktop" />
+        </section>
+
+        <section class="pagecosmetology-service">
+            <div class="container">
+                <section class="pagecosmetology-service__header pagerow">
+                    <h2 class="pagecosmetology-service__title">Услуги</h2>
+                    <a href="/services" class="pagecosmetology-service__btn btn btn-blue">Все услуги</a>
+                </section>
+
+            </div>
+            <section class="pagecosmetology-service__body">
+                <ul class="pagecosmetology-service__list">
+                    <li class="pagecosmetology-service__item">
+                        <p class="pagecosmetology-service__item-title">Косметология</p>
+                        <img src="/assets/images/service-decor-1.webp" class="pagecosmetology-service__item-bg" />
+                        <a href="" class="pagecosmetology-service__item-btn btn btn-white">Перейти</a>
+                    </li>
+                    <li class="pagecosmetology-service__item">
+                        <p class="pagecosmetology-service__item-title">Генетика</p>
+                        <img src="/assets/images/service-decor-2.webp" class="pagecosmetology-service__item-bg" />
+                        <a href="" class="pagecosmetology-service__item-btn btn btn-white">Перейти</a>
+                    </li>
+                    <li class="pagecosmetology-service__item">
+                        <p class="pagecosmetology-service__item-title">Трихология</p>
+                        <img src="/assets/images/service-decor-3.webp" class="pagecosmetology-service__item-bg" />
+                        <a href="" class="pagecosmetology-service__item-btn btn btn-white">Перейти</a>
+                    </li>
+                    <li class="pagecosmetology-service__item">
+                        <p class="pagecosmetology-service__item-title">Иммунодиетология</p>
+                        <img src="/assets/images/service-decor-4.webp" class="pagecosmetology-service__item-bg" />
+                        <a href="" class="pagecosmetology-service__item-btn btn btn-white">Перейти</a>
+                    </li>
+                    <li class="pagecosmetology-service__item">
+                        <p class="pagecosmetology-service__item-title">Anti-Age</p>
+                        <img src="/assets/images/service-decor-5.webp" class="pagecosmetology-service__item-bg" />
+                        <a href="" class="pagecosmetology-service__item-btn btn btn-white">Перейти</a>
+                    </li>
+                    <li class="pagecosmetology-service__item">
+                        <p class="pagecosmetology-service__item-title">Чекап организма</p>
+                        <img src="/assets/images/service-decor-6.webp" class="pagecosmetology-service__item-bg" />
+                        <a href="" class="pagecosmetology-service__item-btn btn btn-white">Перейти</a>
+                    </li>
+                    <li class="pagecosmetology-service__item">
+                        <p class="pagecosmetology-service__item-title">Микробиом кишечника</p>
+                        <img src="/assets/images/service-decor-8.webp" class="pagecosmetology-service__item-bg" />
+                        <a href="" class="pagecosmetology-service__item-btn btn btn-white">Перейти</a>
+                    </li>
+                    <li class="pagecosmetology-service__item">
+                        <p class="pagecosmetology-service__item-title">Снижение веса</p>
+                        <img src="/assets/images/service-decor-7.webp" class="pagecosmetology-service__item-bg" />
+                        <a href="" class="pagecosmetology-service__item-btn btn btn-white">Перейти</a>
+                    </li>
+                </ul>
+            </section>
+        </section>
+    </main>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/template/footer.html'; ?>
+    <script type="module" src="/assets/js/index.js"></script>
+</body>
+
+</html>

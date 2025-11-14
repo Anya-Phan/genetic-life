@@ -1,0 +1,144 @@
+@use "../abs";
+
+@include abs.selectCustom;
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: -1px -1px 0 30px var(--dark-primary-color) inset !important;
+    outline: none;
+    -webkit-text-fill-color: #fff !important;
+    filter: none;
+    caret-color: #fff;
+}
+
+.appoint {
+    &__form {
+        display: inline-flex;
+        padding: 30px 10px 10px;
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+        border-radius: 20px;
+        background: var(--dark-primary-color);
+        width: min(450px, 100%);
+        text-align: left;
+
+        @include abs.responsive(md) {
+            padding: 45px 20px 15px 15px;
+            border-radius: 25px;
+        }
+    }
+
+    &__form-title {
+        color: #FFF;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 125%;
+
+        @include abs.responsive(md) {
+            font-size: 30px;
+        }
+    }
+
+    &__form-subtitle {
+        color: #FFF;
+        text-align: center;
+        font-size: 16px;
+        line-height: 125%;
+        margin-bottom: 15px;
+
+        @include abs.responsive(md) {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+    }
+
+    &__field {
+        color: #fff;
+        padding: 10px 28px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+        width: 100%;
+        font-size: 14px;
+        line-height: 28.571%;
+
+        @include abs.responsive(sm) {
+            font-size: 20px;
+        }
+
+        &::placeholder {
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        &::-moz-placeholder {
+            opacity: 1;
+        }
+    }
+
+    //CSS Policy
+    &__policy {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        justify-content: center;
+        margin-bottom: 30px;
+        cursor: pointer;
+
+        &-checkbox-real {
+            display: none;
+        }
+
+        &-checkbox-real:checked~&-checkbox-fake::after {
+            display: inline-block;
+        }
+
+        &-checkbox-fake {
+            width: 14px;
+            height: 14px;
+            border-radius: 3px;
+            background-color: #cbe2f79d;
+            border: 1px solid #CBE2F7;
+            flex-shrink: 0;
+            @include abs.centerElem;
+
+            &::after {
+                display: none;
+                background-image: url(/assets/images/check__icon.svg);
+                background-size: 10px 10px;
+
+                width: 10px;
+                height: 10px;
+                content: "";
+            }
+        }
+
+        &-text {
+            color: rgba(203, 226, 247, 0.50);
+            font-size: 10px;
+            font-weight: 400;
+            line-height: 140%;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+
+            @include abs.responsive(sm) {
+                font-size: 16px;
+            }
+        }
+
+        &-data {
+            text-decoration: underline;
+
+        }
+    }
+
+    &__btn {
+        margin-top: 30px;
+    }
+}
+
+input[name="phone"]:not(:placeholder-shown):invalid {
+    color: #ff4141;
+}

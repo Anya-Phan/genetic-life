@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Как микробиом кишечика влияет на состояние кожи?</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="/assets/css/main.css?2422102350" />
+
+</head>
+
+<body>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/template/header.html'; ?>
+    <!-- Side bar Moble -->
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/template/sidebar.html'; ?>
+    <!-- Main -->
+    <main>
+        <section class="breadcrumbs">
+            <div class="container">
+                <div class="breadcrumbs__row pagerow">
+                    <a href="/" class="breadcrumbs__page">Главная</a>
+                    <img src="/assets/images/breadcrumbs__icon.svg" alt="" class="breadcrumbs__arrow">
+                    <a href="/blog" class="breadcrumbs__page">Блог</a>
+                    <img src="/assets/images/breadcrumbs__icon.svg" alt="" class="breadcrumbs__arrow">
+                    <a href="/blog/?tabindex=3" class="breadcrumbs__page">Акции</a>
+                    <img src="/assets/images/breadcrumbs__icon.svg" alt="" class="breadcrumbs__arrow">
+                    <a href="" class="breadcrumbs__page">10% на лабораторную диагностику</a>
+                </div>
+            </div>
+        </section>
+        <section class="pagearticle-hero">
+            <div class="container">
+                <div class="pagearticle-hero__img-profile">
+                    <div class="pagearticle-hero__img">
+                        <img src="/assets/images/img-article-07.webp" alt="">
+                        <div class="overlay"></div>
+                    </div>
+                    <h1 class="pagearticle-hero__main-tite">10% на лабораторную диагностику</h1>
+                </div>
+                <p class="pagearticle-hero__date">Опубликовано 12.11.2024</p>
+            </div>
+        </section>
+        <section class="pagearticle-main">
+            <div class="container">
+                <div class="pagerow pagearticle-main-row">
+                    <section class="pagearticle-main__text">
+
+                        <h2 class="pagearticle-main__title">Только по четвергам с 10.00 до 12.00 лабораторная
+                            диагностика для вас со скидкой 10% и забор крови в ПОДАРОК!</h2>
+                        <div class="pagearticle-main__paragraph">
+                            <p>*На генетические исследования скидка не действует.</p>
+                        </div>
+                        <a href="/blog/?tabindex=3" class="btn btn-blue pagearticle-main__btn">
+                            К другим акциям
+                        </a>
+                    </section>
+                    <section class="pagearticle-main__form">
+                        <form action="" class="appoint__form">
+                            <p class="appoint__form-title">Воспользоваться акцией</p>
+                            <p class="appoint__form-subtitle">Оставьте заявку, и мы Вам перезвоним</p>
+                            <input type="text" placeholder="*Ваше имя" class="appoint__field" name="name" minlength="1"
+                                required />
+                            <input type="text" placeholder="*Телефон" class="appoint__field" name="phone"
+                                pattern="[+7]+[0-9]{11}" required />
+                            <button type="submit" class="appoint__btn btn btn-white">
+                                Записаться
+                                <div class="wrap__chervon">
+                                    <img src="/assets/images/chervon--no-bg.svg" alt="" />
+                                </div>
+                            </button>
+                            <label class="appoint__policy">
+                                <input type="checkbox" class="appoint__policy-checkbox-real" required />
+                                <div class="appoint__policy-checkbox-fake"></div>
+                                <div class="appoint__policy-text">
+                                    Я согласен на обработку
+                                    <a href="#!" class="appoint__policy-data">
+                                        персональных данных
+                                    </a>
+                                </div>
+                            </label>
+                        </form>
+                    </section>
+                </div>
+            </div>
+        </section>
+    </main>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/template/footer.html'; ?>
+    <script type="module" src="/assets/js/index.js"></script>
+</body>
+
+</html>

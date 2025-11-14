@@ -1,0 +1,136 @@
+@use '../abs';
+
+.pagebotulinum-hero {
+    &__title {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 125%;
+        text-align: left;
+        margin-bottom: 10px;
+
+        @include abs.responsive(sm) {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        @include abs.responsive(md) {
+            font-size: 32px;
+        }
+    }
+
+    &__subtitle {
+        font-size: 16px;
+        line-height: 1.25;
+
+        @include abs.responsive(md) {
+            font-size: 22px;
+        }
+    }
+}
+
+.pagebotulinum-CTA__main {
+    background: url(../images/botulinum-CTA-img.webp) no-repeat center / cover;
+
+    @include abs.responsive(md) {
+        height: 400px;
+    }
+}
+
+.pagebotulinum-price {
+    &__title {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 125%;
+        text-align: left;
+        margin-bottom: 10px;
+
+        @include abs.responsive(sm) {
+            margin-bottom: 15px;
+        }
+
+        @include abs.responsive(md) {
+            font-size: 32px;
+        }
+    }
+
+    &__subtitle {
+        font-size: 14px;
+        line-height: 1.25;
+        margin-bottom: 35px;
+
+        @include abs.responsive(md) {
+            font-size: 24px;
+        }
+    }
+
+    &__frame {
+        margin-left: -10px;
+        margin-right: -10px;
+        padding: 20px 10px;
+        border-radius: 20px;
+        background: #DFF1F9;
+        box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.10);
+
+        @include abs.responsive(md) {
+            padding: 20px;
+        }
+    }
+}
+
+.pagebotulinum-price-list {
+    font-size: 14px;
+    line-height: 1.28;
+
+    @include abs.responsive(md) {
+        font-size: 24px;
+    }
+
+    &__title {
+        font-weight: 700;
+        margin-bottom: 10px;
+
+        @include abs.responsive(md) {
+            margin-bottom: 20px;
+        }
+    }
+
+    li {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+        border-bottom: 1px solid transparent;
+        cursor: default;
+
+        &:hover {
+            border-color: #213170;
+        }
+
+        @include abs.responsive(md) {
+            margin-bottom: 20px;
+        }
+    }
+
+    &__money-service {
+        font-size: 20px;
+        font-weight: 700;
+
+        @include abs.responsive(md) {
+            font-size: 24px;
+        }
+    }
+}
+
+.pagebotulinum-appoint {
+    text-align: center;
+    padding-top: 20px;
+
+    @include abs.responsive(md) {
+        padding-top: 70px;
+    }
+
+    @include abs.responsive(md) {
+        background: url('../images/form__decor--desktop.webp') no-repeat center / 100% auto;
+    }
+
+}

@@ -1,0 +1,50 @@
+@use '../abs';
+
+* {
+    --swiper-pagination-color: var(--light-primary-color);
+    --swiper-pagination-bullet-size: 6px;
+    --swiper-pagination-bullet-width: 6px;
+    --swiper-pagination-bullet-height: 6px;
+    --swiper-pagination-bullet-inactive-color: var(--dark-primary-color);
+    --swiper-pagination-bullet-inactive-opacity: 1;
+    --swiper-pagination-bullet-opacity: 1;
+    --swiper-pagination-bullet-horizontal-gap: 3px;
+
+    @include abs.responsive(md) {
+        --swiper-pagination-bullet-size: 8px;
+        --swiper-pagination-bullet-width: 8px;
+        --swiper-pagination-bullet-height: 8px;
+        --swiper-pagination-bullet-horizontal-gap: 4px;
+    }
+}
+
+.swiper-pagination {
+    position: static;
+    margin: 20px 0;
+
+    @include abs.responsive(md) {
+        margin: 30px 0;
+    }
+}
+
+.certf-pagination,
+.review-pagination {
+    display: none;
+
+    @include abs.responsive(md) {
+        display: block;
+    }
+
+}
+
+.swiper-pagination-bullet{
+    scale: 1.1;
+}
+
+.swiper-pagination-bullet-active {
+    background: rgba(202, 239, 255, 0.20);
+    border: 1px solid var(--dark-primary-color);
+    transform: scale(1.6);
+
+
+}

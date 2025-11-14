@@ -1,0 +1,1137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Косметология</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="/assets/css/main.css" />
+</head>
+
+<body>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/template/header.html'; ?>
+    <!-- Side bar Moble -->
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/template/sidebar.html'; ?>
+
+    <main>
+        <section class="breadcrumbs">
+            <div class="container">
+                <div class="breadcrumbs__row pagerow">
+                    <a href="#!" class="breadcrumbs__page">Главная</a>
+                    <img src="/assets/images/breadcrumbs__icon.svg" alt="" class="breadcrumbs__arrow">
+                    <a href="../index.html" class="breadcrumbs__page">Услуги</a>
+                    <img src="/assets/images/breadcrumbs__icon.svg" alt="" class="breadcrumbs__arrow">
+                    <a href="#!" class="breadcrumbs__page">Косметология</a>
+                </div>
+            </div>
+        </section>
+        <section class="pagecosmetology-hero">
+            <div class="container">
+                <h1 class="pagecosmetology-hero__title">Косметология</h1>
+                <p class="pagecosmetology-hero__subtitle"><span>Косметология</span> – это профессиональный подход
+                    к&nbsp;вашей красоте и&nbsp;здоровью</p>
+            </div>
+            <section class="pagecosmetology-hero__main">
+                <div class="container">
+                    <div class="pagecosmetology-hero__main-info">
+                        <h1 class="pagecosmetology-hero__main-info-title">Косметология</h1>
+                        <p class="pagecosmetology-hero__main-info-subtitle">Это профессиональный подход к вашей красоте
+                            и здоровью.</p>
+                        <a class="pagecosmetology-hero__btn btn btn-white" data-modal-onclick="cosmetology-modal-3">
+                            Записаться на Консультацию
+                            <div class="wrap__chervon">
+                                <img src="/assets/images/chervon--no-bg.svg" alt="" />
+                            </div>
+                        </a>
+
+                    </div>
+
+                </div>
+            </section>
+        </section>
+        <section class="pagecosmetology-main">
+            <div class="container">
+                <h2 class="pagecosmetology-main__title">Врач-косметолог Ольга Шаго</h2>
+                <p class="pagecosmetology-main__subtitle">Точно определит потребности вашей кожи и предложит эффективные
+                    решения: от омолаживающих инъекций и контурной пластики до процедур по восстановлению и укреплению
+                    кожи.</p>
+                <ul class="pagecosmetology-main__type-list">
+                    <li class="pagecosmetology-main__type-item-left active ">
+                        Направления
+                        <div class="decor"></div>
+                    </li>
+
+                    <li class="pagecosmetology-main__type-item-right ">
+                        Стоимость
+                        <div class="decor"></div>
+                    </li>
+                </ul>
+                <ul class="pagecosmetology-main__content-list active-left">
+                    <li class="pagecosmetology-main__content-item">
+                        <p class="pagecosmetology-main__content-subtitle">
+                            <span>Врач-косметолог Ольга Шаго </span>точно определит потребности вашей кожи и предложит
+                            эффективные решения: от омолаживающих инъекций и контурной пластики до процедур по
+                            восстановлению и укреплению кожи.
+                        </p>
+                        <div class="pagecosmetology-main__direct-slide">
+                            <div class="pagecosmetology-main__direct-frame">
+                                <ul class="pagecosmetology-main__direct-list">
+                                    <li class="pagecosmetology-main__direct-item">
+                                        <p class="pagecosmetology-main__direct-title">Инъекционные процедуры</p>
+                                        <div class="pagecosmetology-main__direct-mask">
+                                            <img src="/assets/images/slide__img-1.webp" alt="">
+                                        </div>
+                                        <a href="#!" class="pagecosmetology-main__direct-detail">
+                                            <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                        </a>
+                                        <p class="pagecosmetology-main__direct-subtitle line-clamp-3">
+                                            Процедуры, которые проводятся
+                                            с использованием иглы (или канюли). Дают яркий эффект, который заметён сразу
+                                            после процедуры
+                                        </p>
+                                        <div class="pagecosmetology-main__direct-expand">
+                                            <div>
+                                                <div class="pagecosmetology-main__direct-cate-list">
+                                                    <a href="#!" class="pagecosmetology-main__direct-cate-item">
+                                                        <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                                        <p>Ботулинотерапия</p>
+                                                    </a>
+                                                    <a href="#!" class="pagecosmetology-main__direct-cate-item">
+                                                        <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                                        <p>Биоревитализация / Мезотерапия</p>
+                                                    </a>
+                                                    <a href="#!" class="pagecosmetology-main__direct-cate-item">
+                                                        <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                                        <p>Контурная пластика</p>
+                                                    </a>
+                                                    <a href="#!" class="pagecosmetology-main__direct-cate-item">
+                                                        <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                                        <p>Плазмотерапия</p>
+                                                    </a>
+                                                    <a href="#!" class="pagecosmetology-main__direct-cate-item">
+                                                        <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                                        <p>PRP-терапия RegenLab</p>
+                                                    </a>
+                                                </div>
+                                                <a class="pagecosmetology-main__btn btn btn-blue"
+                                                    data-modal-onclick="cosmetology-modal-3">
+                                                    Записаться
+                                                    <div class="wrap__chervon">
+                                                        <img src="/assets/images/chervon--no-bg.svg" alt="" />
+                                                    </div>
+                                                </a>
+
+                                            </div>
+                                        </div>
+                                        <div class="pagecosmetology-main__direct-more">
+                                            <img src="/assets/images/chervon--blue_no-bg.svg" alt="">
+                                        </div>
+                                    </li>
+                                    <li class="pagecosmetology-main__direct-item">
+                                        <p class="pagecosmetology-main__direct-title">Лазерная косметология</p>
+                                        <div class="pagecosmetology-main__direct-mask">
+                                            <img src="/assets/images/slide__img-2.webp" alt="">
+                                        </div>
+                                        <a href="#!" class="pagecosmetology-main__direct-detail">
+                                            <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                        </a>
+                                        <p class="pagecosmetology-main__direct-subtitle line-clamp-3">
+                                            Косметические и лечебные процедуры, которые осуществляются при помощи
+                                            специальной аппаратуры и физических методов воздействия на кожу лица и тела
+                                        </p>
+                                        <div class="pagecosmetology-main__direct-expand">
+                                            <div>
+                                                <div class="pagecosmetology-main__direct-cate-list">
+                                                    <a href="#!" class="pagecosmetology-main__direct-cate-item">
+                                                        <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                                        <p>Smooth-омоложение</p>
+                                                    </a>
+                                                    <a href="#!" class="pagecosmetology-main__direct-cate-item">
+                                                        <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                                        <p>Живая плазма</p>
+                                                    </a>
+                                                    <a href="#!" class="pagecosmetology-main__direct-cate-item">
+                                                        <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                                        <p>Лазерная терапия при лечении акне</p>
+                                                    </a>
+                                                    <a href="#!" class="pagecosmetology-main__direct-cate-item">
+                                                        <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                                        <p>Лазерная шлифовка</p>
+                                                    </a>
+                                                    <a href="#!" class="pagecosmetology-main__direct-cate-item">
+                                                        <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                                        <p>Лазерная эпиляция</p>
+                                                    </a>
+                                                    <a href="#!" class="pagecosmetology-main__direct-cate-item">
+                                                        <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                                        <p>PRP-терапия RegenLab</p>
+                                                    </a>
+                                                    <a href="#!" class="pagecosmetology-main__direct-cate-item">
+                                                        <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                                        <p>Лазерное 3D-омоложение</p>
+                                                    </a>
+                                                    <a href="#!" class="pagecosmetology-main__direct-cate-item">
+                                                        <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                                        <p>Лазерное 5D-омоложение</p>
+                                                    </a>
+                                                    <a href="#!" class="pagecosmetology-main__direct-cate-item">
+                                                        <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                                        <p>Лазерное лечение новообразований</p>
+                                                    </a>
+                                                    <a href="#!" class="pagecosmetology-main__direct-cate-item">
+                                                        <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                                        <p>Лазерное омоложение Fotona 4D</p>
+                                                    </a>
+                                                    <a href="#!" class="pagecosmetology-main__direct-cate-item">
+                                                        <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                                        <p>Лазерное омоложение губ</p>
+                                                    </a>
+                                                    <a href="#!" class="pagecosmetology-main__direct-cate-item">
+                                                        <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                                        <p>Лазерное удаление сосудов</p>
+                                                    </a>
+                                                    <a href="#!" class="pagecosmetology-main__direct-cate-item">
+                                                        <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                                        <p>Лазерный пилинг</p>
+                                                    </a>
+                                                    <a href="#!" class="pagecosmetology-main__direct-cate-item">
+                                                        <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                                        <p>Родиться заново</p>
+                                                    </a>
+                                                </div>
+                                                <a class="pagecosmetology-main__btn btn btn-blue"
+                                                    data-modal-onclick="cosmetology-modal-3">
+                                                    Записаться
+                                                    <div class="wrap__chervon">
+                                                        <img src="/assets/images/chervon--no-bg.svg" alt="" />
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="pagecosmetology-main__direct-more">
+                                            <img src="/assets/images/chervon--blue_no-bg.svg" alt="">
+                                        </div>
+                                    </li>
+                                    <li class="pagecosmetology-main__direct-item">
+                                        <p class="pagecosmetology-main__direct-title">Лечение Акне</p>
+                                        <div class="pagecosmetology-main__direct-mask">
+                                            <img src="/assets/images/slide__img-3.webp" alt="">
+                                        </div>
+                                        <a href="#!" class="pagecosmetology-main__direct-detail">
+                                            <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                        </a>
+                                        <p class="pagecosmetology-main__direct-subtitle line-clamp-3">
+                                            Для лечения акне используются медикаментозная терапия, аппаратные
+                                            и инъекционные процедуры. В зависимости от выраженности и стадии развития
+                                            заболевания
+                                        </p>
+                                        <div class="pagecosmetology-main__direct-expand">
+                                            <div>
+                                                <div class="pagecosmetology-main__direct-cate-list">
+                                                    <a href="#!" class="pagecosmetology-main__direct-cate-item">
+                                                        <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                                        <p>Индивидуальное составление программы лечения</p>
+                                                    </a>
+                                                </div>
+                                                <a class="pagecosmetology-main__btn btn btn-blue"
+                                                    data-modal-onclick="cosmetology-modal-3">
+                                                    Записаться
+                                                    <div class="wrap__chervon">
+                                                        <img src="/assets/images/chervon--no-bg.svg" alt="" />
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="pagecosmetology-main__direct-more">
+                                            <img src="/assets/images/chervon--blue_no-bg.svg" alt="">
+                                        </div>
+                                    </li>
+                                    <li class="pagecosmetology-main__direct-item">
+                                        <p class="pagecosmetology-main__direct-title">Уходовые процедуры</p>
+                                        <div class="pagecosmetology-main__direct-mask">
+                                            <img src="/assets/images/slide__img-4.webp" alt="">
+                                        </div>
+                                        <a href="#!" class="pagecosmetology-main__direct-detail">
+                                            <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                        </a>
+                                        <p class="pagecosmetology-main__direct-subtitle line-clamp-3">
+                                            Процедуры, направленные на очистку и омоложение кожи лица, рук,
+                                            ног и живота. Процедуры подразумевают различные виды массажа, инъекции,
+                                            ультразвуковое и механическое воздействие, маски, пилинг и др.
+                                        </p>
+                                        <div class="pagecosmetology-main__direct-expand">
+                                            <div>
+                                                <div class="pagecosmetology-main__direct-cate-list">
+                                                    <a href="#!" class="pagecosmetology-main__direct-cate-item">
+                                                        <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                                        <p>Пилинги</p>
+                                                    </a>
+                                                    <a href="#!" class="pagecosmetology-main__direct-cate-item">
+                                                        <img src="/assets/images/arrow--no_bg.svg?1" alt="">
+                                                        <p>Чистка лица</p>
+                                                    </a>
+                                                </div>
+                                                <a class="pagecosmetology-main__btn btn btn-blue"
+                                                    data-modal-onclick="cosmetology-modal-3">
+                                                    Записаться
+                                                    <div class="wrap__chervon">
+                                                        <img src="/assets/images/chervon--no-bg.svg" alt="" />
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="pagecosmetology-main__direct-more">
+                                            <img src="/assets/images/chervon--blue_no-bg.svg" alt="">
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="pagecosmetology-main__content-item">
+                        <p class="pagecosmetology-main__content-title">Цены на услуги</p>
+                        <p class="pagecosmetology-main__content-subtitle--price">
+                            Актуальную информацию по ценам уточняйте у администраторов. Благодарим за понимание!
+                        </p>
+                        <ul class="pagecosmetology-main__price-list">
+                            <li class="pagecosmetology-main__price-item">
+                                <div class="title">Инъекционные процедуры</div>
+                                <div class="hover--hidden">
+                                    <div class="hover__price">от 2 350 ₽</div>
+                                    <div class="hover__more">
+                                        <img src="/assets/images/chervon--blue_no-bg.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="expand">
+                                    <div>
+                                        <ul class="list">
+                                            <li class="item">
+                                                <p class="item__cate">PRP-терапия RegenLab</p>
+                                                <p class="item__price">2&nbsp;350&nbsp;₽</p>
+                                            </li>
+                                            <li class="item">
+                                                <p class="item__cate">Биоревитализация / Мезотерапия</p>
+                                                <p class="item__price">3&nbsp;350&nbsp;₽</p>
+                                            </li>
+                                            <li class="item">
+                                                <p class="item__cate">Ботулинотерапия</p>
+                                                <p class="item__price">5&nbsp;000&nbsp;₽</p>
+                                            </li>
+                                            <li class="item">
+                                                <p class="item__cate">Контурная пластика</p>
+                                                <p class="item__price">7&nbsp;250&nbsp;₽</p>
+                                            </li>
+                                            <li class="item">
+                                                <p class="item__cate">Плазмотерапия</p>
+                                                <p class="item__price">10&nbsp;000&nbsp;₽</p>
+                                            </li>
+                                        </ul>
+                                        <a class="pagecosmetology-main__btn btn btn-white"
+                                            data-modal-onclick="cosmetology-modal-3">
+                                            Записаться
+                                            <div class="wrap__chervon">
+                                                <img src="/assets/images/chervon--no-bg.svg" alt="" />
+                                            </div>
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="pagecosmetology-main__price-item">
+                                <div class="title">Лазерная косметология</div>
+                                <div class="hover--hidden">
+                                    <div class="hover__price">от 2 000 ₽</div>
+                                    <div class="hover__more">
+                                        <img src="/assets/images/chervon--blue_no-bg.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="expand">
+                                    <div>
+                                        <ul class="list">
+                                            <li class="item">
+                                                <p class="item__cate">Smooth-омоложение</p>
+                                                <p class="item__price">2&nbsp;350&nbsp;₽</p>
+                                            </li>
+                                            <li class="item">
+                                                <p class="item__cate">Живая плазма</p>
+                                                <p class="item__price">3&nbsp;350&nbsp;₽</p>
+                                            </li>
+                                            <li class="item">
+                                                <p class="item__cate">Лазерная терапия при лечении акне</p>
+                                                <p class="item__price">5&nbsp;000&nbsp;₽</p>
+                                            </li>
+                                            <li class="item">
+                                                <p class="item__cate">Лазерная шлифовка</p>
+                                                <p class="item__price">7&nbsp;250&nbsp;₽</p>
+                                            </li>
+                                            <li class="item">
+                                                <p class="item__cate">Лазерная эпиляция</p>
+                                                <p class="item__price">10&nbsp;000&nbsp;₽</p>
+                                            </li>
+                                            <li class="item">
+                                                <p class="item__cate">PRP-терапия RegenLab</p>
+                                                <p class="item__price">10&nbsp;000&nbsp;₽</p>
+                                            </li>
+                                            <li class="item">
+                                                <p class="item__cate">Лазерное 3D-омоложение</p>
+                                                <p class="item__price">10&nbsp;000&nbsp;₽</p>
+                                            </li>
+                                            <li class="item">
+                                                <p class="item__cate">Лазерное 5D-омоложение</p>
+                                                <p class="item__price">10&nbsp;000&nbsp;₽</p>
+                                            </li>
+                                            <li class="item">
+                                                <p class="item__cate">Лазерное лечение новообразований</p>
+                                                <p class="item__price">10&nbsp;000&nbsp;₽</p>
+                                            </li>
+                                            <li class="item">
+                                                <p class="item__cate">Лазерное омоложение Fotona 4D</p>
+                                                <p class="item__price">10&nbsp;000&nbsp;₽</p>
+                                            </li>
+                                            <li class="item">
+                                                <p class="item__cate">Лазерное омоложение губ</p>
+                                                <p class="item__price">10&nbsp;000&nbsp;₽</p>
+                                            </li>
+                                            <li class="item">
+                                                <p class="item__cate">Лазерное удаление сосудов</p>
+                                                <p class="item__price">10&nbsp;000&nbsp;₽</p>
+                                            </li>
+                                            <li class="item">
+                                                <p class="item__cate">Лазерный пилинг</p>
+                                                <p class="item__price">10&nbsp;000&nbsp;₽</p>
+                                            </li>
+                                            <li class="item">
+                                                <p class="item__cate">Родиться заново</p>
+                                                <p class="item__price">10&nbsp;000&nbsp;₽</p>
+                                            </li>
+                                        </ul>
+                                        <a class="pagecosmetology-main__btn btn btn-white"
+                                            data-modal-onclick="cosmetology-modal-3">
+                                            Записаться
+                                            <div class="wrap__chervon">
+                                                <img src="/assets/images/chervon--no-bg.svg" alt="" />
+                                            </div>
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="pagecosmetology-main__price-item">
+                                <div class="title">Лечение акне</div>
+                                <div class="hover--hidden">
+                                    <div class="hover__price">от 1 700 ₽</div>
+                                    <div class="hover__more">
+                                        <img src="/assets/images/chervon--blue_no-bg.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="expand">
+                                    <div>
+                                        <ul class="list">
+                                            <li class="item">
+                                                <p class="item__cate">Индивидуальное составление программы лечения</p>
+                                                <p class="item__price">2&nbsp;350&nbsp;₽</p>
+                                            </li>
+                                        </ul>
+                                        <a class="pagecosmetology-main__btn btn btn-white"
+                                            data-modal-onclick="cosmetology-modal-3">
+                                            Записаться
+                                            <div class="wrap__chervon">
+                                                <img src="/assets/images/chervon--no-bg.svg" alt="" />
+                                            </div>
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="pagecosmetology-main__price-item">
+                                <div class="title">Уходовые процедуры</div>
+                                <div class="hover--hidden">
+                                    <div class="hover__price">от 1 700 ₽</div>
+                                    <div class="hover__more">
+                                        <img src="/assets/images/chervon--blue_no-bg.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="expand">
+                                    <div>
+                                        <ul class="list">
+                                            <li class="item">
+                                                <p class="item__cate">Пилинги</p>
+                                                <p class="item__price">2&nbsp;350&nbsp;₽</p>
+                                            </li>
+                                            <li class="item">
+                                                <p class="item__cate">Чистка лица</p>
+                                                <p class="item__price">3&nbsp;350&nbsp;₽</p>
+                                            </li>
+
+                                        </ul>
+                                        <a class="pagecosmetology-main__btn btn btn-white"
+                                            data-modal-onclick="cosmetology-modal-3">
+                                            Записаться
+                                            <div class="wrap__chervon">
+                                                <img src="/assets/images/chervon--no-bg.svg" alt="" />
+                                            </div>
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <div>
+
+                    <div class="pagecosmetology-main-slide__controls">
+                        <div class="pagecosmetology-main__direct-icon-left" onclick="plusSlides2(-1)">
+                            <img src="/assets/images/chervon--blue_no-bg.svg" alt="">
+                        </div>
+                        <div class="dot-list">
+                            <span class="dot active" onclick="currentSlide2(0)"></span>
+                            <span class="dot" onclick="currentSlide2(1)"></span>
+                            <span class="dot" onclick="currentSlide2(2)"></span>
+                            <!-- <span class="dot" onclick="currentSlide1(3)"></span> -->
+                        </div>
+                        <div class="pagecosmetology-main__direct-icon-right" onclick="plusSlides2(1)">
+                            <img src="/assets/images/chervon--blue_no-bg.svg" alt="">
+                        </div>
+                    </div>
+                    <script>
+                        {
+                            let slideIndex = 0;
+
+                            let slideList = document.querySelector(".pagecosmetology-main__direct-list");
+                            let dots = document.querySelectorAll(".pagecosmetology-main-slide__controls .dot");
+
+                            let x = window.matchMedia("(max-width: 979.98px)");
+                            function changeMediaQueries(x) {
+                                if (x.matches) {
+                                    slideList.style.transform = "translateX(0)";
+                                }
+                            }
+                            changeMediaQueries(x);
+                            x.addEventListener("change", function () {
+                                changeMediaQueries(x);
+                            });
+
+                            function plusSlides2(n) {
+                                showSlides2((slideIndex += n));
+                            }
+
+                            function currentSlide2(n) {
+                                showSlides2((slideIndex = n));
+                            }
+                            function showSlides2(n) {
+                                if (n > dots.length - 1) {
+                                    slideIndex = 0;
+                                }
+                                if (n < 0) {
+                                    slideIndex = dots.length - 1;
+                                }
+                                for (let i = 0; i < dots.length; i++) {
+                                    dots[i].className = dots[i].className.replace(" active", "");
+                                }
+                                dots[slideIndex].className += " active";
+                                slideList.style.transform = `translateX(${-1 * slideIndex * 100}%)`;
+                            }
+                        }
+                    </script>
+                </div>
+
+            </div>
+        </section>
+        <!-- До и После -->
+        <section class="main-result">
+            <div class="container">
+                <h2 class="main-result__title">До и После</h2>
+
+                <section class="main-result__wrap">
+                    <div class="list-swiper-tab-lv2 swiper-no-swiping ">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide swiper-slide-active">
+                                <div class="tab-swiper-lev2">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            Лазерная косметология
+                                        </div>
+                                        <div class="swiper-slide">
+                                            Инъекционные процедуры
+                                        </div>
+                                        <div class="swiper-slide">
+                                            Лечение Акне
+                                        </div>
+                                        <div class="swiper-slide">
+                                            Уходовые процедуры
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="list-swiper-img-lev3">
+                    <div class="img-swiper-lev3 swiper-no-swiping active">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="main-result__wrap-slide">
+                                    <section class="main-result-slide">
+                                        <ul class="swiper-wrapper">
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-1.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-1.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-1.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                        </ul>
+                                        <div class="main-result-slide__controls swiper-pagination">
+                                        </div>
+                                        <div class="icon__wrap">
+                                            <div class="icon__left">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" />
+                                            </div>
+                                            <div class="icon__right">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" />
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="main-result__wrap-slide">
+                                    <section class="main-result-slide">
+                                        <ul class="swiper-wrapper">
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-2.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-2.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-1.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                        </ul>
+                                        <div class="main-result-slide__controls swiper-pagination">
+                                        </div>
+                                        <div class="icon__wrap">
+                                            <div class="icon__left">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" />
+                                            </div>
+                                            <div class="icon__right">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" />
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="main-result__wrap-slide">
+                                    <section class="main-result-slide">
+                                        <ul class="swiper-wrapper">
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-1.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-2.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-1.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                        </ul>
+                                        <div class="main-result-slide__controls swiper-pagination">
+                                        </div>
+                                        <div class="icon__wrap">
+                                            <div class="icon__left">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" />
+                                            </div>
+                                            <div class="icon__right">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" />
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="main-result__wrap-slide">
+                                    <section class="main-result-slide">
+                                        <ul class="swiper-wrapper">
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-1.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-2.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-1.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                        </ul>
+                                        <div class="main-result-slide__controls swiper-pagination">
+                                        </div>
+                                        <div class="icon__wrap">
+                                            <div class="icon__left">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" />
+                                            </div>
+                                            <div class="icon__right">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" />
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+
+                <a class="main-result__btn btn btn-blue" data-modal-onclick="form-modal">
+                    Записаться
+                    <div class="wrap__chervon">
+                        <img src="/assets/images/chervon--no-bg.svg" alt="" />
+                    </div>
+                </a>
+
+                <section class="modal form-modal" id="form-modal">
+                    <div class="modal-content">
+                        <div class="modal-close modal-close-js">
+                            <img class="modal-close-btn" src="/assets/images/close-icon--light.svg" alt="">
+                        </div>
+                        <section class="main-form">
+                            <form action="" class="appoint__form">
+                                <input type="text" placeholder="*Ваше имя" class="appoint__field" name="name"
+                                    minlength="1" required />
+                                <input type="text" placeholder="*Телефон" class="appoint__field" name="phone"
+                                    pattern="[+7]+[0-9]{11}" required />
+                                <div class="custom-select">
+                                    <select name="" id="" required autocomplete="off">
+                                        <option value="0">Выберите услугу</option>
+                                        <option value="1">Косметология</option>
+                                        <option value="2">Генетика</option>
+                                        <option value="3">Трихология</option>
+                                        <option value="4">Иммунодиетология</option>
+                                        <option value="5">Anti-Age</option>
+                                        <option value="6">
+                                            Чекап организма
+                                        </option>
+                                        <option value="7">Микробиом кишечника</option>
+                                        <option value="8">Снижение веса</option>
+                                    </select>
+                                </div>
+                                <button type="submit" class="appoint__btn btn btn-white">
+                                    Записаться
+                                    <div class="wrap__chervon">
+                                        <img src="/assets/images/chervon--no-bg.svg" alt="" />
+                                    </div>
+                                </button>
+                                <label class="appoint__policy">
+                                    <input type="checkbox" class="appoint__policy-checkbox-real" required />
+                                    <div class="appoint__policy-checkbox-fake"></div>
+                                    <div class="appoint__policy-text">
+                                        Я согласен на обработку
+                                        <a href="#!" class="appoint__policy-data">
+                                            персональных данных
+                                        </a>
+                                    </div>
+                                </label>
+
+                            </form>
+                        </section>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <!-- Запись -->
+        <section class="appoint">
+            <div class="container" style="position: relative">
+                <h2 class="appoint__title">Готовы к переменам?</h2>
+                <p class="appoint__subtitle">
+                    Получите консультацию врача
+                </p>
+                <form action="" class="appoint__form">
+                    <input type="text" placeholder="*Ваше имя" class="appoint__field" name="name" minlength="1"
+                        required />
+                    <input type="text" placeholder="*Телефон" class="appoint__field" name="phone"
+                        pattern="[+7]+[0-9]{11}" required />
+
+                    <button type="submit" class="appoint__btn btn btn-white">
+                        Записаться
+                        <div class="wrap__chervon">
+                            <img src="/assets/images/chervon--no-bg.svg" alt="" />
+                        </div>
+                    </button>
+                    <label class="appoint__policy">
+                        <input type="checkbox" class="appoint__policy-checkbox-real" required />
+                        <div class="appoint__policy-checkbox-fake"></div>
+                        <div class="appoint__policy-text">
+                            Я согласен на обработку
+                            <a href="#!" class="appoint__policy-data">
+                                персональных данных
+                            </a>
+                        </div>
+                    </label>
+                </form>
+                <img src="/assets/images/form__decor--mobile.webp?1" alt="" class="appoint__decor--mobile"
+                    style="opacity: 0.9;" />
+            </div>
+            <img src="/assets/images/form__decor--desktop.webp" alt="" class="appoint__decor--desktop" />
+        </section>
+
+        <section class="pagecosmetology-service">
+            <div class="container">
+                <section class="pagecosmetology-service__header pagerow">
+                    <h2 class="pagecosmetology-service__title">Услуги</h2>
+                    <a href="/services" class="pagecosmetology-service__btn btn btn-blue">Все услуги</a>
+                </section>
+
+            </div>
+            <section class="pagecosmetology-service__body">
+                <ul class="pagecosmetology-service__list">
+                    <li class="pagecosmetology-service__item">
+                        <p class="pagecosmetology-service__item-title">Косметология</p>
+                        <img src="/assets/images/service-decor-1.webp" class="pagecosmetology-service__item-bg" />
+                        <a href="" class="pagecosmetology-service__item-btn btn btn-white">Перейти</a>
+                    </li>
+                    <li class="pagecosmetology-service__item">
+                        <p class="pagecosmetology-service__item-title">Генетика</p>
+                        <img src="/assets/images/service-decor-2.webp" class="pagecosmetology-service__item-bg" />
+                        <a href="" class="pagecosmetology-service__item-btn btn btn-white">Перейти</a>
+                    </li>
+                    <li class="pagecosmetology-service__item">
+                        <p class="pagecosmetology-service__item-title">Трихология</p>
+                        <img src="/assets/images/service-decor-3.webp" class="pagecosmetology-service__item-bg" />
+                        <a href="" class="pagecosmetology-service__item-btn btn btn-white">Перейти</a>
+                    </li>
+                    <li class="pagecosmetology-service__item">
+                        <p class="pagecosmetology-service__item-title">Иммунодиетология</p>
+                        <img src="/assets/images/service-decor-4.webp" class="pagecosmetology-service__item-bg" />
+                        <a href="" class="pagecosmetology-service__item-btn btn btn-white">Перейти</a>
+                    </li>
+                    <li class="pagecosmetology-service__item">
+                        <p class="pagecosmetology-service__item-title">Anti-Age</p>
+                        <img src="/assets/images/service-decor-5.webp" class="pagecosmetology-service__item-bg" />
+                        <a href="" class="pagecosmetology-service__item-btn btn btn-white">Перейти</a>
+                    </li>
+                    <li class="pagecosmetology-service__item">
+                        <p class="pagecosmetology-service__item-title">Чекап организма</p>
+                        <img src="/assets/images/service-decor-6.webp" class="pagecosmetology-service__item-bg" />
+                        <a href="" class="pagecosmetology-service__item-btn btn btn-white">Перейти</a>
+                    </li>
+                    <li class="pagecosmetology-service__item">
+                        <p class="pagecosmetology-service__item-title">Микробиом кишечника</p>
+                        <img src="/assets/images/service-decor-8.webp" class="pagecosmetology-service__item-bg" />
+                        <a href="" class="pagecosmetology-service__item-btn btn btn-white">Перейти</a>
+                    </li>
+                    <li class="pagecosmetology-service__item">
+                        <p class="pagecosmetology-service__item-title">Снижение веса</p>
+                        <img src="/assets/images/service-decor-7.webp" class="pagecosmetology-service__item-bg" />
+                        <a href="" class="pagecosmetology-service__item-btn btn btn-white">Перейти</a>
+                    </li>
+                </ul>
+            </section>
+        </section>
+
+        <section class="modal-list">
+            <section class="modal form-modal" id="cosmetology-modal-1">
+                <div class="modal-content">
+                    <div class="modal-close modal-close-js">
+                        <img class="modal-close-btn" src="/assets/images/close-icon--light.svg" alt="">
+                    </div>
+                    <section class="main-form">
+                        <form action="" class="appoint__form">
+                            <input type="text" placeholder="*Ваше имя" class="appoint__field" name="name" minlength="1"
+                                required />
+                            <input type="text" placeholder="*Телефон" class="appoint__field" name="phone"
+                                pattern="[+7]+[0-9]{11}" required />
+                            <!-- <div class="custom-select">
+                                <select name="" id="" required autocomplete="off">
+                                    <option value="0">Выберите услугу</option>
+                                    <option value="1">Косметология</option>
+                                    <option value="2">Генетика</option>
+                                    <option value="3">Трихология</option>
+                                    <option value="4">Иммунодиетология</option>
+                                    <option value="5">Anti-Age</option>
+                                    <option value="6">
+                                        Чекап организма
+                                    </option>
+                                    <option value="7">Микробиом кишечника</option>
+                                    <option value="8">Снижение веса</option>
+                                </select>
+                            </div> -->
+                            <button type="submit" class="appoint__btn btn btn-white">
+                                Записаться
+                                <div class="wrap__chervon">
+                                    <img src="/assets/images/chervon--no-bg.svg" alt="" />
+                                </div>
+                            </button>
+                            <label class="appoint__policy">
+                                <input type="checkbox" class="appoint__policy-checkbox-real" required />
+                                <div class="appoint__policy-checkbox-fake"></div>
+                                <div class="appoint__policy-text">
+                                    Я согласен на обработку
+                                    <a href="#!" class="appoint__policy-data">
+                                        персональных данных
+                                    </a>
+                                </div>
+                            </label>
+
+                        </form>
+                    </section>
+
+                </div>
+            </section>
+            <section class="modal form-modal" id="cosmetology-modal-2">
+                <div class="modal-content">
+                    <div class="modal-close modal-close-js">
+                        <img class="modal-close-btn" src="/assets/images/close-icon--light.svg" alt="">
+                    </div>
+                    <section class="main-form">
+                        <form action="" class="appoint__form">
+                            <input type="text" placeholder="*Ваше имя" class="appoint__field" name="name" minlength="1"
+                                required />
+                            <input type="text" placeholder="*Телефон" class="appoint__field" name="phone"
+                                pattern="[+7]+[0-9]{11}" required />
+                            <div class="custom-select">
+                                <select name="" id="" required autocomplete="off">
+                                    <option value="0">Выберите услугу</option>
+                                    <option value="1">PRP-терапия RegenLab</option>
+                                    <option value="2">Биоревитализация / Мезотерапия
+                                    </option>
+                                    <option value="3">Ботулинотерапия</option>
+                                    <option value="4">Контурная пластика</option>
+                                    <option value="5">Плазмотерапия</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="appoint__btn btn btn-white">
+                                Записаться
+                                <div class="wrap__chervon">
+                                    <img src="/assets/images/chervon--no-bg.svg" alt="" />
+                                </div>
+                            </button>
+                            <label class="appoint__policy">
+                                <input type="checkbox" class="appoint__policy-checkbox-real" required />
+                                <div class="appoint__policy-checkbox-fake"></div>
+                                <div class="appoint__policy-text">
+                                    Я согласен на обработку
+                                    <a href="#!" class="appoint__policy-data">
+                                        персональных данных
+                                    </a>
+                                </div>
+                            </label>
+
+                        </form>
+                    </section>
+                </div>
+            </section>
+            <section class="modal form-modal" id="cosmetology-modal-3">
+                <div class="modal-content">
+                    <div class="modal-close modal-close-js">
+                        <img class="modal-close-btn" src="/assets/images/close-icon--light.svg" alt="">
+                    </div>
+                    <section class="main-form">
+                        <form action="" class="appoint__form">
+                            <input type="text" placeholder="*Ваше имя" class="appoint__field" name="name" minlength="1"
+                                required />
+                            <input type="text" placeholder="*Телефон" class="appoint__field" name="phone"
+                                pattern="[+7]+[0-9]{11}" required />
+                            <div class="custom-select">
+                                <select name="" id="" required autocomplete="off">
+                                    <option value="0">Выберите услугу</option>
+                                    <option value="1">Smooth-омоложение</option>
+                                    <option value="3">Живая плазма</option>
+                                    <option value="4">Лазерная терапия при лечении акне
+                                    </option>
+                                    <option value="5">Лазерная шлифовка</option>
+                                    <option value="6">Лазерная эпиляция</option>
+                                    <option value="7">PRP-терапия RegenLab</option>
+                                    <option value="8">Лазерное 3D-омоложение</option>
+                                    <option value="9">Лазерное 5D-омоложение</option>
+                                    <option value="10">Лазерное лечение новообразований
+                                    </option>
+                                    <option value="11">Лазерное омоложение Fotona 4D
+                                    </option>
+                                    <option value="12">Лазерное омоложение губ</option>
+                                    <option value="13">Лазерное удаление сосудов</option>
+                                    <option value="14">Лазерный пилинг</option>
+                                    <option value="15">Родиться заново</option>
+
+                                </select>
+                            </div>
+                            <button type="submit" class="appoint__btn btn btn-white">
+                                Записаться
+                                <div class="wrap__chervon">
+                                    <img src="/assets/images/chervon--no-bg.svg" alt="" />
+                                </div>
+                            </button>
+                            <label class="appoint__policy">
+                                <input type="checkbox" class="appoint__policy-checkbox-real" required />
+                                <div class="appoint__policy-checkbox-fake"></div>
+                                <div class="appoint__policy-text">
+                                    Я согласен на обработку
+                                    <a href="#!" class="appoint__policy-data">
+                                        персональных данных
+                                    </a>
+                                </div>
+                            </label>
+
+                        </form>
+                    </section>
+
+                </div>
+            </section>
+            <section class="modal" id="cosmetology-modal-4">
+                <div class="modal-content">
+                    <div class="modal-close modal-close-js">
+                        <img class="modal-close-btn" src="/assets/images/close-icon--light.svg" alt="">
+                    </div>
+                    <section class="main-form">
+                        <form action="" class="appoint__form">
+                            <input type="text" placeholder="*Ваше имя" class="appoint__field" name="name" minlength="1"
+                                required />
+                            <input type="text" placeholder="*Телефон" class="appoint__field" name="phone"
+                                pattern="[+7]+[0-9]{11}" required />
+                            <div class="custom-select">
+                                <select name="" id="" required autocomplete="off">
+                                    <option value="0">Выберите услугу</option>
+                                    <option value="1">Индивидуальное составление программы&nbsp;лечения</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="appoint__btn btn btn-white">
+                                Записаться
+                                <div class="wrap__chervon">
+                                    <img src="/assets/images/chervon--no-bg.svg" alt="" />
+                                </div>
+                            </button>
+                            <label class="appoint__policy">
+                                <input type="checkbox" class="appoint__policy-checkbox-real" required />
+                                <div class="appoint__policy-checkbox-fake"></div>
+                                <div class="appoint__policy-text">
+                                    Я согласен на обработку
+                                    <a href="#!" class="appoint__policy-data">
+                                        персональных данных
+                                    </a>
+                                </div>
+                            </label>
+
+                        </form>
+                    </section>
+
+                </div>
+            </section>
+            <section class="modal" id="cosmetology-modal-5">
+                <div class="modal-content">
+                    <div class="modal-close modal-close-js">
+                        <img class="modal-close-btn" src="/assets/images/close-icon--light.svg" alt="">
+                    </div>
+                    <section class="main-form">
+                        <form action="" class="appoint__form">
+                            <input type="text" placeholder="*Ваше имя" class="appoint__field" name="name" minlength="1"
+                                required />
+                            <input type="text" placeholder="*Телефон" class="appoint__field" name="phone"
+                                pattern="[+7]+[0-9]{11}" required />
+                            <div class="custom-select">
+                                <select name="" id="" required autocomplete="off">
+                                    <option value="0">Выберите услугу</option>
+                                    <option value="1">Пилинги</option>
+                                    <option value="2">Чистка лица</option>
+
+                                </select>
+                            </div>
+                            <button type="submit" class="appoint__btn btn btn-white">
+                                Записаться
+                                <div class="wrap__chervon">
+                                    <img src="/assets/images/chervon--no-bg.svg" alt="" />
+                                </div>
+                            </button>
+                            <label class="appoint__policy">
+                                <input type="checkbox" class="appoint__policy-checkbox-real" required />
+                                <div class="appoint__policy-checkbox-fake"></div>
+                                <div class="appoint__policy-text">
+                                    Я согласен на обработку
+                                    <a href="#!" class="appoint__policy-data">
+                                        персональных данных
+                                    </a>
+                                </div>
+                            </label>
+
+                        </form>
+                    </section>
+
+                </div>
+            </section>
+            <section class="modal" id="cosmetology-modal-6">
+                <div class="modal-content">
+                    <div class="modal-close modal-close-js">
+                        <img class="modal-close-btn" src="/assets/images/close-icon--light.svg" alt="">
+                    </div>
+                    <section class="main-form">
+                        <form action="" class="appoint__form">
+                            <input type="text" placeholder="*Ваше имя" class="appoint__field" name="name" minlength="1"
+                                required />
+                            <input type="text" placeholder="*Телефон" class="appoint__field" name="phone"
+                                pattern="[+7]+[0-9]{11}" required />
+                            <!-- <div class="custom-select">
+                                <select name="" id="" required autocomplete="off">
+                                    <option value="0">Выберите услугу</option>
+                                    <option value="1">Косметология</option>
+                                    <option value="2">Генетика</option>
+                                    <option value="3">Трихология</option>
+                                    <option value="4">Иммунодиетология</option>
+                                    <option value="5">Anti-Age</option>
+                                    <option value="6">
+                                        Чекап организма
+                                    </option>
+                                    <option value="7">Микробиом кишечника</option>
+                                    <option value="8">Снижение веса</option>
+                                </select>
+                            </div> -->
+                            <button type="submit" class="appoint__btn btn btn-white">
+                                Записаться
+                                <div class="wrap__chervon">
+                                    <img src="/assets/images/chervon--no-bg.svg" alt="" />
+                                </div>
+                            </button>
+                            <label class="appoint__policy">
+                                <input type="checkbox" class="appoint__policy-checkbox-real" required />
+                                <div class="appoint__policy-checkbox-fake"></div>
+                                <div class="appoint__policy-text">
+                                    Я согласен на обработку
+                                    <a href="#!" class="appoint__policy-data">
+                                        персональных данных
+                                    </a>
+                                </div>
+                            </label>
+
+                        </form>
+                    </section>
+
+                </div>
+            </section>
+        </section>
+    </main>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/template/footer.html'; ?>
+    <script type="module" src="/assets/js/index.js"></script>
+</body>
+
+</html>

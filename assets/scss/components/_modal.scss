@@ -1,0 +1,76 @@
+@use "../abs";
+
+.modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(203, 203, 203, 0.5);
+    z-index: 3;
+    display: none;
+
+
+
+    &-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        translate: -50% -50%;
+        width: min(450px, 100% - 20px);
+        max-height: 100vh;
+        overflow: auto;
+        -ms-overflow-style: none;
+        /* IE and Edge */
+        scrollbar-width: none;
+
+        /* Firefox */
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
+    }
+
+    &-close {
+        margin-left: auto;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        display: flex;
+        width: 40px;
+        height: 40px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        border: 1px solid var(--dark-primary-color);
+        background-color: #e4f7ff18;
+        -webkit-backdrop-filter: blur(6px);
+        backdrop-filter: blur(6px);
+        cursor: pointer;
+
+        @include abs.responsive(md) {
+            top: -50px;
+            right: -50px;
+        }
+
+        &-btn {
+            flex-shrink: 0;
+            width: 40%;
+        }
+
+    }
+}
+
+// Exception
+.form-modal.modal {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+
+    /* Firefox */
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    overflow: auto;
+
+    .modal-content {
+        overflow: visible;
+    }
+}

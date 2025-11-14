@@ -1,0 +1,550 @@
+<!-- Side bar Moble -->
+<sidebar class="side-bar-mobile">
+    <div id="sidebar__modal" class="sidebar__modal">
+        <!-- Modal content-->
+        <div class="menu-content">
+            <img src="/assets/images/close-icon--light.svg" alt="" class="menu-content__close" />
+            <div class="menu-content__st-level">
+                <ul class="menu-content__list">
+                    <li>
+                        <a href="/" class="menu-content__item">
+                            <p class="menu-content__title">Главная</p>
+                        </a>
+                    </li>
+                    <li>
+                        <div class="menu-content__item" onclick="openMenu(event)">
+                            <a class="menu-content__title" href="/services/">Услуги</a>
+                            <div class="menu-content__right">
+                                <img src="/assets/images/chervon--blue_no-bg.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="menu-content__nd-level js--menu">
+                            <a class="menu-content__back-btn pagerow" onclick="closeMenu(event)">
+                                <div class="menu-content__left">
+                                    <img src="/assets/images/chervon--blue_no-bg.svg" alt="">
+                                </div>
+                                <p class="menu-content__back-text">Назад</p>
+                            </a>
+                            <p class="menu-content__title-menu">Услуги</p>
+                            <ul class="menu-content__list">
+                                <li>
+                                    <div class="menu-content__item" onclick="openMenu(event)">
+                                        <a class="menu-content__title" href="/services/cosmetology">Косметология</a>
+                                        <div class="menu-content__right">
+                                            <img src="/assets/images/chervon--blue_no-bg.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="menu-content__rd-level js--menu">
+                                        <a class="menu-content__back-btn pagerow" onclick="closeMenu(event)">
+                                            <div class="menu-content__left">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" alt="">
+                                            </div>
+                                            <p class="menu-content__back-text">Назад</p>
+                                        </a>
+                                        <p class="menu-content__title-menu">Косметология</p>
+                                        <ul class="header__nav-nd-menu menu-content__fourth-level">
+                                            <li class="header__nav-menu-child" style="flex-wrap: wrap">
+                                                <p class="header__nav-menu-child-text">
+                                                    Инъекционные процедуры
+                                                </p>
+                                                <img src="/assets/images/chervon--blue_no-bg-bold.svg" alt=""
+                                                    class="header__nav-menu-child-img" />
+                                                <div class="header__nav-rd-menu">
+                                                    <a href="#!" class="header__nav-menu-child-text">
+                                                        Ботулинотерапия
+                                                    </a>
+                                                    <a href="#!" class="header__nav-menu-child-text">
+                                                        Биоревитализация / Мезотерапия
+                                                    </a>
+                                                    <a href="#!" class="header__nav-menu-child-text">
+                                                        Контурная пластика
+                                                    </a>
+                                                    <a href="#!" class="header__nav-menu-child-text">
+                                                        Плазмотерапия
+                                                    </a>
+                                                    <a href="#!" class="header__nav-menu-child-text">
+                                                        PRP-терапия RegenLab
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li class="header__nav-menu-child" style="flex-wrap: wrap">
+                                                <p class="header__nav-menu-child-text">
+                                                    Лазерная косметология
+                                                </p>
+                                                <img src="/assets/images/chervon--blue_no-bg-bold.svg" alt=""
+                                                    class="header__nav-menu-child-img" />
+                                                <div class="header__nav-rd-menu">
+                                                    <a href="#!" class="header__nav-menu-child-text">
+                                                        Лазерное омоложение
+                                                    </a>
+                                                    <a href="#!" class="header__nav-menu-child-text">
+                                                        Лазерное 5D-омоложение
+                                                    </a>
+                                                    <a href="#!" class="header__nav-menu-child-text">
+                                                        Лазерное омоложение Fotona 4D
+                                                    </a>
+                                                    <a href="#!" class="header__nav-menu-child-text">
+                                                        Лазерное омоложение Fotona 4D
+                                                    </a>
+                                                    <a href="#!" class="header__nav-menu-child-text">
+                                                        Живая плазма
+                                                    </a>
+                                                    <a href="#!" class="header__nav-menu-child-text">
+                                                        Smooth-омоложение
+                                                    </a>
+                                                    <a href="#!" class="header__nav-menu-child-text">
+                                                        Родиться заново
+                                                    </a>
+                                                    <a href="#!" class="header__nav-menu-child-text">
+                                                        Лазерное омоложение губ
+                                                    </a>
+                                                    <a href="#!" class="header__nav-menu-child-text">
+                                                        Лазерный пилинг
+                                                    </a>
+                                                    <a href="#!" class="header__nav-menu-child-text">
+                                                        Лазерная шлифовка
+                                                    </a>
+                                                    <a href="#!" class="header__nav-menu-child-text">
+                                                        Лазерная эпиляция
+                                                    </a>
+                                                    <a href="#!" class="header__nav-menu-child-text">
+                                                        Лазерное удаление сосудов
+                                                    </a>
+                                                    <a href="#!" class="header__nav-menu-child-text">
+                                                        Лазерная терапия при лечении акне
+                                                    </a>
+                                                    <a href="#!" class="header__nav-menu-child-text">
+                                                        Лазерное лечение новообразований
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li class="header__nav-menu-child" style="flex-wrap: wrap">
+                                                <p class="header__nav-menu-child-text">
+                                                    Лечение Акне
+                                                </p>
+                                                <img src="/assets/images/chervon--blue_no-bg-bold.svg" alt=""
+                                                    class="header__nav-menu-child-img" />
+                                                <div class="header__nav-rd-menu">
+                                                    <a href="#!" class="header__nav-menu-child-text">
+                                                        Индивидуальное составление программы лечения
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li class="header__nav-menu-child" style="flex-wrap: wrap">
+                                                <p class="header__nav-menu-child-text">
+                                                    Уходовые процедуры
+                                                </p>
+                                                <img src="/assets/images/chervon--blue_no-bg-bold.svg" alt=""
+                                                    class="header__nav-menu-child-img" />
+                                                <div class="header__nav-rd-menu">
+                                                    <a href="#!" class="header__nav-menu-child-text">
+                                                        Пилинги
+                                                    </a>
+                                                    <a href="#!" class="header__nav-menu-child-text">
+                                                        Чистка лица
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li class="header__nav-menu-child" style="flex-wrap: wrap">
+                                                <p class="header__nav-menu-child-text">
+                                                    Подтяжка лица нитями
+                                                </p>
+                                                <img src="/assets/images/chervon--blue_no-bg-bold.svg" alt=""
+                                                    class="header__nav-menu-child-img" />
+                                                <div class="header__nav-rd-menu">
+                                                    <a href="#!" class="header__nav-menu-child-text">
+                                                        Подтяжка лица нитями
+                                                    </a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="menu-content__item" onclick="openMenu(event)">
+                                        <a class="menu-content__title" href="/services/cosmetology">Генетика</a>
+                                        <div class="menu-content__right">
+                                            <img src="/assets/images/chervon--blue_no-bg.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="menu-content__rd-level js--menu">
+                                        <a class="menu-content__back-btn pagerow" onclick="closeMenu(event)">
+                                            <div class="menu-content__left">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" alt="">
+                                            </div>
+                                            <p class="menu-content__back-text">Назад</p>
+                                        </a>
+                                        <p class="menu-content__title-menu">Генетика</p>
+                                        <ul class="header__nav-nd-menu menu-content__fourth-level">
+                                            <li class="header__nav-menu-child" style="flex-wrap: wrap">
+                                                <p class="header__nav-menu-child-text">
+                                                    Генетические панели
+                                                </p>
+                                                <img src="/assets/images/chervon--blue_no-bg-bold.svg" alt=""
+                                                    class="header__nav-menu-child-img" />
+                                                <div class="header__nav-rd-menu">
+                                                    <a href="#!" class="header__nav-menu-child-text">
+                                                        Панель: Косметология
+                                                    </a>
+                                                    <a href="#!" class="header__nav-menu-child-text">
+                                                        Панель: Трихология
+                                                    </a>
+                                                    <a href="#!" class="header__nav-menu-child-text">
+                                                        Панель: Диетология
+                                                    </a>
+                                                    <a href="#!" class="header__nav-menu-child-text">
+                                                        Панель: Активное долголетие
+                                                    </a>
+                                                    <a href="#!" class="header__nav-menu-child-text">
+                                                        Панель: Эндокринология. Половые стероиды
+                                                    </a>
+
+                                                </div>
+                                            </li>
+                                            <li class="header__nav-menu-child" style="flex-wrap: wrap">
+                                                <p class="header__nav-menu-child-text">
+                                                    Генетический таргер
+                                                </p>
+                                                <img src="/assets/images/chervon--blue_no-bg-bold.svg" alt=""
+                                                    class="header__nav-menu-child-img" />
+                                                <div class="header__nav-rd-menu">
+                                                    <a href="#!" class="header__nav-menu-child-text">
+                                                        Таргет: Сахарный диабет
+                                                    </a>
+                                                    <a href="#!" class="header__nav-menu-child-text">
+                                                        Таргет: Витамины
+                                                    </a>
+                                                    <a href="#!" class="header__nav-menu-child-text">
+                                                        Таргет: Антиоксидантная защита
+                                                    </a>
+                                                    <a href="#!" class="header__nav-menu-child-text">
+                                                        Таргет: Устойчивость к инфекциям
+                                                    </a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="menu-content__item" onclick="openMenu(event)">
+                                        <a class="menu-content__title" href="/services/cosmetology">Трихология</a>
+                                        <div class="menu-content__right">
+                                            <img src="/assets/images/chervon--blue_no-bg.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="menu-content__rd-level js--menu">
+                                        <a class="menu-content__back-btn pagerow" onclick="closeMenu(event)">
+                                            <div class="menu-content__left">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" alt="">
+                                            </div>
+                                            <p class="menu-content__back-text">Назад</p>
+                                        </a>
+                                        <p class="menu-content__title-menu">Трихология</p>
+                                        <ul class="header__nav-nd-menu menu-content__fourth-level">
+                                            <li class="header__nav-menu-child" style="flex-wrap: wrap">
+                                                <a href="#!" class="header__nav-menu-child-text">
+                                                    Лазерное лечение «Hair Restart»
+                                                </a>
+                                            </li>
+                                            <li class="header__nav-menu-child" style="flex-wrap: wrap">
+                                                <a href="#!" class="header__nav-menu-child-text">
+                                                    Комплексная диагностика выпадения волос
+                                                </a>
+                                            </li>
+                                            <li class="header__nav-menu-child" style="flex-wrap: wrap">
+                                                <a href="#!" class="header__nav-menu-child-text">
+                                                    Мезотерапия / Плазмотерапия (PRP) волос
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="menu-content__item" onclick="openMenu(event)">
+                                        <a class="menu-content__title" href="/services/cosmetology">Иммунодиетология</a>
+                                        <div class="menu-content__right">
+                                            <img src="/assets/images/chervon--blue_no-bg.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="menu-content__rd-level js--menu">
+                                        <a class="menu-content__back-btn pagerow" onclick="closeMenu(event)">
+                                            <div class="menu-content__left">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" alt="">
+                                            </div>
+                                            <p class="menu-content__back-text">Назад</p>
+                                        </a>
+                                        <p class="menu-content__title-menu">Иммунодиетология</p>
+                                        <ul class="header__nav-nd-menu menu-content__fourth-level">
+                                            <li class="header__nav-menu-child" style="flex-wrap: wrap">
+                                                <a href="#!" class="header__nav-menu-child-text">
+                                                    «ImmunoHealth™» анализ
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="menu-content__item" onclick="openMenu(event)">
+                                        <a class="menu-content__title" href="/services/cosmetology">Anti-age</a>
+                                        <div class="menu-content__right">
+                                            <img src="/assets/images/chervon--blue_no-bg.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="menu-content__rd-level js--menu">
+                                        <a class="menu-content__back-btn pagerow" onclick="closeMenu(event)">
+                                            <div class="menu-content__left">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" alt="">
+                                            </div>
+                                            <p class="menu-content__back-text">Назад</p>
+                                        </a>
+                                        <p class="menu-content__title-menu">Anti-age</p>
+                                        <ul class="header__nav-nd-menu menu-content__fourth-level">
+                                            <li class="header__nav-menu-child" style="flex-wrap: wrap">
+                                                <a href="#!" class="header__nav-menu-child-text">
+                                                    Комплексная диагностика
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="menu-content__item" onclick="openMenu(event)">
+                                        <a class="menu-content__title" href="/services/cosmetology">Чекап организма</a>
+                                        <div class="menu-content__right">
+                                            <img src="/assets/images/chervon--blue_no-bg.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="menu-content__rd-level js--menu">
+                                        <a class="menu-content__back-btn pagerow" onclick="closeMenu(event)">
+                                            <div class="menu-content__left">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" alt="">
+                                            </div>
+                                            <p class="menu-content__back-text">Назад</p>
+                                        </a>
+                                        <p class="menu-content__title-menu">Чекап организма</p>
+                                        <ul class="header__nav-nd-menu menu-content__fourth-level">
+                                            <li class="header__nav-menu-child" style="flex-wrap: wrap">
+                                                <a href="#!" class="header__nav-menu-child-text">
+                                                    Комплексная диагностика
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="menu-content__item" onclick="openMenu(event)">
+                                        <a class="menu-content__title" href="/services/cosmetology">Микробиом
+                                            кишечника</a>
+                                        <div class="menu-content__right">
+                                            <img src="/assets/images/chervon--blue_no-bg.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="menu-content__rd-level js--menu">
+                                        <a class="menu-content__back-btn pagerow" onclick="closeMenu(event)">
+                                            <div class="menu-content__left">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" alt="">
+                                            </div>
+                                            <p class="menu-content__back-text">Назад</p>
+                                        </a>
+                                        <p class="menu-content__title-menu">Микробиом кишечника</p>
+                                        <ul class="header__nav-nd-menu menu-content__fourth-level">
+                                            <li class="header__nav-menu-child" style="flex-wrap: wrap">
+                                                <a href="#!" class="header__nav-menu-child-text">
+                                                    Комплексная диагностика
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="menu-content__item" onclick="openMenu(event)">
+                                        <a class="menu-content__title" href="/services/cosmetology">Снижение веса</a>
+                                        <div class="menu-content__right">
+                                            <img src="/assets/images/chervon--blue_no-bg.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="menu-content__rd-level js--menu">
+                                        <a class="menu-content__back-btn pagerow" onclick="closeMenu(event)">
+                                            <div class="menu-content__left">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" alt="">
+                                            </div>
+                                            <p class="menu-content__back-text">Назад</p>
+                                        </a>
+                                        <p class="menu-content__title-menu">Снижение веса</p>
+                                        <ul class="header__nav-nd-menu menu-content__fourth-level">
+                                            <li class="header__nav-menu-child" style="flex-wrap: wrap">
+                                                <a href="#!" class="header__nav-menu-child-text">
+                                                    Body Slim
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="/about_doctor" class="menu-content__item">
+                            <p class="menu-content__title">О Враче</p>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="/blog" class="menu-content__item">
+                            <p class="menu-content__title">Блог</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/contacts" class="menu-content__item">
+                            <p class="menu-content__title">Контакты</p>
+                        </a>
+                    </li>
+                </ul>
+                <a href="#!" class="menu-content__btn btn btn-blue">
+                    Записаться онлайн
+                    <div class="wrap__chervon">
+                        <img src="/assets/images/chervon--no-bg.svg" alt="" />
+                    </div>
+                </a>
+                <div class="menu-content__address pagerow">
+                    <img src="/assets/images/pin-address__icon.svg" alt="" class="address__icon" />
+                    <p class="address__text">
+                        Санкт-Петербург, ул.&nbsp;Малая&nbsp;Монетная&nbsp;д.5
+                    </p>
+                </div>
+                <ul class="menu-content__social">
+                    <li>
+                        <a href="#!" class="pagerow social__item">
+                            <img src="/assets/images/sub-bar__icon-1.svg" alt="" class="social__icon" />
+                            <p class="social__text">Telegram</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#!" class="pagerow social__item">
+                            <img src="/assets/images/sub-bar__icon-2.svg" alt="" class="social__icon" />
+                            <p class="social__text">WhatsApp</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#!" class="pagerow social__item">
+                            <img src="/assets/images/sub-bar__icon-4.svg" alt="" class="social__icon" />
+                            <p class="social__text">Вконтакте</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#!" class="pagerow social__item">
+                            <img src="/assets/images/sub-bar__icon-3.svg" alt="" class="social__icon" />
+                            <p class="social__text">info@geneticlife.ru</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- <div class="menu-content__nd-level js--menu">
+                <a class="menu-content__back-btn pagerow" onclick="closeMenu()">
+                    <div class="menu-content__left">
+                        <img src="/assets/images/chervon--blue_no-bg.svg" alt="">
+                    </div>
+                    <p class="menu-content__back-text">Назад</p>
+                </a>
+                <p class="menu-content__title-menu">Услуги</p>
+                <ul class="menu-content__list">
+                    <li>
+                        <div class="menu-content__item">
+                            <a class="menu-content__title" href="/services/cosmetology">Косметология</a>
+                            <div class="menu-content__right">
+                                <img src="/assets/images/chervon--blue_no-bg.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="menu-content__rd-level js--menu">
+                            <a class="menu-content__back-btn pagerow" onclick="closeMenu()">
+                                <div class="menu-content__left">
+                                    <img src="/assets/images/chervon--blue_no-bg.svg" alt="">
+                                </div>
+                                <p class="menu-content__back-text">Назад</p>
+                            </a>
+                            <p class="menu-content__title-menu">Услуги</p>
+                            <ul class="menu-content__list">
+                                <li>
+                                    <div class="menu-content__item">
+                                        <a class="menu-content__title" href="/services/cosmetology">Косметология</a>
+                                        <div class="menu-content__right">
+                                            <img src="/assets/images/chervon--blue_no-bg.svg" alt="">
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#!" class="menu-content__item">
+                            <p class="menu-content__title">Генетика</p>
+                            <div class="menu-content__right">
+                                <img src="/assets/images/chervon--blue_no-bg.svg" alt="">
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#!" class="menu-content__item">
+                            <p class="menu-content__title">Трихология</p>
+                            <div class="menu-content__right">
+                                <img src="/assets/images/chervon--blue_no-bg.svg" alt="">
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#!" class="menu-content__item">
+                            <p class="menu-content__title">Иммунодиетология</p>
+                            <div class="menu-content__right">
+                                <img src="/assets/images/chervon--blue_no-bg.svg" alt="">
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#!" class="menu-content__item">
+                            <p class="menu-content__title">Anti-age</p>
+                            <div class="menu-content__right">
+                                <img src="/assets/images/chervon--blue_no-bg.svg" alt="">
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#!" class="menu-content__item">
+                            <p class="menu-content__title">Чек-ап организма</p>
+                            <div class="menu-content__right">
+                                <img src="/assets/images/chervon--blue_no-bg.svg" alt="">
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#!" class="menu-content__item">
+                            <p class="menu-content__title">Снижение веса</p>
+                            <div class="menu-content__right">
+                                <img src="/assets/images/chervon--blue_no-bg.svg" alt="">
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div> -->
+        </div>
+    </div>
+    <script>
+        function openMenu(event) {
+            const targetMenu = event.target.closest('.menu-content__item').nextElementSibling;
+            if (targetMenu) {
+                console.log(targetMenu);
+
+                targetMenu.style.left = "0";
+            }
+        }
+
+        function closeMenu(event) {
+            const closestMenu = event.target.closest('.js--menu');
+            if (closestMenu) {
+                closestMenu.style.left = "-100%";
+            }
+        }
+    </script>
+</sidebar>

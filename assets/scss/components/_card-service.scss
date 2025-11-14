@@ -1,0 +1,145 @@
+@use "../abs";
+
+.service__card {
+    background: rgba(202, 239, 255, 0.5);
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    max-height: 104px;
+    transition: 0.3s linear;
+    margin-bottom: 10px;
+
+    @include abs.responsive(md) {
+        max-height: 145px;
+    }
+
+    @include abs.responsive(lg) {
+        margin-bottom: 30px;
+    }
+
+    &:hover {
+        max-height: 420px;
+    }
+
+    &:hover .line-clamp-3 {
+        overflow: visible;
+        -webkit-line-clamp: unset;
+        -moz-line-clamp: unset;
+    }
+
+    &:hover &-btn {
+        transform: rotate(180deg);
+    }
+
+    &-header {
+        display: flex;
+        align-items: start;
+    }
+
+    &-text {
+        padding: 10px 0 0 10px;
+
+        @include abs.responsive(md) {
+            padding: 15px 0 0 15px;
+        }
+    }
+
+    &-title {
+        color: var(--dark-primary-color);
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 125%;
+
+        @include abs.responsive(md) {
+            font-size: 24px;
+        }
+    }
+
+    &-subtitle {
+        font-size: 14px;
+        line-height: 128.571%;
+        color: var(--dark-primary-color);
+        margin-top: 5px;
+
+        @include abs.responsive(md) {
+            font-size: 17px;
+        }
+
+        @include abs.responsive(lg) {
+            margin-top: 10px;
+            font-size: 20px;
+        }
+    }
+
+    &-decor {
+        width: 128px;
+        height: auto;
+        flex-shrink: 0;
+
+        @media (min-width: 320px) and (max-width: 359.98px) {
+            width: 96px;
+        }
+
+        @include abs.responsive(lg) {
+            width: 165px;
+        }
+
+        @include abs.responsive(xl) {
+            width: 200px;
+        }
+    }
+
+    &-list {
+        padding: 10px 0 50px 10px;
+
+        @include abs.responsive(md) {
+            padding: 15px 0 50px 15px;
+        }
+
+        @include abs.responsive(lg) {
+            position: relative;
+        }
+
+        @include abs.responsive(xl) {
+            top: -50px;
+        }
+    }
+
+    &-item {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 14px;
+        line-height: 128.571%;
+        width: max-content;
+        border-bottom: 1px solid transparent;
+
+        @include abs.responsive(md) {
+            font-size: 16px;
+        }
+
+        @include abs.responsive(xl) {
+            font-size: 20px;
+        }
+
+        &:hover {
+            border-bottom: 1px solid var(--dark-primary-color);
+        }
+    }
+
+    &-btn {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: rgba(202, 239, 255, 0.5);
+        border: 1px solid var(--dark-primary-color);
+        bottom: 10px;
+        right: 10px;
+
+        backdrop-filter: blur(0.125rem);
+        -webkit-backdrop-filter: blur(0.125rem);
+    }
+}

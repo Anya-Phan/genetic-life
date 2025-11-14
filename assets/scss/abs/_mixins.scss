@@ -1,0 +1,295 @@
+//To center element
+@mixin centerElem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid var(--dark-primary-color);
+    background: rgba(202, 239, 255, 0.2);
+    backdrop-filter: blur(0.125rem);
+    -webkit-backdrop-filter: blur(0.125rem);
+    cursor: pointer;
+
+    img {
+        width: 50%;
+        height: auto;
+    }
+}
+
+// CSS button
+@mixin Button {
+    .btn {
+        display: block;
+        padding: 10px;
+        border-radius: 100px;
+        position: relative;
+        text-align: center;
+        color: #000;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        /* 120% */
+        cursor: pointer;
+
+        @include responsive(lg) {
+            font-size: 22px;
+            padding: 13px;
+        }
+
+        &:hover,
+        &:active {
+            transition: 0.2s linear;
+        }
+
+        .wrap__chervon {
+            position: absolute;
+            top: 50%;
+            width: 24px;
+            height: 24px;
+            right: 10px;
+            translate: 0 -50%;
+            @include centerElem();
+            border-radius: 50%;
+
+            img {
+                width: 10px;
+            }
+        }
+    }
+
+    .btn-white {
+        background-color: #fff;
+
+        &:hover,
+        &:active {
+            background: var(--light-primary-color);
+
+            .wrap__chervon {
+                background-color: #fff;
+            }
+        }
+
+        .wrap__chervon {
+            background-color: var(--light-primary-color);
+
+            &:hover {
+                background-color: #fff;
+            }
+        }
+    }
+
+    .btn-blue {
+        background-color: var(--light-primary-color);
+
+        &:hover,
+        &:active {
+            background: var(--dark-primary-color);
+            color: #fff;
+        }
+
+        .wrap__chervon {
+            background-color: #fff;
+        }
+    }
+}
+
+@mixin iconPro {
+    .pro-icon__wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        -webkit-backdrop-filter: blur(6px);
+        backdrop-filter: blur(6px);
+
+        border-radius: 50%;
+        border: 1px solid var(--dark-primary-color);
+        background-color: #b8e8ff26;
+
+        .pro-icon {
+            width: 60%;
+            height: auto;
+        }
+    }
+}
+
+@mixin miniButton {
+    color: #000;
+    font-size: 14px;
+    line-height: 128.571%;
+    padding: 5px 10px;
+    white-space: nowrap;
+
+    @include responsive(md) {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+}
+
+// CSS Dot List
+@mixin dot-slide {
+    .dot-list {
+        @include centerElem();
+        gap: 10px;
+        margin-top: 20px;
+
+        .dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--dark-primary-color);
+            flex-shrink: 0;
+            cursor: pointer;
+            scale: 1.1;
+
+            &.active {
+                scale: 1.6;
+                background-color: rgba(202, 239, 255, 0.2);
+                border: 1px solid var(--dark-primary-color);
+            }
+        }
+    }
+}
+
+// CSS title - each of part
+@mixin title {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 125%;
+
+    @include responsive(md) {
+        font-size: 32px;
+    }
+}
+
+// Mixins for reponsive
+$breakpoints: (
+    sm: 640px,
+    md: 980px,
+    lg: 1200px,
+    xl: 1400px,
+    xxl: 1600px,
+);
+
+@mixin responsive($breakpoint) {
+    $width-device: map-get($breakpoints, $breakpoint);
+
+    @media (min-width: $width-device) {
+        @content;
+    }
+}
+
+// Mixin for Custom Select
+@mixin selectCustom {
+
+    /*the container must be positioned relative:*/
+    .custom-select {
+        position: relative;
+        width: 100%;
+        font-size: 14px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+
+        @include responsive(sm) {
+            font-size: 20px;
+        }
+    }
+
+    .custom-select select {
+        /*hide original SELECT element:*/
+        display: none;
+    }
+
+    .select-main {
+        position: relative;
+        background-color: inherit;
+        color: rgba(255, 255, 255, 0.7);
+        padding: 10px 28px;
+    }
+
+    /*style the arrow inside the select element:*/
+    .select-main::after {
+        position: absolute;
+        content: url(/assets/images/chervon__down--form.svg);
+        top: 50%;
+        translate: 0 -50%;
+        right: 28px;
+        width: 12px;
+    }
+
+    /*point the arrow upwards when the select box is open (active):*/
+    .select-main.select-arrow-active::after {
+        rotate: 180deg;
+    }
+
+    /*style the items (options), including the selected item:*/
+    .select-items div,
+    .select-main {
+        cursor: pointer;
+        user-select: none;
+        line-height: 1.3;
+    }
+
+    .select-items div {
+        padding: 5px 28px;
+
+        @include responsive(md) {
+            padding: 8px 28px;
+        }
+
+        &:first-child {
+            padding-top: 10px;
+
+            @include responsive(md) {
+                padding-top: 20px;
+            }
+        }
+
+        &:last-child {
+            padding-bottom: 10px;
+
+            @include responsive(md) {
+                padding-bottom: 20px;
+            }
+        }
+    }
+
+    /*style items (options):*/
+    .select-items {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        z-index: 2;
+
+        background-color: inherit;
+        height: auto;
+        border-radius: 0px 0px 10px 10px;
+        border-bottom: 1px solid #CBE2F7;
+        background: rgba(202, 239, 255, 0.20);
+        box-shadow: 2px -2px 4px 0px rgba(170, 201, 214, 0.25) inset;
+        -webkit-backdrop-filter: blur(2.3rem);
+        backdrop-filter: blur(2.3rem);
+    }
+
+    /*hide the items when the select box is closed:*/
+    .select-hide {
+        height: 0;
+        overflow: hidden;
+        margin: 0;
+    }
+
+    .select-items div:hover,
+    .same-as-selected {
+        color: #004C91;
+    }
+}

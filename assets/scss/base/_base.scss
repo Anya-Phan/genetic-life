@@ -1,0 +1,123 @@
+@use "../abs";
+
+:root {
+    --dark-primary-color: #213170;
+    --light-primary-color: #cbe2f7;
+    --text-color: #011d3a;
+    --bg-color: #f4f4f4;
+}
+
+html {
+    font-family: "Urbanist", "Open Sans", sans-serif;
+    font-size: 16px;
+    background-color: var(--bg-color);
+}
+
+body {
+    color: var(--text-color);
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+input,
+select,
+button,
+textarea {
+    font-family: inherit;
+    color: inherit;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
+
+input,
+textarea,
+button,
+select,
+label,
+a,
+img {
+    -webkit-tap-highlight-color: transparent;
+    -moz-tap-highlight-color: transparent;
+}
+
+.line-clamp-3 {
+    display: -webkit-box;
+    display: -moz-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    -moz-box-orient: vertical;
+    -moz-line-clamp: 3;
+    overflow: hidden;
+}
+
+.line-clamp-2 {
+    display: -webkit-box;
+    display: -moz-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    -moz-box-orient: vertical;
+    -moz-line-clamp: 2;
+    overflow: hidden;
+}
+
+.pagerow {
+    display: flex;
+}
+
+.img-align-top {
+    object-position: 50% top;
+}
+
+.outer-swiper {
+    position: relative;
+    padding-top: 30px;
+}
+
+.icon {
+    &__wrap {
+        display: flex;
+        width: 100%;
+        position: absolute;
+        top: 45%;
+    }
+
+    &__left,
+    &__right {
+        @include abs.icon;
+        position: absolute;
+        top: 50%;
+        display: none;
+        z-index: 1;
+        scale: 1.01;
+
+        @include abs.responsive(lg) {
+            display: flex;
+        }
+
+        @include abs.responsive(lg) {
+            width: 40px;
+            height: 40px;
+        }
+    }
+
+    &__left {
+        transform: rotate(90deg);
+        left: -20px;
+    }
+
+    &__right {
+        transform: rotate(-90deg);
+        right: -20px;
+    }
+}
+
+.no-height {
+    height: 0 !important;
+}

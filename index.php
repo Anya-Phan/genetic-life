@@ -1,0 +1,2605 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>Главный</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="/assets/css/main.css?2504041200" />
+
+</head>
+
+<body>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/template/header.html'; ?>
+    <!-- Side bar Moble -->
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/template/sidebar.html'; ?>
+
+    <!-- Main -->
+    <main>
+        <!-- Hero Part -->
+        <section class="main-hero">
+            <section class="main-hero--mobile">
+                <div class="main-hero-swiper">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <div class="main-hero--mobile__item">
+                                <div class="main-hero--mobile__cover">
+                                    <img src="/assets/images/hero--desk__img-1.webp" alt=""
+                                        class="main-hero--mobile__img" />
+                                </div>
+                                <div class="main-hero--mobile__info">
+                                    <p class="main-hero--mobile__info-title">
+                                        Ботулинотерапия
+                                    </p>
+                                    <p class="main-hero--mobile__info-subtitle">
+                                        Преобразите свою внешность и скажите
+                                        решительное "нет" мимическим морщинам!
+                                    </p>
+                                    <a href="#!" class="main-hero--mobile__info-btn btn btn-white">
+                                        Подробнее
+                                        <div class="wrap__chervon">
+                                            <img src="/assets/images/chervon--no-bg.svg" alt="" />
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="main-hero--mobile__item">
+                                <div class="main-hero--mobile__cover">
+                                    <img src="/assets/images/hero--desk__img-1.webp" alt=""
+                                        class="main-hero--mobile__img" />
+                                </div>
+                                <div class="main-hero--mobile__info">
+                                    <p class="main-hero--mobile__info-title">
+                                        Ботулинотерапия
+                                    </p>
+                                    <p class="main-hero--mobile__info-subtitle">
+                                        Преобразите свою внешность и скажите
+                                        решительное "нет" мимическим морщинам!
+                                    </p>
+                                    <a href="#!" class="main-hero--mobile__info-btn btn btn-white">
+                                        Подробнее
+                                        <div class="wrap__chervon">
+                                            <img src="/assets/images/chervon--no-bg.svg" alt="" />
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="main-hero--mobile__item">
+                                <div class="main-hero--mobile__cover">
+                                    <img src="/assets/images/hero--desk__img-1.webp" alt=""
+                                        class="main-hero--mobile__img" />
+                                </div>
+                                <div class="main-hero--mobile__info">
+                                    <p class="main-hero--mobile__info-title">
+                                        Ботулинотерапия
+                                    </p>
+                                    <p class="main-hero--mobile__info-subtitle">
+                                        Преобразите свою внешность и скажите
+                                        решительное "нет" мимическим морщинам!
+                                    </p>
+                                    <a href="#!" class="main-hero--mobile__info-btn btn btn-white">
+                                        Подробнее
+                                        <div class="wrap__chervon">
+                                            <img src="/assets/images/chervon--no-bg.svg" alt="" />
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="main-result-slide__controls swiper-pagination">
+                    </div>
+                </div>
+            </section>
+            <section class="main-hero--desktop">
+                <div class="container">
+                    <script>
+                        function isChecked() {
+                            const checkBoxs = document.querySelectorAll(".main-hero--desktop__radio-btn");
+                            checkBoxs.forEach((box) => {
+                                if (box.checked == false) {
+                                    box.parentElement.parentElement.style.width = "70px";
+                                    console.log(box.parentElement.parentElement.style.width);
+                                } else {
+                                    box.parentElement.parentElement.style.width = "65.726%";
+                                    console.log(box.parentElement.parentElement.style.width);
+                                }
+                            });
+                        }
+                    </script>
+                    <ul class="main-hero--desktop__list">
+                        <li class="main-hero--desktop__item">
+                            <label class="main-hero--desktop__label">
+                                <input type="radio" name="main-hero-radio" class="main-hero--desktop__radio-btn"
+                                    onclick="isChecked()" checked />
+                                <div class="main-hero--desktop__cover">
+                                    <p class="">Ботулинотерапия</p>
+                                </div>
+                                <img src="/assets/images/hero--desk__img-1.webp" alt=""
+                                    class="main-hero--desktop__img" />
+                                <div class="main-hero--desktop__text">
+                                    <h2 class="main-hero--desktop__title">
+                                        Ботулинотерапия
+                                    </h2>
+                                    <p class="main-hero--desktop__subtitle">
+                                        Преобразите свою внешность и скажите
+                                        решительное «нет» мимическим
+                                        морщинам!
+                                    </p>
+                                    <a href="#!" class="main-hero--mobile__info-btn btn btn-white">
+                                        Подробнее
+                                        <div class="wrap__chervon">
+                                            <img src="/assets/images/chervon--no-bg.svg" alt="" />
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="main-hero--desktop__order">
+                                    01
+                                </div>
+                            </label>
+                        </li>
+                        <li class="main-hero--desktop__item">
+                            <label class="main-hero--desktop__label">
+                                <input type="radio" name="main-hero-radio" class="main-hero--desktop__radio-btn"
+                                    onclick="isChecked()" />
+                                <div class="main-hero--desktop__cover">
+                                    <p class="">Лазерное&nbsp;омоложение</p>
+                                </div>
+                                <img src="/assets/images/hero--desk__img-2.webp" alt=""
+                                    class="main-hero--desktop__img" />
+                                <div class="main-hero--desktop__text">
+                                    <h2 class="main-hero--desktop__title">
+                                        Лазерное омоложение
+                                    </h2>
+                                    <p class="main-hero--desktop__subtitle">
+                                        Восстановите тонус кожи лица
+                                        и улучшите её качество при помощи
+                                        лазерного воздействия
+                                    </p>
+                                    <a href="#!" class="main-hero--mobile__info-btn btn btn-white">
+                                        Подробнее
+                                        <div class="wrap__chervon">
+                                            <img src="/assets/images/chervon--no-bg.svg" alt="" />
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="main-hero--desktop__order">
+                                    02
+                                </div>
+                            </label>
+                        </li>
+                        <li class="main-hero--desktop__item">
+                            <label class="main-hero--desktop__label">
+                                <input type="radio" name="main-hero-radio" class="main-hero--desktop__radio-btn"
+                                    onclick="isChecked()" />
+                                <div class="main-hero--desktop__cover">
+                                    <p class="">Контурная&nbsp;пластика</p>
+                                </div>
+                                <img src="/assets/images/hero--desk__img-3.webp" alt=""
+                                    class="main-hero--desktop__img" />
+                                <div class="main-hero--desktop__text">
+                                    <h2 class="main-hero--desktop__title">
+                                        Контурная пластика
+                                    </h2>
+                                    <p class="main-hero--desktop__subtitle">
+                                        Верните коже лица молодость
+                                        и свежесть без хирургического
+                                        вмешательства!
+                                    </p>
+                                    <a href="#!" class="main-hero--mobile__info-btn btn btn-white">
+                                        Подробнее
+                                        <div class="wrap__chervon">
+                                            <img src="/assets/images/chervon--no-bg.svg" alt="" />
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="main-hero--desktop__order">
+                                    03
+                                </div>
+                            </label>
+                        </li>
+                        <li class="main-hero--desktop__item">
+                            <label class="main-hero--desktop__label">
+                                <input type="radio" name="main-hero-radio" class="main-hero--desktop__radio-btn"
+                                    onclick="isChecked()" />
+                                <div class="main-hero--desktop__cover">
+                                    <p class="">Лечение&nbsp;Акне</p>
+                                </div>
+                                <img src="/assets/images/hero--desk__img-4.webp" alt=""
+                                    class="main-hero--desktop__img" />
+                                <div class="main-hero--desktop__text">
+                                    <h2 class="main-hero--desktop__title">
+                                        Лечение Акне
+                                    </h2>
+                                    <p class="main-hero--desktop__subtitle">
+                                        Обретите уверенность в себе с чистой
+                                        и сияющей кожей, избавившись от акне
+                                        навсегда!
+                                    </p>
+                                    <a href="#!" class="main-hero--mobile__info-btn btn btn-white">
+                                        Подробнее
+                                        <div class="wrap__chervon">
+                                            <img src="/assets/images/chervon--no-bg.svg" alt="" />
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="main-hero--desktop__order">
+                                    04
+                                </div>
+                            </label>
+                        </li>
+                        <li class="main-hero--desktop__item">
+                            <label class="main-hero--desktop__label">
+                                <input type="radio" name="main-hero-radio" class="main-hero--desktop__radio-btn"
+                                    onclick="isChecked()" />
+                                <div class="main-hero--desktop__cover">
+                                    <p class="">Нутрициология</p>
+                                </div>
+                                <img src="/assets/images/hero--desk__img-5.webp" alt=""
+                                    class="main-hero--desktop__img" />
+                                <div class="main-hero--desktop__text">
+                                    <h2 class="main-hero--desktop__title">
+                                        Нутрициология
+                                    </h2>
+                                    <p class="main-hero--desktop__subtitle">
+                                        Индивидуальный подход к питанию
+                                        обеспечит Вам здоровье и бодрость на
+                                        каждый день!
+                                    </p>
+                                    <a href="#!" class="main-hero--mobile__info-btn btn btn-white">
+                                        Подробнее
+                                        <div class="wrap__chervon">
+                                            <img src="/assets/images/chervon--no-bg.svg" alt="" />
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="main-hero--desktop__order">
+                                    05
+                                </div>
+                            </label>
+                        </li>
+                        <li class="main-hero--desktop__item">
+                            <label class="main-hero--desktop__label">
+                                <input type="radio" name="main-hero-radio" class="main-hero--desktop__radio-btn"
+                                    onclick="isChecked()" />
+                                <div class="main-hero--desktop__cover">
+                                    <p class="">
+                                        Антивозрастная&nbsp;медицина
+                                    </p>
+                                </div>
+                                <img src="/assets/images/hero--desk__img-6.webp" alt=""
+                                    class="main-hero--desktop__img" />
+                                <div class="main-hero--desktop__text">
+                                    <h2 class="main-hero--desktop__title">
+                                        Антивозрастная медицина
+                                    </h2>
+                                    <p class="main-hero--desktop__subtitle">
+                                        Уникальные методики помогут Вам
+                                        сохранить молодость и уверенность в
+                                        себе!
+                                    </p>
+                                    <a href="#!" class="main-hero--mobile__info-btn btn btn-white">
+                                        Подробнее
+                                        <div class="wrap__chervon">
+                                            <img src="/assets/images/chervon--no-bg.svg" alt="" />
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="main-hero--desktop__order">
+                                    06
+                                </div>
+                            </label>
+                        </li>
+                    </ul>
+                    <script>
+                        isChecked();
+                    </script>
+                </div>
+            </section>
+        </section>
+
+
+        <!-- Запись -->
+        <section class="appoint">
+            <div class="container" style="position: relative">
+                <h2 class="appoint__title">Запись на процедуру</h2>
+                <p class="appoint__subtitle">
+                    Оставьте заявку, мы вам перезвоним
+                </p>
+                <form class="appoint__form">
+                    <input type="text" placeholder="*Ваше имя" class="appoint__field" name="name" minlength="1"
+                        required />
+                    <input type="text" placeholder="*Телефон" class="appoint__field" name="phone"
+                        pattern="[+7]+[0-9]{11}" required />
+                    <div class="custom-select">
+                        <select name="" id="" required autocomplete="off">
+                            <option value="0">Выберите услугу</option>
+                            <option value="1">Косметология</option>
+                            <option value="2">Генетика</option>
+                            <option value="3">Трихология</option>
+                            <option value="4">Иммунодиетология</option>
+                            <option value="5">Anti-Age</option>
+                            <option value="6">
+                                Чекап организма
+                            </option>
+                            <option value="7">Микробиом кишечника</option>
+                            <option value="8">Снижение веса</option>
+                        </select>
+                    </div>
+
+                    <button class="appoint__btn btn btn-white" data-modal-onclick="congrat-modal">
+                        Записаться
+                        <div class="wrap__chervon">
+                            <img src="/assets/images/chervon--no-bg.svg" alt="" />
+                        </div>
+                    </button>
+                    <label class="appoint__policy">
+                        <input type="checkbox" class="appoint__policy-checkbox-real" required />
+                        <div class="appoint__policy-checkbox-fake"></div>
+                        <div class="appoint__policy-text">
+                            Я согласен на обработку
+                            <a href="#!" class="appoint__policy-data">
+                                персональных данных
+                            </a>
+                        </div>
+                    </label>
+                </form>
+                <img src="/assets/images/form__decor--mobile.webp?1" alt="" class="appoint__decor--mobile"
+                    style="opacity: 0.9;" />
+            </div>
+            <img src="/assets/images/form__decor--desktop.webp" alt="" class="appoint__decor--desktop" />
+        </section>
+
+        <!-- Specialist -->
+        <section class="main-specialist">
+            <div class="container">
+                <div class="pagerow main-specialist__header">
+                    <h2 class="main-specialist__title">О Специалисте</h2>
+                    <a href="#!" class="main-specialist__btn btn btn-blue">Подробно</a>
+                </div>
+                <p class="main-specialist__intro--mobile">
+                    Ольга Шаго — основатель и главный врач Genetic life
+                </p>
+                <section class="main-specialist__wrap">
+                    <ul class="main-specialist__list">
+                        <li class="main-specialist__list-title">
+                            Мой путь врача
+                        </li>
+                        <li class="main-specialist__item">
+                            <div class="main-specialist__item-header pagerow">
+                                <p class="main-specialist__item-title">
+                                    Начало пути
+                                </p>
+                                <div class="main-icon-plus">
+                                    <img src="/assets/images/icon__plus.svg" alt="" />
+                                </div>
+                                <div class="main-icon-minus">
+                                    <img src="/assets/images/icon__minus.svg" alt="" />
+                                </div>
+                            </div>
+                            <div>
+                                <p class="main-specialist__item-desc">
+                                    В 2000 году я поступила в Читинскую
+                                    Государственную Медицинскую Академию с
+                                    мечтой принимать роды. Уже с 2003
+                                    работала в гинекологии медсестрой, где я
+                                    научилась многому, но вскоре поняла, что
+                                    этот путь не мой. В 2006 году я успешно
+                                    выпустилась из ЧГМА и начала свою
+                                    карьеру.
+                                </p>
+                            </div>
+                        </li>
+
+                        <li class="main-specialist__item">
+                            <div class="main-specialist__item-header pagerow">
+                                <p class="main-specialist__item-title">
+                                    Ординатура
+                                </p>
+                                <div class="main-icon-plus">
+                                    <img src="/assets/images/icon__plus.svg" alt="" />
+                                </div>
+                                <div class="main-icon-minus">
+                                    <img src="/assets/images/icon__minus.svg" alt="" />
+                                </div>
+                            </div>
+                            <div>
+                                <p class="main-specialist__item-desc">
+                                    С 2007 по 2008 год я проходила
+                                    ординатуру по специальности «Врач
+                                    лучевой диагностики» и стала заведующей
+                                    рентгенологического отделения в
+                                    Областном Противотуберкулезном
+                                    Диспансере.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="main-specialist__item">
+                            <div class="main-specialist__item-header pagerow">
+                                <p class="main-specialist__item-title">
+                                    Поворот к косметологии
+                                </p>
+                                <div class="main-icon-plus">
+                                    <img src="/assets/images/icon__plus.svg" alt="" />
+                                </div>
+                                <div class="main-icon-minus">
+                                    <img src="/assets/images/icon__minus.svg" alt="" />
+                                </div>
+                            </div>
+                            <div>
+                                <p class="main-specialist__item-desc">
+                                    Каждый день я стремилась к новому,
+                                    поэтому параллельно работала в клинике
+                                    Косметологии и оканчивала Интернатуру по
+                                    Дерматовенерологии и Специализацию по
+                                    Косметологии в Медицинском Университете
+                                    имени И. И. Мечникова г.
+                                    Санкт-Петербург, а затем и Ординатуру
+                                    по Терапии. в 2014 году прошла обучение
+                                    на Кафедре Медицинской Трихологии на
+                                    базе РУДН в Москве.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="main-specialist__item">
+                            <div class="main-specialist__item-header pagerow">
+                                <p class="main-specialist__item-title">
+                                    Второе образование
+                                </p>
+                                <div class="main-icon-plus">
+                                    <img src="/assets/images/icon__plus.svg" alt="" />
+                                </div>
+                                <div class="main-icon-minus">
+                                    <img src="/assets/images/icon__minus.svg" alt="" />
+                                </div>
+                            </div>
+                            <div>
+                                <p class="main-specialist__item-desc">
+                                    Параллельно я получила второе высшее
+                                    образование в Забайкальском
+                                    Государственном Университете, ведь
+                                    получив приглашение из Министрества
+                                    Здравоохранения задумывалась о карьере
+                                    чиновника.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="main-specialist__item">
+                            <div class="main-specialist__item-header pagerow">
+                                <p class="main-specialist__item-title">
+                                    Увлечение нутрициологией
+                                </p>
+                                <div class="main-icon-plus">
+                                    <img src="/assets/images/icon__plus.svg" alt="" />
+                                </div>
+                                <div class="main-icon-minus">
+                                    <img src="/assets/images/icon__minus.svg" alt="" />
+                                </div>
+                            </div>
+                            <div>
+                                <p class="main-specialist__item-desc">
+                                    Мой интерес к нутрициологии стал
+                                    настоящей страстью, и я продолжила
+                                    обучаться на различных курсах и
+                                    семинарах.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="main-specialist__item">
+                            <div class="main-specialist__item-header pagerow">
+                                <p class="main-specialist__item-title">
+                                    Любовь к лазерам
+                                </p>
+                                <div class="main-icon-plus">
+                                    <img src="/assets/images/icon__plus.svg" alt="" />
+                                </div>
+                                <div class="main-icon-minus">
+                                    <img src="/assets/images/icon__minus.svg" alt="" />
+                                </div>
+                            </div>
+                            <div>
+                                <p class="main-specialist__item-desc">
+                                    В 2018 году я заняла второе место во
+                                    Всероссийском конкурсе по использованию
+                                    лазерных систем. Лазеры стали
+                                    неотъемлемой частью моей практики.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="main-specialist__item">
+                            <div class="main-specialist__item-header pagerow">
+                                <p class="main-specialist__item-title">
+                                    Генетика и экология микробиоты
+                                </p>
+                                <div class="main-icon-plus">
+                                    <img src="/assets/images/icon__plus.svg" alt="" />
+                                </div>
+                                <div class="main-icon-minus">
+                                    <img src="/assets/images/icon__minus.svg" alt="" />
+                                </div>
+                            </div>
+                            <div>
+                                <p class="main-specialist__item-desc">
+                                    В 2020−2021 годах я повысила
+                                    квалификацию в области генетического
+                                    консультирования и экологии микробиоты.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="main-specialist__item">
+                            <div class="main-specialist__item-header pagerow">
+                                <p class="main-specialist__item-title">
+                                    Учеба в Париже
+                                </p>
+                                <div class="main-icon-plus">
+                                    <img src="/assets/images/icon__plus.svg" alt="" />
+                                </div>
+                                <div class="main-icon-minus">
+                                    <img src="/assets/images/icon__minus.svg" alt="" />
+                                </div>
+                            </div>
+                            <div>
+                                <p class="main-specialist__item-desc">
+                                    С 2021 года я обучаюсь в европейской
+                                    школе антивозрастной медицины в Париже,
+                                    совершенствуя свои знания и навыки.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="main-specialist__item">
+                            <div class="main-specialist__item-header pagerow">
+                                <p class="main-specialist__item-title">
+                                    Почему столько специальностей?
+                                </p>
+                                <div class="main-icon-plus">
+                                    <img src="/assets/images/icon__plus.svg" alt="" />
+                                </div>
+                                <div class="main-icon-minus">
+                                    <img src="/assets/images/icon__minus.svg" alt="" />
+                                </div>
+                            </div>
+                            <div>
+                                <p class="main-specialist__item-desc">
+                                    Я верю, что любые проявления на коже –
+                                    это отражение внутреннего состояния
+                                    организма. Поэтому комплексный подход к
+                                    решению кожных проблем и омоложению
+                                    является ключевым в моей практике. Моя
+                                    миссия – помочь клиентам быть не только
+                                    красивыми, но и здоровыми.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                    <section class="main-specialist__figure">
+                        <p class="main-specialist__intro--desktop">
+                            Ольга Шаго — основатель и главный врач Genetic
+                            life
+                        </p>
+                        <div class="main-specialist__img">
+                            <img src="/assets/images/specialist__img.webp?1" alt="" />
+                        </div>
+                        <div class="main-specialist__subtitle">
+                            <p class="main-specialist__subtitle-text">
+                                Выглядеть прекрасно в любом возрасте
+                                при этом сохранить молодость и здоровье
+                                на долгие годы — это реально!
+                            </p>
+                            <div class="main-specialist__subtitle-bg"></div>
+                        </div>
+                    </section>
+                </section>
+            </div>
+        </section>
+
+        <!-- Service -->
+        <section class="main-service">
+            <div class="container">
+                <section class="main-service__header pagerow">
+                    <h2 class="main-service__title">Услуги</h2>
+                    <a href="" class="main-service__btn btn btn-blue">Все услуги</a>
+                </section>
+                <ul class="main-service__list row row-cols-1 row-cols-md-2 g-1 g-md-2 g-lg-3">
+                    <li class="col">
+                        <a href="#!" class="main-service__item">
+                            <div class="main-service__text">
+                                <h3 class="main-service__item-title">
+                                    Косметология
+                                </h3>
+                                <p class="main-service__item-subtitle line-clamp">
+                                    Косметология предлагает широкий спектр
+                                    процедур для улучшения состояния кожи
+                                    и её омоложения, включая уход за лицом
+                                    и телом.
+                                </p>
+                            </div>
+                            <img src="/assets/images/service__img-1.webp" alt="" class="main-service__img" />
+                            <div class="main-icon-arrow">
+                                <img src="/assets/images/arrow--no-bg.svg" alt="" />
+                            </div>
+                        </a>
+                    </li>
+                    <li class="col">
+                        <a href="#!" class="main-service__item">
+                            <div class="main-service__text">
+                                <h3 class="main-service__item-title">
+                                    Anti-Age
+                                </h3>
+                                <p class="main-service__item-subtitle line-clamp">
+                                    Антивозрастное лечение включает
+                                    процедуры, направленные на замедление
+                                    процессов старения и восстановление
+                                    молодости кожи.
+                                </p>
+                            </div>
+                            <img src="/assets/images/service__img-5.webp" alt="" class="main-service__img" />
+                            <div class="main-icon-arrow">
+                                <img src="/assets/images/arrow--no-bg.svg" alt="" />
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="col">
+                        <a href="#!" class="main-service__item">
+                            <div class="main-service__text">
+                                <h3 class="main-service__item-title">
+                                    Генетика
+                                </h3>
+                                <p class="main-service__item-subtitle line-clamp">
+                                    Генетическое консультирование помогает
+                                    определить влияние ваших генов на
+                                    здоровье и предрасположенность к
+                                    заболеваниям.
+                                </p>
+                            </div>
+                            <img src="/assets/images/service__img-2.webp" alt="" class="main-service__img" />
+                            <div class="main-icon-arrow">
+                                <img src="/assets/images/arrow--no-bg.svg" alt="" />
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="col">
+                        <a href="#!" class="main-service__item">
+                            <div class="main-service__text">
+                                <h3 class="main-service__item-title">
+                                    Чекап&nbsp;организма
+                                </h3>
+                                <p class="main-service__item-subtitle line-clamp">
+                                    Комплексное обследование для оценки
+                                    состояния вашего здоровья. Включает
+                                    проводение анализов и разработку
+                                    индивидуальных рекомендаций.
+                                </p>
+                            </div>
+                            <img src="/assets/images/service__img-6.webp" alt="" class="main-service__img" />
+                            <div class="main-icon-arrow">
+                                <img src="/assets/images/arrow--no-bg.svg" alt="" />
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="col">
+                        <a href="#!" class="main-service__item">
+                            <div class="main-service__text">
+                                <h3 class="main-service__item-title">
+                                    Трихология
+                                </h3>
+                                <p class="main-service__item-subtitle line-clamp">
+                                    Трихология занимается диагностикой и
+                                    лечением проблем с волосами и кожей
+                                    головы, включая выпадение волос и их
+                                    состояние.
+                                </p>
+                            </div>
+                            <img src="/assets/images/service__img-3.webp" alt="" class="main-service__img" />
+                            <div class="main-icon-arrow">
+                                <img src="/assets/images/arrow--no-bg.svg" alt="" />
+                            </div>
+                        </a>
+                    </li>
+                    <li class="col">
+                        <a href="#!" class="main-service__item">
+                            <div class="main-service__text">
+                                <h3 class="main-service__item-title">
+                                    Микробиом кишечника
+                                </h3>
+                                <p class="main-service__item-subtitle line-clamp line-clamp-2">
+                                    Исследование микрофлоры, позволяющее выявить дисбалансы, которые влияют на
+                                    пищеварение, иммунитет и общее состояние
+                                    здоровья.
+                                </p>
+                            </div>
+                            <img src="/assets/images/service__img-8.webp" alt="" class="main-service__img" />
+                            <div class="main-icon-arrow">
+                                <img src="/assets/images/arrow--no-bg.svg" alt="" />
+                            </div>
+                        </a>
+                    </li>
+                    <li class="col">
+                        <a href="#!" class="main-service__item">
+                            <div class="main-service__text">
+                                <h3 class="main-service__item-title">
+                                    Иммунодиетология
+                                </h3>
+                                <p class="main-service__item-subtitle line-clamp">
+                                    Иммунодиетология предлагает
+                                    индивидуализированные планы питания для
+                                    укрепления иммунной системы и общего
+                                    улучшения здоровья.
+                                </p>
+                            </div>
+                            <img src="/assets/images/service__img-4.webp" alt="" class="main-service__img" />
+                            <div class="main-icon-arrow">
+                                <img src="/assets/images/arrow--no-bg.svg" alt="" />
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="col">
+                        <a href="#!" class="main-service__item">
+                            <div class="main-service__text">
+                                <h3 class="main-service__item-title">
+                                    Снижение веса
+                                </h3>
+                                <p class="main-service__item-subtitle line-clamp">
+                                    Снижение веса основывается на
+                                    комплексном подходе, сочетая правильное
+                                    питание, физическую активность и
+                                    поддержку на всём пути.
+                                </p>
+                            </div>
+                            <img src="/assets/images/service__img-7.webp" alt="" class="main-service__img" />
+                            <div class="main-icon-arrow">
+                                <img src="/assets/images/arrow--no-bg.svg" alt="" />
+                            </div>
+                        </a>
+                    </li>
+
+
+                </ul>
+            </div>
+        </section>
+
+        <!-- Запись -->
+        <section class="appoint">
+            <div class="container" style="position: relative">
+                <h2 class="appoint__title">
+                    Не знаете какая услуга Вам&nbsp;подойдёт?
+                </h2>
+                <p class="appoint__subtitle">
+                    Оставьте заявку, мы вам перезвоним
+                </p>
+                <form action="" class="appoint__form">
+                    <input type="text" placeholder="*Ваше имя" class="appoint__field" name="name" minlength="1"
+                        required />
+                    <input type="text" placeholder="*Телефон" class="appoint__field" name="phone"
+                        pattern="[+7]+[0-9]{11}" required />
+                    <div class="custom-select">
+                        <select name="" id="" required autocomplete="off">
+                            <option value="0">Выберите услугу</option>
+                            <option value="1">Косметология</option>
+                            <option value="2">Генетика</option>
+                            <option value="3">Трихология</option>
+                            <option value="4">Иммунодиетология</option>
+                            <option value="5">Anti-Age</option>
+                            <option value="6">
+                                Чекап организма
+                            </option>
+                            <option value="7">Микробиом кишечника</option>
+                            <option value="8">Снижение веса</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="appoint__btn btn btn-white" data-modal-onclick="congrat-modal">
+                        Записаться
+                        <div class="wrap__chervon">
+                            <img src="/assets/images/chervon--no-bg.svg" alt="" />
+                        </div>
+                    </button>
+                    <label class="appoint__policy">
+                        <input type="checkbox" class="appoint__policy-checkbox-real" required />
+                        <div class="appoint__policy-checkbox-fake"></div>
+                        <div class="appoint__policy-text">
+                            Я согласен на обработку
+                            <a href="#!" class="appoint__policy-data">
+                                персональных данных
+                            </a>
+                        </div>
+                    </label>
+                </form>
+                <img src="/assets/images/form__decor--mobile.webp?11" alt="" class="appoint__decor--mobile"
+                    style="opacity: 0.9;" />
+            </div>
+            <img src="/assets/images/form__decor--desktop.webp" alt="" class="appoint__decor--desktop" />
+        </section>
+
+        <!-- До и После -->
+        <section class="main-result">
+            <div class="container">
+                <h2 class="main-result__title">До и После</h2>
+                <section class="main-result__wrap">
+                    <div class="tab-swiper-lev1">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                Косметология
+                            </div>
+                            <div class=" swiper-slide">
+                                Генетика
+                            </div>
+                            <div class=" swiper-slide">
+                                Трихология
+                            </div>
+                            <div class=" swiper-slide">
+                                Иммунодиетология
+                            </div>
+                            <div class=" swiper-slide">
+                                Anti-age
+                            </div>
+                            <div class=" swiper-slide">
+                                Чекап организма
+                            </div>
+                            <div class=" swiper-slide">
+                                Микробиом кишечника
+                            </div>
+                            <div class=" swiper-slide">
+                                Снижение веса
+                            </div>
+                        </div>
+                        <div class="main-result__icon-wrap">
+                            <div class="main-result__left left">
+                                <img src="/assets/images/chervon__with-border.svg" alt="" class="" />
+                            </div>
+                            <div class="main-result__right right">
+                                <img src="/assets/images/chervon__with-border.svg" alt="" class="" />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="main-result__wrap">
+                    <div class="list-swiper-tab-lv2 swiper-no-swiping">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="tab-swiper-lev2">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            Лазерная косметология
+                                        </div>
+                                        <div class="swiper-slide">
+                                            Инъекционные процедуры
+                                        </div>
+                                        <div class="swiper-slide">
+                                            Лечение Акне
+                                        </div>
+                                        <div class="swiper-slide">
+                                            Уходовые процедуры
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="tab-swiper-lev2">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            Генетические панели
+                                        </div>
+                                        <div class="swiper-slide">
+                                            Генетический таргет
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="tab-swiper-lev2">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            Лазерное лечение «Hair Restart»
+                                        </div>
+                                        <div class="swiper-slide">
+                                            Комплексная диагностика выпадения волос
+                                        </div>
+                                        <div class="swiper-slide">
+                                            Мезотерапия / Плазмотерапия (PRP)волос
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="tab-swiper-lev2">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            «ImmunoHealth™» анализ
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="tab-swiper-lev2">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            Комплексная диагностика
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="tab-swiper-lev2">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            Сдача анализов крови
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="tab-swiper-lev2">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            Комплексная диагностика
+                                        </div>
+                                        <div class="swiper-slide">
+                                            Комплексная диагностика
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="tab-swiper-lev2">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            Body Slim
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="list-swiper-img-lev3">
+                    <div class="img-swiper-lev3 swiper-no-swiping active">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="main-result__wrap-slide">
+                                    <section class="main-result-slide">
+                                        <ul class="swiper-wrapper">
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-1.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-1.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-1.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                        </ul>
+                                        <div class="main-result-slide__controls swiper-pagination">
+                                        </div>
+                                        <div class="icon__wrap">
+                                            <div class="icon__left">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" />
+                                            </div>
+                                            <div class="icon__right">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" />
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="main-result__wrap-slide">
+                                    <section class="main-result-slide">
+                                        <ul class="swiper-wrapper">
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-2.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-2.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-1.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                        </ul>
+                                        <div class="main-result-slide__controls swiper-pagination">
+                                        </div>
+                                        <div class="icon__wrap">
+                                            <div class="icon__left">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" />
+                                            </div>
+                                            <div class="icon__right">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" />
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="main-result__wrap-slide">
+                                    <section class="main-result-slide">
+                                        <ul class="swiper-wrapper">
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-1.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-2.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-1.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                        </ul>
+                                        <div class="main-result-slide__controls swiper-pagination">
+                                        </div>
+                                        <div class="icon__wrap">
+                                            <div class="icon__left">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" />
+                                            </div>
+                                            <div class="icon__right">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" />
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="main-result__wrap-slide">
+                                    <section class="main-result-slide">
+                                        <ul class="swiper-wrapper">
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-1.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-2.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-1.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                        </ul>
+                                        <div class="main-result-slide__controls swiper-pagination">
+                                        </div>
+                                        <div class="icon__wrap">
+                                            <div class="icon__left">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" />
+                                            </div>
+                                            <div class="icon__right">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" />
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-swiper-lev3 swiper-no-swiping">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="main-result__wrap-slide">
+                                    <section class="main-result-slide">
+                                        <ul class="swiper-wrapper">
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-2.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-1.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-1.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                        </ul>
+                                        <div class="main-result-slide__controls swiper-pagination">
+                                        </div>
+                                        <div class="icon__wrap">
+                                            <div class="icon__left">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" />
+                                            </div>
+                                            <div class="icon__right">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" />
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="main-result__wrap-slide">
+                                    <section class="main-result-slide">
+                                        <ul class="swiper-wrapper">
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-1.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-2.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-1.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                        </ul>
+                                        <div class="main-result-slide__controls swiper-pagination">
+                                        </div>
+                                        <div class="icon__wrap">
+                                            <div class="icon__left">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" />
+                                            </div>
+                                            <div class="icon__right">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" />
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-swiper-lev3 swiper-no-swiping">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="main-result__wrap-slide">
+                                    <section class="main-result-slide">
+                                        <ul class="swiper-wrapper">
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-1.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-2.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-1.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                        </ul>
+                                        <div class="main-result-slide__controls swiper-pagination">
+                                        </div>
+                                        <div class="icon__wrap">
+                                            <div class="icon__left">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" />
+                                            </div>
+                                            <div class="icon__right">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" />
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="main-result__wrap-slide">
+                                    <section class="main-result-slide">
+                                        <ul class="swiper-wrapper">
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-1.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-2.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-1.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                        </ul>
+                                        <div class="main-result-slide__controls swiper-pagination">
+                                        </div>
+                                        <div class="icon__wrap">
+                                            <div class="icon__left">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" />
+                                            </div>
+                                            <div class="icon__right">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" />
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="main-result__wrap-slide">
+                                    <section class="main-result-slide">
+                                        <ul class="swiper-wrapper">
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-1.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-2.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-1.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                        </ul>
+                                        <div class="main-result-slide__controls swiper-pagination">
+                                        </div>
+                                        <div class="icon__wrap">
+                                            <div class="icon__left">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" />
+                                            </div>
+                                            <div class="icon__right">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" />
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-swiper-lev3 swiper-no-swiping">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="main-result__wrap-slide">
+                                    <section class="main-result-slide">
+                                        <ul class="swiper-wrapper">
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-1.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-2.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-1.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                        </ul>
+                                        <div class="main-result-slide__controls swiper-pagination">
+                                        </div>
+                                        <div class="icon__wrap">
+                                            <div class="icon__left">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" />
+                                            </div>
+                                            <div class="icon__right">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" />
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-swiper-lev3 swiper-no-swiping">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="main-result__wrap-slide">
+                                    <section class="main-result-slide">
+                                        <ul class="swiper-wrapper">
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-1.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-2.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-1.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                        </ul>
+                                        <div class="main-result-slide__controls swiper-pagination">
+                                        </div>
+                                        <div class="icon__wrap">
+                                            <div class="icon__left">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" />
+                                            </div>
+                                            <div class="icon__right">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" />
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-swiper-lev3 swiper-no-swiping">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="main-result__wrap-slide">
+                                    <section class="main-result-slide">
+                                        <ul class="swiper-wrapper">
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-1.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-2.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-1.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                        </ul>
+                                        <div class="main-result-slide__controls swiper-pagination">
+                                        </div>
+                                        <div class="icon__wrap">
+                                            <div class="icon__left">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" />
+                                            </div>
+                                            <div class="icon__right">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" />
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-swiper-lev3 swiper-no-swiping">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="main-result__wrap-slide">
+                                    <section class="main-result-slide">
+                                        <ul class="swiper-wrapper">
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-1.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-2.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-1.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                        </ul>
+                                        <div class="main-result-slide__controls swiper-pagination">
+                                        </div>
+                                        <div class="icon__wrap">
+                                            <div class="icon__left">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" />
+                                            </div>
+                                            <div class="icon__right">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" />
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="main-result__wrap-slide">
+                                    <section class="main-result-slide">
+                                        <ul class="swiper-wrapper">
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-1.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-2.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-1.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                        </ul>
+                                        <div class="main-result-slide__controls swiper-pagination">
+                                        </div>
+                                        <div class="icon__wrap">
+                                            <div class="icon__left">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" />
+                                            </div>
+                                            <div class="icon__right">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" />
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-swiper-lev3 swiper-no-swiping">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="main-result__wrap-slide">
+                                    <section class="main-result-slide">
+                                        <ul class="swiper-wrapper">
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-1.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-2.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                            <li class="swiper-slide">
+                                                <img src="/assets/images/result__img-1.webp" alt=""
+                                                    class="main-result-slide__img" />
+                                            </li>
+                                        </ul>
+                                        <div class="main-result-slide__controls swiper-pagination">
+                                        </div>
+                                        <div class="icon__wrap">
+                                            <div class="icon__left">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" />
+                                            </div>
+                                            <div class="icon__right">
+                                                <img src="/assets/images/chervon--blue_no-bg.svg" />
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+
+                <a class="main-result__btn btn btn-blue" data-modal-onclick="form-modal">
+                    Записаться
+                    <div class="wrap__chervon">
+                        <img src="/assets/images/chervon--no-bg.svg" alt="" />
+                    </div>
+                </a>
+
+                <section class="modal form-modal" id="form-modal">
+                    <div class="modal-content">
+                        <div class="modal-close modal-close-js">
+                            <img class="modal-close-btn" src="/assets/images/close-icon--light.svg" alt="">
+                        </div>
+                        <section class="main-form">
+                            <form action="" class="appoint__form">
+                                <input type="text" placeholder="*Ваше имя" class="appoint__field" name="name"
+                                    minlength="1" required />
+                                <input type="text" placeholder="*Телефон" class="appoint__field" name="phone"
+                                    pattern="[+7]+[0-9]{11}" required />
+                                <div class="custom-select">
+                                    <select name="" id="" required autocomplete="off">
+                                        <option value="0">Выберите услугу</option>
+                                        <option value="1">Косметология</option>
+                                        <option value="2">Генетика</option>
+                                        <option value="3">Трихология</option>
+                                        <option value="4">Иммунодиетология</option>
+                                        <option value="5">Anti-Age</option>
+                                        <option value="6">
+                                            Чекап организма
+                                        </option>
+                                        <option value="7">Микробиом кишечника</option>
+                                        <option value="8">Снижение веса</option>
+                                    </select>
+                                </div>
+                                <button type="submit" class="appoint__btn btn btn-white">
+                                    Записаться
+                                    <div class="wrap__chervon">
+                                        <img src="/assets/images/chervon--no-bg.svg" alt="" />
+                                    </div>
+                                </button>
+                                <label class="appoint__policy">
+                                    <input type="checkbox" class="appoint__policy-checkbox-real" required />
+                                    <div class="appoint__policy-checkbox-fake"></div>
+                                    <div class="appoint__policy-text">
+                                        Я согласен на обработку
+                                        <a href="#!" class="appoint__policy-data">
+                                            персональных данных
+                                        </a>
+                                    </div>
+                                </label>
+
+                            </form>
+                        </section>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <!-- Certificates -->
+        <section class="main-certf">
+            <div class="container">
+                <div class="main-certf__header pagerow">
+                    <h2 class="main-certf__title">Сертификаты врача</h2>
+                    <a href="#!" class="main-certf__btn btn btn-blue">Смотреть все</a>
+                </div>
+                <section class="main-certf-slide pageaboutdoctor-certf__swiper">
+                    <ul class="main-certf-slide__list swiper-wrapper">
+                        <li class="main-certf-slide__item swiper-slide">
+                            <img src="/assets/images/certf__img.webp" alt="" class="main-certf-slide__img" />
+                        </li>
+                        <li class="main-certf-slide__item swiper-slide">
+                            <img src="/assets/images/certf__img.webp" alt="" class="main-certf-slide__img" />
+                        </li>
+                        <li class="main-certf-slide__item swiper-slide">
+                            <img src="/assets/images/certf__img.webp" alt="" class="main-certf-slide__img" />
+                        </li>
+                        <li class="main-certf-slide__item swiper-slide">
+                            <img src="/assets/images/certf__img.webp" alt="" class="main-certf-slide__img" />
+                        </li>
+                        <li class="main-certf-slide__item swiper-slide">
+                            <img src="/assets/images/certf__img.webp" alt="" class="main-certf-slide__img" />
+                        </li>
+                        <li class="main-certf-slide__item swiper-slide">
+                            <img src="/assets/images/certf__img.webp" alt="" class="main-certf-slide__img" />
+                        </li>
+                    </ul>
+
+                    <div class="certf-pagination swiper-pagination">
+                    </div>
+                </section>
+                <div class="icon__wrap">
+                    <div class="icon__left" id="certf-icon__left">
+                        <img src="/assets/images/chervon--blue_no-bg.svg" />
+                    </div>
+                    <div class="icon__right" id="certf-icon__right">
+                        <img src="/assets/images/chervon--blue_no-bg.svg" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="main-review">
+            <div class="container">
+                <div class="main-review__header pagerow">
+                    <h2 class="main-review__title">Отзывы</h2>
+                    <a href="#!" class="main-review__btn btn btn-blue">Смотреть все</a>
+                </div>
+                <section class="main-review-slide pageaboutdoctor-review__swiper">
+                    <ul class="main-review-slide__list swiper-wrapper">
+                        <li class="main-review-slide__col swiper-slide">
+                            <div class="main-review-slide__item">
+                                <div class="main-review-slide__item-header">
+                                    <img src="/assets/images/review__img-1.svg" alt=""
+                                        class="main-review-slide__item-ava" />
+                                    <div class="main-review-slide__item-info">
+                                        <p class="main-review-slide__item-name">
+                                            Мария
+                                        </p>
+                                        <p class="main-review-slide__item-day">
+                                            19.05.2024
+                                        </p>
+                                        <div class="main-review-slide__item-rate">
+                                            <img src="/assets/images/review__icon.svg" alt=""
+                                                class="main-review-slide__item-rate-star" />
+                                            <p class="main-review-slide__item-rate-point">
+                                                5.0
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="main-review-slide__item-body">
+                                    Даже не ожидала, что получу нужный
+                                    эффект всего за две процедуры.
+                                    Спасибо огромное, Ольга. Я очень
+                                    довольна, буду рекомендовать Вас
+                                    всем своим подругам.
+                                </div>
+                                <img src="/assets/images/chervon__with-border.svg" alt=""
+                                    class="main-review-slide__item-icon-down" />
+                            </div>
+                        </li>
+                        <li class="main-review-slide__col swiper-slide">
+                            <div class="main-review-slide__item">
+                                <div class="main-review-slide__item-header">
+                                    <img src="/assets/images/review__img-1.svg" alt=""
+                                        class="main-review-slide__item-ava" />
+                                    <div class="main-review-slide__item-info">
+                                        <p class="main-review-slide__item-name">
+                                            Мария
+                                        </p>
+                                        <p class="main-review-slide__item-day">
+                                            19.05.2024
+                                        </p>
+                                        <div class="main-review-slide__item-rate">
+                                            <img src="/assets/images/review__icon.svg" alt=""
+                                                class="main-review-slide__item-rate-star" />
+                                            <p class="main-review-slide__item-rate-point">
+                                                5.0
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="main-review-slide__item-body">
+                                    Даже не ожидала, что получу нужный
+                                    эффект всего за две процедуры.
+                                    Спасибо огромное, Ольга. Я очень
+                                    довольна, буду рекомендовать Вас
+                                    всем своим подругам.<br />
+                                    Даже не ожидала, что получу нужный
+                                    эффект всего за две процедуры.
+                                    Спасибо огромное, Ольга. Я очень
+                                    довольна, буду рекомендовать Вас
+                                    всем своим подругам. <br />
+                                    Даже не ожидала, что получу нужный
+                                    эффект всего за две процедуры.
+                                    Спасибо огромное, Ольга. Я очень
+                                    довольна, буду рекомендовать Вас
+                                    всем своим подругам.
+                                </div>
+                                <img src="/assets/images/chervon__with-border.svg" alt=""
+                                    class="main-review-slide__item-icon-down" />
+                            </div>
+                        </li>
+                        <li class="main-review-slide__col swiper-slide">
+                            <div class="main-review-slide__item">
+                                <div class="main-review-slide__item-header">
+                                    <img src="/assets/images/review__img-1.svg" alt=""
+                                        class="main-review-slide__item-ava" />
+                                    <div class="main-review-slide__item-info">
+                                        <p class="main-review-slide__item-name">
+                                            Мария
+                                        </p>
+                                        <p class="main-review-slide__item-day">
+                                            19.05.2024
+                                        </p>
+                                        <div class="main-review-slide__item-rate">
+                                            <img src="/assets/images/review__icon.svg" alt=""
+                                                class="main-review-slide__item-rate-star" />
+                                            <p class="main-review-slide__item-rate-point">
+                                                5.0
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="main-review-slide__item-body">
+                                    Даже не ожидала, что получу нужный
+                                    эффект всего за две процедуры.
+                                    Спасибо огромное, Ольга. Я очень
+                                    довольна, буду рекомендовать Вас
+                                    всем своим подругам. <br />
+                                    Даже не ожидала, что получу нужный
+                                    эффект всего за две процедуры.
+                                    Спасибо огромное, Ольга. Я очень
+                                    довольна, буду рекомендовать Вас.
+                                </div>
+                                <img src="/assets/images/chervon__with-border.svg" alt=""
+                                    class="main-review-slide__item-icon-down" />
+                            </div>
+                        </li>
+                        <li class="main-review-slide__col swiper-slide">
+                            <div class="main-review-slide__item">
+                                <div class="main-review-slide__item-header">
+                                    <img src="/assets/images/review__img-1.svg" alt=""
+                                        class="main-review-slide__item-ava" />
+                                    <div class="main-review-slide__item-info">
+                                        <p class="main-review-slide__item-name">
+                                            Мария
+                                        </p>
+                                        <p class="main-review-slide__item-day">
+                                            19.05.2024
+                                        </p>
+                                        <div class="main-review-slide__item-rate">
+                                            <img src="/assets/images/review__icon.svg" alt=""
+                                                class="main-review-slide__item-rate-star" />
+                                            <p class="main-review-slide__item-rate-point">
+                                                5.0
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="main-review-slide__item-body">
+                                    Даже не ожидала, что получу нужный
+                                    эффект всего за две процедуры.
+                                </div>
+                                <img src="/assets/images/chervon__with-border.svg" alt=""
+                                    class="main-review-slide__item-icon-down" />
+                            </div>
+                        </li>
+                        <li class="main-review-slide__col swiper-slide">
+                            <div class="main-review-slide__item">
+                                <div class="main-review-slide__item-header">
+                                    <img src="/assets/images/review__img-1.svg" alt=""
+                                        class="main-review-slide__item-ava" />
+                                    <div class="main-review-slide__item-info">
+                                        <p class="main-review-slide__item-name">
+                                            Мария
+                                        </p>
+                                        <p class="main-review-slide__item-day">
+                                            19.05.2024
+                                        </p>
+                                        <div class="main-review-slide__item-rate">
+                                            <img src="/assets/images/review__icon.svg" alt=""
+                                                class="main-review-slide__item-rate-star" />
+                                            <p class="main-review-slide__item-rate-point">
+                                                5.0
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="main-review-slide__item-body">
+                                    Даже не ожидала, что получу нужный
+                                    эффект всего за две процедуры.
+                                </div>
+                                <img src="/assets/images/chervon__with-border.svg" alt=""
+                                    class="main-review-slide__item-icon-down" />
+                            </div>
+                        </li>
+                        <li class="main-review-slide__col swiper-slide">
+                            <div class="main-review-slide__item">
+                                <div class="main-review-slide__item-header">
+                                    <img src="/assets/images/review__img-1.svg" alt=""
+                                        class="main-review-slide__item-ava" />
+                                    <div class="main-review-slide__item-info">
+                                        <p class="main-review-slide__item-name">
+                                            Мария
+                                        </p>
+                                        <p class="main-review-slide__item-day">
+                                            19.05.2024
+                                        </p>
+                                        <div class="main-review-slide__item-rate">
+                                            <img src="/assets/images/review__icon.svg" alt=""
+                                                class="main-review-slide__item-rate-star" />
+                                            <p class="main-review-slide__item-rate-point">
+                                                5.0
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="main-review-slide__item-body">
+                                    Даже не ожидала, что получу нужный
+                                    эффект всего за две процедуры.
+                                </div>
+                                <img src="/assets/images/chervon__with-border.svg" alt=""
+                                    class="main-review-slide__item-icon-down" />
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="review-pagination swiper-pagination">
+                    </div>
+                </section>
+                <div class="icon__wrap">
+                    <div class="icon__left" id="review-icon__left">
+                        <img src="/assets/images/chervon--blue_no-bg.svg" />
+                    </div>
+                    <div class="icon__right" id="review-icon__right">
+                        <img src="/assets/images/chervon--blue_no-bg.svg" />
+                    </div>
+                </div>
+
+                <picture class="main-review__bg">
+                    <source media="(min-width: 1200px)" srcset="/assets/images/review__img-bg-2.webp" />
+                    <img src="/assets/images/review__img-bg-1.webp" alt="" />
+                </picture>
+            </div>
+        </section>
+
+        <section class="main-faq">
+            <div class="container">
+                <h2 class="main-faq__title">Частые вопросы</h2>
+
+                <section class="main-faq__wrap">
+                    <div class="tab-swiper-lev1--faq">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                Косметология
+                            </div>
+                            <div class=" swiper-slide">
+                                Генетика
+                            </div>
+                            <div class=" swiper-slide">
+                                Трихология
+                            </div>
+                            <div class=" swiper-slide">
+                                Иммунодиетология
+                            </div>
+                            <div class=" swiper-slide">
+                                Anti-age
+                            </div>
+                            <div class=" swiper-slide">
+                                Чекап организма
+                            </div>
+                            <div class=" swiper-slide">
+                                Микробиом кишечника
+                            </div>
+                            <div class=" swiper-slide">
+                                Снижение веса
+                            </div>
+                        </div>
+                        <div class="main-faq__icon-wrap">
+                            <div class="main-faq__left left">
+                                <img src="/assets/images/chervon__with-border.svg" alt="" class="" />
+                            </div>
+                            <div class="main-faq__right right">
+                                <img src="/assets/images/chervon__with-border.svg" alt="" class="" />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="list-swiper-img-lv2--faq swiper-no-swiping">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <ul class="main-specialist__list">
+                                <li class="main-specialist__item">
+                                    <div class="main-specialist__item-header pagerow">
+                                        <p class="main-specialist__item-title">
+                                            Зачем необходимо генетическое тестирование
+                                            по косметологии?
+                                        </p>
+                                        <div class="main-icon-plus">
+                                            <img src="/assets/images/icon__plus.svg" alt="" />
+                                        </div>
+                                        <div class="main-icon-minus">
+                                            <img src="/assets/images/icon__minus.svg" alt="" />
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p class="main-specialist__item-desc">
+                                            Всем, кто заботится о своем здоровье и
+                                            красоте. Молодым пациентам тест необходим
+                                            для понимания биологических процессов,
+                                            которые в дальнейшем буду происходить в
+                                            коже, и разработке на основе этого
+                                            персональной программы заботы о коже.
+                                            Проводя профилактику своих рисков, пациент
+                                            сможет на дольше сохранить молодость и
+                                            красоту и фактически – замедлить старение
+                                            кожи. Зрелым пациентам тест в большей
+                                            степени необходим для подбора оптимальных
+                                            процедур, которые будут эффективны и не
+                                            нанесут вреда.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="main-specialist__item">
+                                    <div class="main-specialist__item-header pagerow">
+                                        <p class="main-specialist__item-title">
+                                            Какую информацию можно получить в результате
+                                            теста?
+                                        </p>
+                                        <div class="main-icon-plus">
+                                            <img src="/assets/images/icon__plus.svg" alt="" />
+                                        </div>
+                                        <div class="main-icon-minus">
+                                            <img src="/assets/images/icon__minus.svg" alt="" />
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p class="main-specialist__item-desc">
+                                            Всем, кто заботится о своем здоровье и
+                                            красоте. Молодым пациентам тест необходим
+                                            для понимания биологических процессов,
+                                            которые в дальнейшем буду происходить в
+                                            коже, и разработке на основе этого
+                                            персональной программы заботы о коже.
+                                            Проводя профилактику своих рисков, пациент
+                                            сможет на дольше сохранить молодость и
+                                            красоту и фактически – замедлить старение
+                                            кожи. Зрелым пациентам тест в большей
+                                            степени необходим для подбора оптимальных
+                                            процедур, которые будут эффективны и не
+                                            нанесут вреда.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="main-specialist__item">
+                                    <div class="main-specialist__item-header pagerow">
+                                        <p class="main-specialist__item-title">
+                                            Какую информацию можно получить в результате
+                                            теста?
+                                        </p>
+                                        <div class="main-icon-plus">
+                                            <img src="/assets/images/icon__plus.svg" alt="" />
+                                        </div>
+                                        <div class="main-icon-minus">
+                                            <img src="/assets/images/icon__minus.svg" alt="" />
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p class="main-specialist__item-desc">
+                                            Всем, кто заботится о своем здоровье и
+                                            красоте. Молодым пациентам тест необходим
+                                            для понимания биологических процессов,
+                                            которые в дальнейшем буду происходить в
+                                            коже, и разработке на основе этого
+                                            персональной программы заботы о коже.
+                                            Проводя профилактику своих рисков, пациент
+                                            сможет на дольше сохранить молодость и
+                                            красоту и фактически – замедлить старение
+                                            кожи. Зрелым пациентам тест в большей
+                                            степени необходим для подбора оптимальных
+                                            процедур, которые будут эффективны и не
+                                            нанесут вреда.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="main-specialist__item">
+                                    <div class="main-specialist__item-header pagerow">
+                                        <p class="main-specialist__item-title">
+                                            Кому нужно проходить генетический тест
+                                            «Базис. Косметология»?
+                                        </p>
+                                        <div class="main-icon-plus">
+                                            <img src="/assets/images/icon__plus.svg" alt="" />
+                                        </div>
+                                        <div class="main-icon-minus">
+                                            <img src="/assets/images/icon__minus.svg" alt="" />
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p class="main-specialist__item-desc">
+                                            Всем, кто заботится о своем здоровье и
+                                            красоте. Молодым пациентам тест необходим
+                                            для понимания биологических процессов,
+                                            которые в дальнейшем буду происходить в
+                                            коже, и разработке на основе этого
+                                            персональной программы заботы о коже.
+                                            Проводя профилактику своих рисков, пациент
+                                            сможет на дольше сохранить молодость и
+                                            красоту и фактически – замедлить старение
+                                            кожи. Зрелым пациентам тест в большей
+                                            степени необходим для подбора оптимальных
+                                            процедур, которые будут эффективны и не
+                                            нанесут вреда.
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul class="main-specialist__list">
+                                <li class="main-specialist__item">
+                                    <div class="main-specialist__item-header pagerow">
+                                        <p class="main-specialist__item-title">
+                                            Какую информацию можно получить в результате
+                                            теста?
+                                        </p>
+                                        <div class="main-icon-plus">
+                                            <img src="/assets/images/icon__plus.svg" alt="" />
+                                        </div>
+                                        <div class="main-icon-minus">
+                                            <img src="/assets/images/icon__minus.svg" alt="" />
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p class="main-specialist__item-desc">
+                                            Всем, кто заботится о своем здоровье и
+                                            красоте. Молодым пациентам тест необходим
+                                            для понимания биологических процессов,
+                                            которые в дальнейшем буду происходить в
+                                            коже, и разработке на основе этого
+                                            персональной программы заботы о коже.
+                                            Проводя профилактику своих рисков, пациент
+                                            сможет на дольше сохранить молодость и
+                                            красоту и фактически – замедлить старение
+                                            кожи. Зрелым пациентам тест в большей
+                                            степени необходим для подбора оптимальных
+                                            процедур, которые будут эффективны и не
+                                            нанесут вреда.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="main-specialist__item">
+                                    <div class="main-specialist__item-header pagerow">
+                                        <p class="main-specialist__item-title">
+                                            Зачем необходимо генетическое тестирование
+                                            по косметологии?
+                                        </p>
+                                        <div class="main-icon-plus">
+                                            <img src="/assets/images/icon__plus.svg" alt="" />
+                                        </div>
+                                        <div class="main-icon-minus">
+                                            <img src="/assets/images/icon__minus.svg" alt="" />
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p class="main-specialist__item-desc">
+                                            Всем, кто заботится о своем здоровье и
+                                            красоте. Молодым пациентам тест необходим
+                                            для понимания биологических процессов,
+                                            которые в дальнейшем буду происходить в
+                                            коже, и разработке на основе этого
+                                            персональной программы заботы о коже.
+                                            Проводя профилактику своих рисков, пациент
+                                            сможет на дольше сохранить молодость и
+                                            красоту и фактически – замедлить старение
+                                            кожи. Зрелым пациентам тест в большей
+                                            степени необходим для подбора оптимальных
+                                            процедур, которые будут эффективны и не
+                                            нанесут вреда.
+                                        </p>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul class="main-specialist__list">
+
+                                <li class="main-specialist__item">
+                                    <div class="main-specialist__item-header pagerow">
+                                        <p class="main-specialist__item-title">
+                                            Зачем необходимо генетическое тестирование
+                                            по косметологии?
+                                        </p>
+                                        <div class="main-icon-plus">
+                                            <img src="/assets/images/icon__plus.svg" alt="" />
+                                        </div>
+                                        <div class="main-icon-minus">
+                                            <img src="/assets/images/icon__minus.svg" alt="" />
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p class="main-specialist__item-desc">
+                                            Всем, кто заботится о своем здоровье и
+                                            красоте. Молодым пациентам тест необходим
+                                            для понимания биологических процессов,
+                                            которые в дальнейшем буду происходить в
+                                            коже, и разработке на основе этого
+                                            персональной программы заботы о коже.
+                                            Проводя профилактику своих рисков, пациент
+                                            сможет на дольше сохранить молодость и
+                                            красоту и фактически – замедлить старение
+                                            кожи. Зрелым пациентам тест в большей
+                                            степени необходим для подбора оптимальных
+                                            процедур, которые будут эффективны и не
+                                            нанесут вреда.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="main-specialist__item">
+                                    <div class="main-specialist__item-header pagerow">
+                                        <p class="main-specialist__item-title">
+                                            Какую информацию можно получить в результате
+                                            теста?
+                                        </p>
+                                        <div class="main-icon-plus">
+                                            <img src="/assets/images/icon__plus.svg" alt="" />
+                                        </div>
+                                        <div class="main-icon-minus">
+                                            <img src="/assets/images/icon__minus.svg" alt="" />
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p class="main-specialist__item-desc">
+                                            Всем, кто заботится о своем здоровье и
+                                            красоте. Молодым пациентам тест необходим
+                                            для понимания биологических процессов,
+                                            которые в дальнейшем буду происходить в
+                                            коже, и разработке на основе этого
+                                            персональной программы заботы о коже.
+                                            Проводя профилактику своих рисков, пациент
+                                            сможет на дольше сохранить молодость и
+                                            красоту и фактически – замедлить старение
+                                            кожи. Зрелым пациентам тест в большей
+                                            степени необходим для подбора оптимальных
+                                            процедур, которые будут эффективны и не
+                                            нанесут вреда.
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul class="main-specialist__list">
+                                <li class="main-specialist__item">
+                                    <div class="main-specialist__item-header pagerow">
+                                        <p class="main-specialist__item-title">
+                                            Зачем необходимо генетическое тестирование
+                                            по косметологии?
+                                        </p>
+                                        <div class="main-icon-plus">
+                                            <img src="/assets/images/icon__plus.svg" alt="" />
+                                        </div>
+                                        <div class="main-icon-minus">
+                                            <img src="/assets/images/icon__minus.svg" alt="" />
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p class="main-specialist__item-desc">
+                                            Всем, кто заботится о своем здоровье и
+                                            красоте. Молодым пациентам тест необходим
+                                            для понимания биологических процессов,
+                                            которые в дальнейшем буду происходить в
+                                            коже, и разработке на основе этого
+                                            персональной программы заботы о коже.
+                                            Проводя профилактику своих рисков, пациент
+                                            сможет на дольше сохранить молодость и
+                                            красоту и фактически – замедлить старение
+                                            кожи. Зрелым пациентам тест в большей
+                                            степени необходим для подбора оптимальных
+                                            процедур, которые будут эффективны и не
+                                            нанесут вреда.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="main-specialist__item">
+                                    <div class="main-specialist__item-header pagerow">
+                                        <p class="main-specialist__item-title">
+                                            Какую информацию можно получить в результате
+                                            теста?
+                                        </p>
+                                        <div class="main-icon-plus">
+                                            <img src="/assets/images/icon__plus.svg" alt="" />
+                                        </div>
+                                        <div class="main-icon-minus">
+                                            <img src="/assets/images/icon__minus.svg" alt="" />
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p class="main-specialist__item-desc">
+                                            Всем, кто заботится о своем здоровье и
+                                            красоте. Молодым пациентам тест необходим
+                                            для понимания биологических процессов,
+                                            которые в дальнейшем буду происходить в
+                                            коже, и разработке на основе этого
+                                            персональной программы заботы о коже.
+                                            Проводя профилактику своих рисков, пациент
+                                            сможет на дольше сохранить молодость и
+                                            красоту и фактически – замедлить старение
+                                            кожи. Зрелым пациентам тест в большей
+                                            степени необходим для подбора оптимальных
+                                            процедур, которые будут эффективны и не
+                                            нанесут вреда.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="main-specialist__item">
+                                    <div class="main-specialist__item-header pagerow">
+                                        <p class="main-specialist__item-title">
+                                            Какую информацию можно получить в результате
+                                            теста?
+                                        </p>
+                                        <div class="main-icon-plus">
+                                            <img src="/assets/images/icon__plus.svg" alt="" />
+                                        </div>
+                                        <div class="main-icon-minus">
+                                            <img src="/assets/images/icon__minus.svg" alt="" />
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p class="main-specialist__item-desc">
+                                            Всем, кто заботится о своем здоровье и
+                                            красоте. Молодым пациентам тест необходим
+                                            для понимания биологических процессов,
+                                            которые в дальнейшем буду происходить в
+                                            коже, и разработке на основе этого
+                                            персональной программы заботы о коже.
+                                            Проводя профилактику своих рисков, пациент
+                                            сможет на дольше сохранить молодость и
+                                            красоту и фактически – замедлить старение
+                                            кожи. Зрелым пациентам тест в большей
+                                            степени необходим для подбора оптимальных
+                                            процедур, которые будут эффективны и не
+                                            нанесут вреда.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="main-specialist__item">
+                                    <div class="main-specialist__item-header pagerow">
+                                        <p class="main-specialist__item-title">
+                                            Кому нужно проходить генетический тест
+                                            «Базис. Косметология»?
+                                        </p>
+                                        <div class="main-icon-plus">
+                                            <img src="/assets/images/icon__plus.svg" alt="" />
+                                        </div>
+                                        <div class="main-icon-minus">
+                                            <img src="/assets/images/icon__minus.svg" alt="" />
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p class="main-specialist__item-desc">
+                                            Всем, кто заботится о своем здоровье и
+                                            красоте. Молодым пациентам тест необходим
+                                            для понимания биологических процессов,
+                                            которые в дальнейшем буду происходить в
+                                            коже, и разработке на основе этого
+                                            персональной программы заботы о коже.
+                                            Проводя профилактику своих рисков, пациент
+                                            сможет на дольше сохранить молодость и
+                                            красоту и фактически – замедлить старение
+                                            кожи. Зрелым пациентам тест в большей
+                                            степени необходим для подбора оптимальных
+                                            процедур, которые будут эффективны и не
+                                            нанесут вреда.
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul class="main-specialist__list">
+                                <li class="main-specialist__item">
+                                    <div class="main-specialist__item-header pagerow">
+                                        <p class="main-specialist__item-title">
+                                            Какую информацию можно получить в результате
+                                            теста?
+                                        </p>
+                                        <div class="main-icon-plus">
+                                            <img src="/assets/images/icon__plus.svg" alt="" />
+                                        </div>
+                                        <div class="main-icon-minus">
+                                            <img src="/assets/images/icon__minus.svg" alt="" />
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p class="main-specialist__item-desc">
+                                            Всем, кто заботится о своем здоровье и
+                                            красоте. Молодым пациентам тест необходим
+                                            для понимания биологических процессов,
+                                            которые в дальнейшем буду происходить в
+                                            коже, и разработке на основе этого
+                                            персональной программы заботы о коже.
+                                            Проводя профилактику своих рисков, пациент
+                                            сможет на дольше сохранить молодость и
+                                            красоту и фактически – замедлить старение
+                                            кожи. Зрелым пациентам тест в большей
+                                            степени необходим для подбора оптимальных
+                                            процедур, которые будут эффективны и не
+                                            нанесут вреда.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="main-specialist__item">
+                                    <div class="main-specialist__item-header pagerow">
+                                        <p class="main-specialist__item-title">
+                                            Зачем необходимо генетическое тестирование
+                                            по косметологии?
+                                        </p>
+                                        <div class="main-icon-plus">
+                                            <img src="/assets/images/icon__plus.svg" alt="" />
+                                        </div>
+                                        <div class="main-icon-minus">
+                                            <img src="/assets/images/icon__minus.svg" alt="" />
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p class="main-specialist__item-desc">
+                                            Всем, кто заботится о своем здоровье и
+                                            красоте. Молодым пациентам тест необходим
+                                            для понимания биологических процессов,
+                                            которые в дальнейшем буду происходить в
+                                            коже, и разработке на основе этого
+                                            персональной программы заботы о коже.
+                                            Проводя профилактику своих рисков, пациент
+                                            сможет на дольше сохранить молодость и
+                                            красоту и фактически – замедлить старение
+                                            кожи. Зрелым пациентам тест в большей
+                                            степени необходим для подбора оптимальных
+                                            процедур, которые будут эффективны и не
+                                            нанесут вреда.
+                                        </p>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul class="main-specialist__list">
+
+                                <li class="main-specialist__item">
+                                    <div class="main-specialist__item-header pagerow">
+                                        <p class="main-specialist__item-title">
+                                            Зачем необходимо генетическое тестирование
+                                            по косметологии?
+                                        </p>
+                                        <div class="main-icon-plus">
+                                            <img src="/assets/images/icon__plus.svg" alt="" />
+                                        </div>
+                                        <div class="main-icon-minus">
+                                            <img src="/assets/images/icon__minus.svg" alt="" />
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p class="main-specialist__item-desc">
+                                            Всем, кто заботится о своем здоровье и
+                                            красоте. Молодым пациентам тест необходим
+                                            для понимания биологических процессов,
+                                            которые в дальнейшем буду происходить в
+                                            коже, и разработке на основе этого
+                                            персональной программы заботы о коже.
+                                            Проводя профилактику своих рисков, пациент
+                                            сможет на дольше сохранить молодость и
+                                            красоту и фактически – замедлить старение
+                                            кожи. Зрелым пациентам тест в большей
+                                            степени необходим для подбора оптимальных
+                                            процедур, которые будут эффективны и не
+                                            нанесут вреда.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="main-specialist__item">
+                                    <div class="main-specialist__item-header pagerow">
+                                        <p class="main-specialist__item-title">
+                                            Какую информацию можно получить в результате
+                                            теста?
+                                        </p>
+                                        <div class="main-icon-plus">
+                                            <img src="/assets/images/icon__plus.svg" alt="" />
+                                        </div>
+                                        <div class="main-icon-minus">
+                                            <img src="/assets/images/icon__minus.svg" alt="" />
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p class="main-specialist__item-desc">
+                                            Всем, кто заботится о своем здоровье и
+                                            красоте. Молодым пациентам тест необходим
+                                            для понимания биологических процессов,
+                                            которые в дальнейшем буду происходить в
+                                            коже, и разработке на основе этого
+                                            персональной программы заботы о коже.
+                                            Проводя профилактику своих рисков, пациент
+                                            сможет на дольше сохранить молодость и
+                                            красоту и фактически – замедлить старение
+                                            кожи. Зрелым пациентам тест в большей
+                                            степени необходим для подбора оптимальных
+                                            процедур, которые будут эффективны и не
+                                            нанесут вреда.
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul class="main-specialist__list">
+
+                                <li class="main-specialist__item">
+                                    <div class="main-specialist__item-header pagerow">
+                                        <p class="main-specialist__item-title">
+                                            Зачем необходимо генетическое тестирование
+                                            по косметологии?
+                                        </p>
+                                        <div class="main-icon-plus">
+                                            <img src="/assets/images/icon__plus.svg" alt="" />
+                                        </div>
+                                        <div class="main-icon-minus">
+                                            <img src="/assets/images/icon__minus.svg" alt="" />
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p class="main-specialist__item-desc">
+                                            Всем, кто заботится о своем здоровье и
+                                            красоте. Молодым пациентам тест необходим
+                                            для понимания биологических процессов,
+                                            которые в дальнейшем буду происходить в
+                                            коже, и разработке на основе этого
+                                            персональной программы заботы о коже.
+                                            Проводя профилактику своих рисков, пациент
+                                            сможет на дольше сохранить молодость и
+                                            красоту и фактически – замедлить старение
+                                            кожи. Зрелым пациентам тест в большей
+                                            степени необходим для подбора оптимальных
+                                            процедур, которые будут эффективны и не
+                                            нанесут вреда.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="main-specialist__item">
+                                    <div class="main-specialist__item-header pagerow">
+                                        <p class="main-specialist__item-title">
+                                            Какую информацию можно получить в результате
+                                            теста?
+                                        </p>
+                                        <div class="main-icon-plus">
+                                            <img src="/assets/images/icon__plus.svg" alt="" />
+                                        </div>
+                                        <div class="main-icon-minus">
+                                            <img src="/assets/images/icon__minus.svg" alt="" />
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p class="main-specialist__item-desc">
+                                            Всем, кто заботится о своем здоровье и
+                                            красоте. Молодым пациентам тест необходим
+                                            для понимания биологических процессов,
+                                            которые в дальнейшем буду происходить в
+                                            коже, и разработке на основе этого
+                                            персональной программы заботы о коже.
+                                            Проводя профилактику своих рисков, пациент
+                                            сможет на дольше сохранить молодость и
+                                            красоту и фактически – замедлить старение
+                                            кожи. Зрелым пациентам тест в большей
+                                            степени необходим для подбора оптимальных
+                                            процедур, которые будут эффективны и не
+                                            нанесут вреда.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="main-specialist__item">
+                                    <div class="main-specialist__item-header pagerow">
+                                        <p class="main-specialist__item-title">
+                                            Зачем необходимо генетическое тестирование
+                                            по косметологии?
+                                        </p>
+                                        <div class="main-icon-plus">
+                                            <img src="/assets/images/icon__plus.svg" alt="" />
+                                        </div>
+                                        <div class="main-icon-minus">
+                                            <img src="/assets/images/icon__minus.svg" alt="" />
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p class="main-specialist__item-desc">
+                                            Всем, кто заботится о своем здоровье и
+                                            красоте. Молодым пациентам тест необходим
+                                            для понимания биологических процессов,
+                                            которые в дальнейшем буду происходить в
+                                            коже, и разработке на основе этого
+                                            персональной программы заботы о коже.
+                                            Проводя профилактику своих рисков, пациент
+                                            сможет на дольше сохранить молодость и
+                                            красоту и фактически – замедлить старение
+                                            кожи. Зрелым пациентам тест в большей
+                                            степени необходим для подбора оптимальных
+                                            процедур, которые будут эффективны и не
+                                            нанесут вреда.
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul class="main-specialist__list">
+
+                                <li class="main-specialist__item">
+                                    <div class="main-specialist__item-header pagerow">
+                                        <p class="main-specialist__item-title">
+                                            Зачем необходимо генетическое тестирование
+                                            по косметологии?
+                                        </p>
+                                        <div class="main-icon-plus">
+                                            <img src="/assets/images/icon__plus.svg" alt="" />
+                                        </div>
+                                        <div class="main-icon-minus">
+                                            <img src="/assets/images/icon__minus.svg" alt="" />
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p class="main-specialist__item-desc">
+                                            Всем, кто заботится о своем здоровье и
+                                            красоте. Молодым пациентам тест необходим
+                                            для понимания биологических процессов,
+                                            которые в дальнейшем буду происходить в
+                                            коже, и разработке на основе этого
+                                            персональной программы заботы о коже.
+                                            Проводя профилактику своих рисков, пациент
+                                            сможет на дольше сохранить молодость и
+                                            красоту и фактически – замедлить старение
+                                            кожи. Зрелым пациентам тест в большей
+                                            степени необходим для подбора оптимальных
+                                            процедур, которые будут эффективны и не
+                                            нанесут вреда.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="main-specialist__item">
+                                    <div class="main-specialist__item-header pagerow">
+                                        <p class="main-specialist__item-title">
+                                            Какую информацию можно получить в результате
+                                            теста?
+                                        </p>
+                                        <div class="main-icon-plus">
+                                            <img src="/assets/images/icon__plus.svg" alt="" />
+                                        </div>
+                                        <div class="main-icon-minus">
+                                            <img src="/assets/images/icon__minus.svg" alt="" />
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p class="main-specialist__item-desc">
+                                            Всем, кто заботится о своем здоровье и
+                                            красоте. Молодым пациентам тест необходим
+                                            для понимания биологических процессов,
+                                            которые в дальнейшем буду происходить в
+                                            коже, и разработке на основе этого
+                                            персональной программы заботы о коже.
+                                            Проводя профилактику своих рисков, пациент
+                                            сможет на дольше сохранить молодость и
+                                            красоту и фактически – замедлить старение
+                                            кожи. Зрелым пациентам тест в большей
+                                            степени необходим для подбора оптимальных
+                                            процедур, которые будут эффективны и не
+                                            нанесут вреда.
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+        <section class="main-regis">
+            <div class="container">
+                <div class="main-regis__row">
+                    <div class="main-regis__contact">
+                        <h2 class="main-regis__contact-title">
+                            Ждём Вас по адресу
+                        </h2>
+                        <p class="main-regis__contact-address">
+                            г.&nbsp;Санкт-Петербург,
+                            ул.&nbsp;Малая&nbsp;Монетная&nbsp;д.5
+                        </p>
+                        <div class="main-regis__contact-list">
+                            <div class="main-regis__contact-item">
+                                <img src="/assets/images/regis__icon-1.webp" alt=""
+                                    class="main-regis__contact-item-icon" />
+                                <div class="main-regis__contact-item-text-wrapper">
+                                    <div class="main-regis__contact-item-text-1">
+                                        Телефон
+                                    </div>
+                                    <div class="main-regis__contact-item-text-2">
+                                        +7 (812) 509-12-02
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="main-regis__contact-item">
+                                <img src="/assets/images/regis__icon-2.webp" alt=""
+                                    class="main-regis__contact-item-icon" />
+                                <div class="main-regis__contact-item-text-wrapper">
+                                    <div class="main-regis__contact-item-text-1">
+                                        Время работы
+                                    </div>
+                                    <div class="main-regis__contact-item-text-2">
+                                        10:00–20:00
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-regis__wrap-img">
+                        <img src="/assets/images/regis__img.webp" alt="" class="main-regis__img" />
+                    </div>
+                    <a class="main-regis__btn btn btn-blue">
+                        Записаться
+                        <div class="wrap__chervon">
+                            <img src="/assets/images/chervon--no-bg.svg" alt="" />
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="pagecongrat" id="congrat-modal">
+            <div class="congrat-modal-content">
+                <div class="container">
+
+                    <div class="pagecongrat-wrap">
+                        <div class="modal-close modal-close-js">
+                            <img class="modal-close-btn" src="/assets/images/close-icon--light.svg" alt="">
+                        </div>
+                        <h2 class="pagecongrat__title">Вы на пути к преображению!</h2>
+                        <p class="pagecongrat__subtitle">Ваша запись успешна. <br>
+                            Мы свяжемся с вами в ближайшее время для уточнения деталей. <br>
+                            Благодарим вас за выбор Genetic life</p>
+                        <a href="/" class="pagecongrat__btn btn btn-blue">
+                            На главную
+                            <div class="wrap__chervon">
+                                <img src="/assets/images/chervon--no-bg.svg" alt="" />
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/template/footer.html'; ?>
+    <script type="module" src="/assets/js/index.js"></script>
+</body>
+
+</html>
