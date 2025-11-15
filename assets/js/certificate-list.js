@@ -1,5 +1,5 @@
 import { checkList, hasElem } from "./checkValidVar.js";
-import { certificateMainSwiper } from "/assets/js/slider.js";
+import { certificateMainSwiper } from "./slider.js";
 {
     const orderSlideList = document.querySelectorAll('.pagecertificates-prize__item')
     const prizeModal = document.querySelector('#prize-modal');
@@ -35,14 +35,14 @@ export function expandPrizeList() {
                 btn.classList.remove('active');
                 btn.innerHTML = `Посмотреть все
                     <div class="wrap__chervon">
-                        <img src="/assets/images/chervon--blue_no-bg-bold.svg" alt="">
+                        <img src="assets/images/chervon--blue_no-bg-bold.svg" alt="">
                     </div>`
             } else {
                 listPrize.classList.add('active');
                 btn.classList.add('active');
                 btn.innerHTML = `Свернуть
                     <div class="wrap__chervon">
-                        <img src="/assets/images/chervon--blue_no-bg-bold.svg" alt="">
+                        <img src="assets/images/chervon--blue_no-bg-bold.svg" alt="">
                     </div>`
             }
         }

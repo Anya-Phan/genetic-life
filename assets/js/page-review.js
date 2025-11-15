@@ -1,5 +1,5 @@
 import { checkList, hasElem } from "./checkValidVar.js";
-import { modalReviewSwiper } from "/assets/js/slider.js";
+import { modalReviewSwiper } from "./slider.js";
 
 export function pageReviewJS() {
     const orderSlide = document.querySelectorAll('.pagereviews-reviews__item');

@@ -1,4 +1,4 @@
-import { hasElem } from "/assets/js/checkValidVar.js";
+import { hasElem } from "./checkValidVar.js";
 
 //Hanlde Service Menu
 export function serviceList() {

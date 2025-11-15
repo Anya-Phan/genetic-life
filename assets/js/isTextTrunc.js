@@ -1,4 +1,4 @@
-import { checkList } from "/assets/js/checkValidVar.js";
+import { checkList } from "./checkValidVar.js";
 
 /* Expand of Reivew's Item*/
 export function isTextReviewTrunc() {
