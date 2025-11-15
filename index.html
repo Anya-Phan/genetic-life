@@ -15,14 +15,42 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <link rel="stylesheet" href="/assets/css/main.css?2504041200" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
 
 </head>
 
 <body>
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/template/header.html'; ?>
+    <!-- <?php include $_SERVER['DOCUMENT_ROOT'] . '/template/header.html'; ?> -->
     <!-- Side bar Moble -->
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/template/sidebar.html'; ?>
+    <!-- <?php include $_SERVER['DOCUMENT_ROOT'] . '/template/sidebar.html'; ?> -->
+
+    <div id="header"></div>
+    <script type="module">
+        import { loadHTML } from "./assets/js/loadTemplate.js"
+        loadHTML("header", "./template/header.html");
+    </script>
+    <div id="sidebar"></div>
+    <script type="module">
+        import { loadHTML } from "./assets/js/loadTemplate.js"
+        loadHTML("sidebar", "./template/sidebar.html");
+    </script>
+    <script>
+        function openMenu(event) {
+            const targetMenu = event.target.closest('.menu-content__item').nextElementSibling;
+            if (targetMenu) {
+                console.log(targetMenu);
+
+                targetMenu.style.left = "0";
+            }
+        }
+
+        function closeMenu(event) {
+            const closestMenu = event.target.closest('.js--menu');
+            if (closestMenu) {
+                closestMenu.style.left = "-100%";
+            }
+        }
+    </script>
 
     <!-- Main -->
     <main>
@@ -615,7 +643,7 @@
                 </section>
                 <ul class="main-service__list row row-cols-1 row-cols-md-2 g-1 g-md-2 g-lg-3">
                     <li class="col">
-                        <a href="#!" class="main-service__item">
+                        <a href="./services/cosmetology" class="main-service__item">
                             <div class="main-service__text">
                                 <h3 class="main-service__item-title">
                                     Косметология
@@ -1562,7 +1590,7 @@
             <div class="container">
                 <div class="main-review__header pagerow">
                     <h2 class="main-review__title">Отзывы</h2>
-                    <a href="#!" class="main-review__btn btn btn-blue">Смотреть все</a>
+                    <a href="./reviews" class="main-review__btn btn btn-blue">Смотреть все</a>
                 </div>
                 <section class="main-review-slide pageaboutdoctor-review__swiper">
                     <ul class="main-review-slide__list swiper-wrapper">
@@ -2596,10 +2624,16 @@
                     </div>
                 </div>
             </div>
+            <section></section>
         </section>
     </main>
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/template/footer.html'; ?>
-    <script type="module" src="/assets/js/index.js"></script>
+    <div id="footer"></div>
+    <script type="module">
+        import { loadHTML } from "./assets/js/loadTemplate.js"
+        loadHTML("footer", "./template/footer.html");
+    </script>
+    
+    <script type="module" src="./assets/js/index.js" defer></script>
 </body>
 
 </html>

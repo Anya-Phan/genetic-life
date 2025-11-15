@@ -16,9 +16,33 @@
 </head>
 
 <body>
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/template/header.html'; ?>
-    <!-- Side bar Moble -->
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/template/sidebar.html'; ?>
+   <script>
+        function openMenu(event) {
+            const targetMenu = event.target.closest('.menu-content__item').nextElementSibling;
+            if (targetMenu) {
+                console.log(targetMenu);
+
+                targetMenu.style.left = "0";
+            }
+        }
+
+        function closeMenu(event) {
+            const closestMenu = event.target.closest('.js--menu');
+            if (closestMenu) {
+                closestMenu.style.left = "-100%";
+            }
+        }
+    </script>
+    <div id="header"></div>
+    <script type="module">
+        import { loadHTML } from "../assets/js/loadTemplate.js"
+        loadHTML("header", "../template/header.html");
+    </script>
+    <div id="sidebar"></div>
+    <script type="module">
+        import { loadHTML } from "../assets/js/loadTemplate.js"
+        loadHTML("sidebar", "../template/sidebar.html");
+    </script>
 
     <!-- Main -->
 
@@ -718,8 +742,13 @@
         </section>
     </main>
 
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/template/footer.html'; ?>
-    <script type="module" src="../assets/js/index.js"></script>
+    <div id="footer"></div>
+    <script type="module">
+        import { loadHTML } from "../assets/js/loadTemplate.js"
+        loadHTML("footer", "../template/footer.html");
+    </script>
+
+    <script type="module" src="../assets/js/index.js" defer></script>
 </body>
 
 </html>

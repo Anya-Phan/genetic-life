@@ -530,21 +530,5 @@
             </div> -->
         </div>
     </div>
-    <script>
-        function openMenu(event) {
-            const targetMenu = event.target.closest('.menu-content__item').nextElementSibling;
-            if (targetMenu) {
-                console.log(targetMenu);
-
-                targetMenu.style.left = "0";
-            }
-        }
-
-        function closeMenu(event) {
-            const closestMenu = event.target.closest('.js--menu');
-            if (closestMenu) {
-                closestMenu.style.left = "-100%";
-            }
-        }
-    </script>
+    
 </sidebar>
